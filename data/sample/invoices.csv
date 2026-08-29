@@ -1,501 +1,501 @@
 invoice_id,order_id,vendor_name,invoice_amount,tax_amount,net_total,invoice_date,due_date,status
-inv_2026_1001,ord_live_1001,Paytm Payments Bank Ltd,384.0,69.12,453.12,2026-08-16,2026-09-15,ISSUED
-inv_2026_1002,ord_live_1002,PhonePe Merchant Services,290.0,52.2,342.2,2026-07-13,2026-08-12,ISSUED
-inv_2026_1003,ord_live_1003,Cashfree Payments India Pvt Ltd,19856.0,3574.08,23430.08,2026-07-26,2026-08-25,ISSUED
-inv_2026_1004,ord_live_1004,BillDesk Technology Services,7231.0,1301.58,8532.58,2026-08-13,2026-09-12,ISSUED
-inv_2026_1005,ord_live_1005,Razorpay Software Private Limited,877.0,157.86,1034.86,2026-07-06,2026-08-05,ISSUED
-inv_2026_1006,ord_live_1006,Paytm Payments Bank Ltd,19571.0,3522.78,23093.78,2026-07-07,2026-08-06,ISSUED
-inv_2026_1007,ord_live_1007,PhonePe Merchant Services,13850.0,2493.0,16343.0,2026-08-05,2026-09-04,ISSUED
-inv_2026_1008,ord_live_1008,Cashfree Payments India Pvt Ltd,4614.0,830.52,5444.52,2026-07-14,2026-08-13,ISSUED
-inv_2026_1009,ord_live_1009,BillDesk Technology Services,826.0,148.68,974.68,2026-07-14,2026-08-13,ISSUED
-inv_2026_1010,ord_live_1010,Razorpay Software Private Limited,1592.0,286.56,1878.56,2026-07-15,2026-08-14,ISSUED
-inv_2026_1011,ord_live_1011,Paytm Payments Bank Ltd,763.0,137.34,900.34,2026-08-18,2026-09-17,ISSUED
-inv_2026_1012,ord_live_1012,PhonePe Merchant Services,234.0,42.12,276.12,2026-07-14,2026-08-13,ISSUED
-inv_2026_1013,ord_live_1013,Cashfree Payments India Pvt Ltd,17035.0,3066.3,20101.3,2026-07-09,2026-08-08,ISSUED
-inv_2026_1014,ord_live_1014,BillDesk Technology Services,1294.0,232.92,1526.92,2026-07-25,2026-08-24,ISSUED
-inv_2026_1015,ord_live_1015,Razorpay Software Private Limited,30016.0,5402.88,35418.88,2026-08-09,2026-09-08,ISSUED
-inv_2026_1016,ord_live_1016,Paytm Payments Bank Ltd,1319.0,237.42,1556.42,2026-07-30,2026-08-29,ISSUED
-inv_2026_1017,ord_live_1017,PhonePe Merchant Services,19595.0,3527.1,23122.1,2026-08-17,2026-09-16,ISSUED
-inv_2026_1018,ord_live_1018,Cashfree Payments India Pvt Ltd,1028.0,185.04,1213.04,2026-07-01,2026-07-31,ISSUED
-inv_2026_1019,ord_live_1019,BillDesk Technology Services,5486.0,987.48,6473.48,2026-08-09,2026-09-08,ISSUED
-inv_2026_1020,ord_live_1020,Razorpay Software Private Limited,19674.0,3541.32,23215.32,2026-08-19,2026-09-18,ISSUED
-inv_2026_1021,ord_live_1021,Paytm Payments Bank Ltd,842.0,151.56,993.56,2026-07-19,2026-08-18,ISSUED
-inv_2026_1022,ord_live_1022,PhonePe Merchant Services,69846.0,12572.28,82418.28,2026-08-03,2026-09-02,ISSUED
-inv_2026_1023,ord_live_1023,Cashfree Payments India Pvt Ltd,1885.0,339.3,2224.3,2026-08-07,2026-09-06,ISSUED
-inv_2026_1024,ord_live_1024,BillDesk Technology Services,1474.0,265.32,1739.32,2026-08-10,2026-09-09,ISSUED
-inv_2026_1025,ord_live_1025,Razorpay Software Private Limited,791.0,142.38,933.38,2026-07-02,2026-08-01,ISSUED
-inv_2026_1026,ord_live_1026,Paytm Payments Bank Ltd,3929.0,707.22,4636.22,2026-07-14,2026-08-13,ISSUED
-inv_2026_1027,ord_live_1027,PhonePe Merchant Services,1469.0,264.42,1733.42,2026-07-31,2026-08-30,ISSUED
-inv_2026_1028,ord_live_1028,Cashfree Payments India Pvt Ltd,32478.0,5846.04,38324.04,2026-07-06,2026-08-05,ISSUED
-inv_2026_1029,ord_live_1029,BillDesk Technology Services,3775.0,679.5,4454.5,2026-08-13,2026-09-12,ISSUED
-inv_2026_1030,ord_live_1030,Razorpay Software Private Limited,27161.0,4888.98,32049.98,2026-07-15,2026-08-14,ISSUED
-inv_2026_1031,ord_live_1031,Paytm Payments Bank Ltd,1046.0,188.28,1234.28,2026-07-15,2026-08-14,ISSUED
-inv_2026_1032,ord_live_1032,PhonePe Merchant Services,76935.0,13848.3,90783.3,2026-07-05,2026-08-04,ISSUED
-inv_2026_1033,ord_live_1033,Cashfree Payments India Pvt Ltd,23842.0,4291.56,28133.56,2026-07-10,2026-08-09,ISSUED
-inv_2026_1034,ord_live_1034,BillDesk Technology Services,1525.0,274.5,1799.5,2026-08-16,2026-09-15,ISSUED
-inv_2026_1035,ord_live_1035,Razorpay Software Private Limited,218.0,39.24,257.24,2026-08-07,2026-09-06,ISSUED
-inv_2026_1036,ord_live_1036,Paytm Payments Bank Ltd,18477.0,3325.86,21802.86,2026-08-02,2026-09-01,ISSUED
-inv_2026_1037,ord_live_1037,PhonePe Merchant Services,238.0,42.84,280.84,2026-08-12,2026-09-11,ISSUED
-inv_2026_1038,ord_live_1038,Cashfree Payments India Pvt Ltd,266.0,47.88,313.88,2026-07-27,2026-08-26,ISSUED
-inv_2026_1039,ord_live_1039,BillDesk Technology Services,12295.0,2213.1,14508.1,2026-07-15,2026-08-14,ISSUED
-inv_2026_1040,ord_live_1040,Razorpay Software Private Limited,24754.0,4455.72,29209.72,2026-06-30,2026-07-30,ISSUED
-inv_2026_1041,ord_live_1041,Paytm Payments Bank Ltd,642.0,115.56,757.56,2026-07-08,2026-08-07,ISSUED
-inv_2026_1042,ord_live_1042,PhonePe Merchant Services,1806.0,325.08,2131.08,2026-08-04,2026-09-03,ISSUED
-inv_2026_1043,ord_live_1043,Cashfree Payments India Pvt Ltd,1457.0,262.26,1719.26,2026-07-06,2026-08-05,ISSUED
-inv_2026_1044,ord_live_1044,BillDesk Technology Services,676.0,121.68,797.68,2026-08-07,2026-09-06,ISSUED
-inv_2026_1045,ord_live_1045,Razorpay Software Private Limited,53122.0,9561.96,62683.96,2026-07-31,2026-08-30,ISSUED
-inv_2026_1046,ord_live_1046,Paytm Payments Bank Ltd,665.0,119.7,784.7,2026-07-02,2026-08-01,ISSUED
-inv_2026_1047,ord_live_1047,PhonePe Merchant Services,1003.0,180.54,1183.54,2026-08-05,2026-09-04,ISSUED
-inv_2026_1048,ord_live_1048,Cashfree Payments India Pvt Ltd,65286.0,11751.48,77037.48,2026-07-10,2026-08-09,ISSUED
-inv_2026_1049,ord_live_1049,BillDesk Technology Services,360.0,64.8,424.8,2026-07-02,2026-08-01,ISSUED
-inv_2026_1050,ord_live_1050,Razorpay Software Private Limited,5368.0,966.24,6334.24,2026-07-23,2026-08-22,ISSUED
-inv_2026_1051,ord_live_1051,Paytm Payments Bank Ltd,35514.0,6392.52,41906.52,2026-07-10,2026-08-09,ISSUED
-inv_2026_1052,ord_live_1052,PhonePe Merchant Services,15491.0,2788.38,18279.38,2026-08-12,2026-09-11,ISSUED
-inv_2026_1053,ord_live_1053,Cashfree Payments India Pvt Ltd,178.0,32.04,210.04,2026-07-30,2026-08-29,ISSUED
-inv_2026_1054,ord_live_1054,BillDesk Technology Services,34915.0,6284.7,41199.7,2026-07-14,2026-08-13,ISSUED
-inv_2026_1055,ord_live_1055,Razorpay Software Private Limited,70680.0,12722.4,83402.4,2026-07-17,2026-08-16,ISSUED
-inv_2026_1056,ord_live_1056,Paytm Payments Bank Ltd,155.0,27.9,182.9,2026-07-07,2026-08-06,ISSUED
-inv_2026_1057,ord_live_1057,PhonePe Merchant Services,13327.0,2398.86,15725.86,2026-08-15,2026-09-14,ISSUED
-inv_2026_1058,ord_live_1058,Cashfree Payments India Pvt Ltd,189.0,34.02,223.02,2026-08-14,2026-09-13,ISSUED
-inv_2026_1059,ord_live_1059,BillDesk Technology Services,1459.0,262.62,1721.62,2026-07-22,2026-08-21,ISSUED
-inv_2026_1060,ord_live_1060,Razorpay Software Private Limited,15382.0,2768.76,18150.76,2026-07-20,2026-08-19,ISSUED
-inv_2026_1061,ord_live_1061,Paytm Payments Bank Ltd,14423.0,2596.14,17019.14,2026-08-13,2026-09-12,ISSUED
-inv_2026_1062,ord_live_1062,PhonePe Merchant Services,39914.0,7184.52,47098.52,2026-07-18,2026-08-17,ISSUED
-inv_2026_1063,ord_live_1063,Cashfree Payments India Pvt Ltd,536.0,96.48,632.48,2026-08-02,2026-09-01,ISSUED
-inv_2026_1064,ord_live_1064,BillDesk Technology Services,1458.0,262.44,1720.44,2026-08-10,2026-09-09,ISSUED
-inv_2026_1065,ord_live_1065,Razorpay Software Private Limited,506.0,91.08,597.08,2026-07-09,2026-08-08,ISSUED
-inv_2026_1066,ord_live_1066,Paytm Payments Bank Ltd,8371.0,1506.78,9877.78,2026-08-15,2026-09-14,ISSUED
-inv_2026_1067,ord_live_1067,PhonePe Merchant Services,2181.0,392.58,2573.58,2026-08-17,2026-09-16,ISSUED
-inv_2026_1068,ord_live_1068,Cashfree Payments India Pvt Ltd,10165.0,1829.7,11994.7,2026-07-07,2026-08-06,ISSUED
-inv_2026_1069,ord_live_1069,BillDesk Technology Services,116589.0,20986.02,137575.02,2026-08-17,2026-09-16,ISSUED
-inv_2026_1070,ord_live_1070,Razorpay Software Private Limited,424.0,76.32,500.32,2026-08-17,2026-09-16,ISSUED
-inv_2026_1071,ord_live_1071,Paytm Payments Bank Ltd,1691.0,304.38,1995.38,2026-08-03,2026-09-02,ISSUED
-inv_2026_1072,ord_live_1072,PhonePe Merchant Services,9683.0,1742.94,11425.94,2026-07-17,2026-08-16,ISSUED
-inv_2026_1073,ord_live_1073,Cashfree Payments India Pvt Ltd,1520.0,273.6,1793.6,2026-07-10,2026-08-09,ISSUED
-inv_2026_1074,ord_live_1074,BillDesk Technology Services,15624.0,2812.32,18436.32,2026-07-03,2026-08-02,ISSUED
-inv_2026_1075,ord_live_1075,Razorpay Software Private Limited,21280.0,3830.4,25110.4,2026-08-18,2026-09-17,ISSUED
-inv_2026_1076,ord_live_1076,Paytm Payments Bank Ltd,15730.0,2831.4,18561.4,2026-08-04,2026-09-03,ISSUED
-inv_2026_1077,ord_live_1077,PhonePe Merchant Services,1093.0,196.74,1289.74,2026-07-01,2026-07-31,ISSUED
-inv_2026_1078,ord_live_1078,Cashfree Payments India Pvt Ltd,28364.0,5105.52,33469.52,2026-08-09,2026-09-08,ISSUED
-inv_2026_1079,ord_live_1079,BillDesk Technology Services,4750.0,855.0,5605.0,2026-08-10,2026-09-09,ISSUED
-inv_2026_1080,ord_live_1080,Razorpay Software Private Limited,769.0,138.42,907.42,2026-07-13,2026-08-12,ISSUED
-inv_2026_1081,ord_live_1081,Paytm Payments Bank Ltd,266.0,47.88,1513.88,2026-07-30,2026-08-29,ISSUED
-inv_2026_1082,ord_live_1082,PhonePe Merchant Services,3319.0,597.42,5116.42,2026-08-17,2026-09-16,ISSUED
-inv_2026_1083,ord_live_1083,Cashfree Payments India Pvt Ltd,1068.0,192.24,2460.24,2026-08-11,2026-09-10,ISSUED
-inv_2026_1084,ord_live_1084,BillDesk Technology Services,7498.0,1349.64,10047.64,2026-08-08,2026-09-07,ISSUED
-inv_2026_1085,ord_live_1085,Razorpay Software Private Limited,89169.0,16050.42,106419.42,2026-08-06,2026-09-05,ISSUED
-inv_2026_1086,ord_live_1086,Paytm Payments Bank Ltd,1513.0,272.34,2985.34,2026-08-09,2026-09-08,ISSUED
-inv_2026_1087,ord_live_1087,PhonePe Merchant Services,72181.0,12992.58,86373.58,2026-08-05,2026-09-04,ISSUED
-inv_2026_1088,ord_live_1088,Cashfree Payments India Pvt Ltd,1425.0,256.5,2881.5,2026-07-21,2026-08-20,ISSUED
-inv_2026_1089,ord_live_1089,BillDesk Technology Services,135259.0,24346.62,160805.62,2026-08-14,2026-09-13,ISSUED
-inv_2026_1090,ord_live_1090,Razorpay Software Private Limited,17232.0,3101.76,21533.76,2026-07-28,2026-08-27,ISSUED
-inv_2026_1091,ord_live_1091,Paytm Payments Bank Ltd,25679.0,4622.22,31501.22,2026-07-17,2026-08-16,ISSUED
-inv_2026_1092,ord_live_1092,PhonePe Merchant Services,13023.0,2344.14,16567.14,2026-07-02,2026-08-01,ISSUED
-inv_2026_1093,ord_live_1093,Cashfree Payments India Pvt Ltd,628.0,113.04,1941.04,2026-07-21,2026-08-20,ISSUED
-inv_2026_1094,ord_live_1094,BillDesk Technology Services,8260.0,1486.8,10946.8,2026-07-05,2026-08-04,ISSUED
-inv_2026_1095,ord_live_1095,Razorpay Software Private Limited,18083.0,3254.94,22537.94,2026-07-28,2026-08-27,ISSUED
-inv_2026_1096,ord_live_1096,Paytm Payments Bank Ltd,1290.0,232.2,1522.2,2026-07-24,2026-08-23,ISSUED
-inv_2026_1097,ord_live_1097,PhonePe Merchant Services,1538.0,276.84,1814.84,2026-07-29,2026-08-28,ISSUED
-inv_2026_1098,ord_live_1098,Cashfree Payments India Pvt Ltd,1620.0,291.6,1911.6,2026-08-04,2026-09-03,ISSUED
-inv_2026_1099,ord_live_1099,BillDesk Technology Services,1306.0,235.08,1541.08,2026-08-18,2026-09-17,ISSUED
-inv_2026_1100,ord_live_1100,Razorpay Software Private Limited,838.0,150.84,988.84,2026-07-11,2026-08-10,ISSUED
-inv_2026_1101,ord_live_1101,Paytm Payments Bank Ltd,147530.0,26555.4,174085.4,2026-07-19,2026-08-18,ISSUED
-inv_2026_1102,ord_live_1102,PhonePe Merchant Services,17381.0,3128.58,20509.58,2026-07-30,2026-08-29,ISSUED
-inv_2026_1103,ord_live_1103,Cashfree Payments India Pvt Ltd,232.0,41.76,273.76,2026-07-26,2026-08-25,ISSUED
-inv_2026_1104,ord_live_1104,BillDesk Technology Services,39912.0,7184.16,47096.16,2026-07-05,2026-08-04,ISSUED
-inv_2026_1105,ord_live_1105,Razorpay Software Private Limited,9395.0,1691.1,11086.1,2026-08-19,2026-09-18,ISSUED
-inv_2026_1106,ord_live_1106,Paytm Payments Bank Ltd,115027.0,20704.86,135731.86,2026-08-06,2026-09-05,ISSUED
-inv_2026_1107,ord_live_1107,PhonePe Merchant Services,10671.0,1920.78,12591.78,2026-08-11,2026-09-10,ISSUED
-inv_2026_1108,ord_live_1108,Cashfree Payments India Pvt Ltd,935.0,168.3,1103.3,2026-07-29,2026-08-28,ISSUED
-inv_2026_1109,ord_live_1109,BillDesk Technology Services,678.0,122.04,800.04,2026-08-13,2026-09-12,ISSUED
-inv_2026_1110,ord_live_1110,Razorpay Software Private Limited,8482.0,1526.76,10008.76,2026-07-27,2026-08-26,ISSUED
-inv_2026_1111,ORD-LIVE-1111,Paytm Payments Bank Ltd,438.0,78.84,516.84,2026-08-19,2026-09-18,ISSUED
-inv_2026_1112,ord_live_1112,Razorpay Softwares Private Limited,11964.0,2153.52,14117.52,2026-08-13,2026-09-12,ISSUED
-inv_2026_1113,ORD-LIVE-1113,Cashfree Payments India Pvt Ltd,16156.0,2908.08,19064.08,2026-08-16,2026-09-15,ISSUED
-inv_2026_1114,ord_live_1114,Razorpay Softwares Private Limited,77720.0,13989.6,91709.6,2026-08-18,2026-09-17,ISSUED
-inv_2026_1115,ORD-LIVE-1115,Razorpay Software Private Limited,16490.0,2968.2,19458.2,2026-07-17,2026-08-16,ISSUED
-inv_2026_1116,ord_live_1116,Razorpay Softwares Private Limited,781.0,140.58,921.58,2026-07-21,2026-08-20,ISSUED
-inv_2026_1117,ORD-LIVE-1117,PhonePe Merchant Services,11444.0,2059.92,13503.92,2026-08-11,2026-09-10,ISSUED
-inv_2026_1118,ord_live_1118,Razorpay Softwares Private Limited,761.0,136.98,897.98,2026-07-07,2026-08-06,ISSUED
-inv_2026_1119,ORD-LIVE-1119,BillDesk Technology Services,3776.0,679.68,4455.68,2026-07-13,2026-08-12,ISSUED
-inv_2026_1120,ord_live_1120,Razorpay Softwares Private Limited,8670.0,1560.6,10230.6,2026-07-18,2026-08-17,ISSUED
-inv_2026_1121,ord_live_1121,Paytm Payments Bank Ltd,1389.0,250.02,1639.02,2026-08-07,2026-09-06,ISSUED
-inv_2026_1122,ord_live_1122,PhonePe Merchant Services,5054.0,909.72,5963.72,2026-07-14,2026-08-13,ISSUED
-inv_2026_1123,ord_live_1123,Cashfree Payments India Pvt Ltd,10959.0,1972.62,12931.62,2026-07-27,2026-08-26,ISSUED
-inv_2026_1124,ord_live_1124,BillDesk Technology Services,1986.0,357.48,2343.48,2026-08-08,2026-09-07,ISSUED
-inv_2026_1125,ord_live_1125,Razorpay Software Private Limited,1716.0,308.88,2024.88,2026-07-26,2026-08-25,ISSUED
-inv_2026_1126,ord_live_1126,Paytm Payments Bank Ltd,710.0,127.8,837.8,2026-08-07,2026-09-06,ISSUED
-inv_2026_1127,ord_live_1127,PhonePe Merchant Services,12893.0,2320.74,15213.74,2026-08-05,2026-09-04,ISSUED
-inv_2026_1128,ord_live_1128,Cashfree Payments India Pvt Ltd,106301.0,19134.18,125435.18,2026-08-05,2026-09-04,ISSUED
-inv_2026_1129,ord_live_1129,BillDesk Technology Services,14492.0,2608.56,17100.56,2026-07-25,2026-08-24,ISSUED
-inv_2026_1130,ord_live_1130,Razorpay Software Private Limited,1307.0,235.26,1542.26,2026-07-21,2026-08-20,ISSUED
-inv_2026_1131,ord_live_1131,Paytm Payments Bank Ltd,21005.0,3780.9,24785.9,2026-08-15,2026-09-14,ISSUED
-inv_2026_1132,ord_live_1132,PhonePe Merchant Services,10684.0,1923.12,12607.12,2026-07-22,2026-08-21,ISSUED
-inv_2026_1133,ord_live_1133,Cashfree Payments India Pvt Ltd,54971.0,9894.78,64865.78,2026-07-24,2026-08-23,ISSUED
-inv_2026_1134,ord_live_1134,BillDesk Technology Services,239.0,43.02,282.02,2026-07-16,2026-08-15,ISSUED
-inv_2026_1135,ord_live_1135,Razorpay Software Private Limited,300.0,54.0,354.0,2026-08-18,2026-09-17,ISSUED
-inv_2026_1136,ord_live_1136,Paytm Payments Bank Ltd,2948.0,530.64,3478.64,2026-07-02,2026-08-01,ISSUED
-inv_2026_1137,ord_live_1137,PhonePe Merchant Services,599.0,107.82,706.82,2026-08-02,2026-09-01,ISSUED
-inv_2026_1138,ord_live_1138,Cashfree Payments India Pvt Ltd,1882.0,338.76,2220.76,2026-07-25,2026-08-24,ISSUED
-inv_2026_1139,ord_live_1139,BillDesk Technology Services,1405.0,252.9,1657.9,2026-07-16,2026-08-15,ISSUED
-inv_2026_1140,ord_live_1140,Razorpay Software Private Limited,64407.0,11593.26,76000.26,2026-08-03,2026-09-02,ISSUED
-inv_2026_1141,ord_live_1141,Paytm Payments Bank Ltd,15903.0,2862.54,18765.54,2026-08-13,2026-09-12,ISSUED
-inv_2026_1142,ord_live_1142,PhonePe Merchant Services,26989.0,4858.02,31847.02,2026-07-15,2026-08-14,ISSUED
-inv_2026_1143,ord_live_1143,Cashfree Payments India Pvt Ltd,1798.0,323.64,2121.64,2026-08-11,2026-09-10,ISSUED
-inv_2026_1144,ord_live_1144,BillDesk Technology Services,38756.0,6976.08,45732.08,2026-08-18,2026-09-17,ISSUED
-inv_2026_1145,ord_live_1145,Razorpay Software Private Limited,612.0,110.16,722.16,2026-08-13,2026-09-12,ISSUED
-inv_2026_1146,ord_live_1146,Paytm Payments Bank Ltd,62358.0,11224.44,73582.44,2026-07-02,2026-08-01,ISSUED
-inv_2026_1147,ord_live_1147,PhonePe Merchant Services,4953.0,891.54,5844.54,2026-07-18,2026-08-17,ISSUED
-inv_2026_1148,ord_live_1148,Cashfree Payments India Pvt Ltd,13988.0,2517.84,16505.84,2026-08-03,2026-09-02,ISSUED
-inv_2026_1149,ord_live_1149,BillDesk Technology Services,113685.0,20463.3,134148.3,2026-08-16,2026-09-15,ISSUED
-inv_2026_1150,ord_live_1150,Razorpay Software Private Limited,9392.0,1690.56,11082.56,2026-08-13,2026-09-12,ISSUED
-inv_2026_1151,ord_live_1151,Paytm Payments Bank Ltd,1197.0,215.46,1412.46,2026-07-07,2026-08-06,ISSUED
-inv_2026_1152,ord_live_1152,PhonePe Merchant Services,44344.0,7981.92,52325.92,2026-07-07,2026-08-06,ISSUED
-inv_2026_1153,ord_live_1153,Cashfree Payments India Pvt Ltd,1348.0,242.64,1590.64,2026-07-15,2026-08-14,ISSUED
-inv_2026_1154,ord_live_1154,BillDesk Technology Services,5823.0,1048.14,6871.14,2026-07-08,2026-08-07,ISSUED
-inv_2026_1155,ord_live_1155,Razorpay Software Private Limited,1199.0,215.82,1414.82,2026-07-08,2026-08-07,ISSUED
-inv_2026_1156,ord_live_1156,Paytm Payments Bank Ltd,62920.0,11325.6,74245.6,2026-07-07,2026-08-06,ISSUED
-inv_2026_1157,ord_live_1157,PhonePe Merchant Services,1009.0,181.62,1190.62,2026-07-15,2026-08-14,ISSUED
-inv_2026_1158,ord_live_1158,Cashfree Payments India Pvt Ltd,914.0,164.52,1078.52,2026-07-17,2026-08-16,ISSUED
-inv_2026_1159,ord_live_1159,BillDesk Technology Services,1408.0,253.44,1661.44,2026-08-07,2026-09-06,ISSUED
-inv_2026_1160,ord_live_1160,Razorpay Software Private Limited,8724.0,1570.32,10294.32,2026-07-05,2026-08-04,ISSUED
-inv_2026_1161,ord_live_1161,Paytm Payments Bank Ltd,401.0,72.18,473.18,2026-08-20,2026-09-19,ISSUED
-inv_2026_1162,ord_live_1162,PhonePe Merchant Services,456.0,82.08,538.08,2026-07-08,2026-08-07,ISSUED
-inv_2026_1163,ord_live_1163,Cashfree Payments India Pvt Ltd,9796.0,1763.28,11559.28,2026-08-06,2026-09-05,ISSUED
-inv_2026_1164,ord_live_1164,BillDesk Technology Services,19238.0,3462.84,22700.84,2026-07-08,2026-08-07,ISSUED
-inv_2026_1165,ord_live_1165,Razorpay Software Private Limited,5573.0,1003.14,6576.14,2026-07-29,2026-08-28,ISSUED
-inv_2026_1166,ord_live_1166,Paytm Payments Bank Ltd,17009.0,3061.62,20070.62,2026-08-10,2026-09-09,ISSUED
-inv_2026_1167,ord_live_1167,PhonePe Merchant Services,16534.0,2976.12,19510.12,2026-07-04,2026-08-03,ISSUED
-inv_2026_1168,ord_live_1168,Cashfree Payments India Pvt Ltd,1395.0,251.1,1646.1,2026-08-07,2026-09-06,ISSUED
-inv_2026_1169,ord_live_1169,BillDesk Technology Services,1134.0,204.12,1338.12,2026-08-07,2026-09-06,ISSUED
-inv_2026_1170,ord_live_1170,Razorpay Software Private Limited,9045.0,1628.1,10673.1,2026-07-27,2026-08-26,ISSUED
-inv_2026_1171,ord_live_1171,Paytm Payments Bank Ltd,1593.0,286.74,1879.74,2026-07-06,2026-08-05,ISSUED
-inv_2026_1172,ord_live_1172,PhonePe Merchant Services,17540.0,3157.2,20697.2,2026-07-04,2026-08-03,ISSUED
-inv_2026_1173,ord_live_1173,Cashfree Payments India Pvt Ltd,14210.0,2557.8,16767.8,2026-07-09,2026-08-08,ISSUED
-inv_2026_1174,ord_live_1174,BillDesk Technology Services,1888.0,339.84,2227.84,2026-08-11,2026-09-10,ISSUED
-inv_2026_1175,ord_live_1175,Razorpay Software Private Limited,311.0,55.98,366.98,2026-08-06,2026-09-05,ISSUED
-inv_2026_1176,ord_live_1176,Paytm Payments Bank Ltd,1238.0,222.84,1460.84,2026-07-23,2026-08-22,ISSUED
-inv_2026_1177,ord_live_1177,PhonePe Merchant Services,70294.0,12652.92,82946.92,2026-08-09,2026-09-08,ISSUED
-inv_2026_1178,ord_live_1178,Cashfree Payments India Pvt Ltd,37527.0,6754.86,44281.86,2026-07-01,2026-07-31,ISSUED
-inv_2026_1179,ord_live_1179,BillDesk Technology Services,1880.0,338.4,2218.4,2026-07-10,2026-08-09,ISSUED
-inv_2026_1180,ord_live_1180,Razorpay Software Private Limited,87027.0,15664.86,102691.86,2026-08-17,2026-09-16,ISSUED
-inv_2026_1181,ord_live_1181,Paytm Payments Bank Ltd,737.0,132.66,869.66,2026-08-15,2026-09-14,ISSUED
-inv_2026_1182,ord_live_1182,PhonePe Merchant Services,1364.0,245.52,1609.52,2026-07-04,2026-08-03,ISSUED
-inv_2026_1183,ord_live_1183,Cashfree Payments India Pvt Ltd,16484.0,2967.12,19451.12,2026-07-26,2026-08-25,ISSUED
-inv_2026_1184,ord_live_1184,BillDesk Technology Services,1487.0,267.66,1754.66,2026-08-13,2026-09-12,ISSUED
-inv_2026_1185,ord_live_1185,Razorpay Software Private Limited,1326.0,238.68,1564.68,2026-07-03,2026-08-02,ISSUED
-inv_2026_1186,ord_live_1186,Paytm Payments Bank Ltd,11484.0,2067.12,13551.12,2026-07-20,2026-08-19,ISSUED
-inv_2026_1187,ord_live_1187,PhonePe Merchant Services,1540.0,277.2,1817.2,2026-07-15,2026-08-14,ISSUED
-inv_2026_1188,ord_live_1188,Cashfree Payments India Pvt Ltd,22772.0,4098.96,26870.96,2026-07-27,2026-08-26,ISSUED
-inv_2026_1189,ord_live_1189,BillDesk Technology Services,15252.0,2745.36,17997.36,2026-08-15,2026-09-14,ISSUED
-inv_2026_1190,ord_live_1190,Razorpay Software Private Limited,97528.0,17555.04,115083.04,2026-08-08,2026-09-07,ISSUED
-inv_2026_1191,ord_live_1191,Paytm Payments Bank Ltd,35945.0,6470.1,42415.1,2026-07-28,2026-08-27,ISSUED
-inv_2026_1192,ord_live_1192,PhonePe Merchant Services,9260.0,1666.8,10926.8,2026-07-21,2026-08-20,ISSUED
-inv_2026_1193,ord_live_1193,Cashfree Payments India Pvt Ltd,1688.0,303.84,1991.84,2026-07-22,2026-08-21,ISSUED
-inv_2026_1194,ord_live_1194,BillDesk Technology Services,503.0,90.54,593.54,2026-07-12,2026-08-11,ISSUED
-inv_2026_1195,ord_live_1195,Razorpay Software Private Limited,16709.0,3007.62,19716.62,2026-08-13,2026-09-12,ISSUED
-inv_2026_1196,ord_live_1196,Paytm Payments Bank Ltd,999.0,179.82,1178.82,2026-07-05,2026-08-04,ISSUED
-inv_2026_1197,ord_live_1197,PhonePe Merchant Services,13532.0,2435.76,15967.76,2026-08-01,2026-08-31,ISSUED
-inv_2026_1198,ord_live_1198,Cashfree Payments India Pvt Ltd,686.0,123.48,809.48,2026-07-05,2026-08-04,ISSUED
-inv_2026_1199,ord_live_1199,BillDesk Technology Services,17162.0,3089.16,20251.16,2026-08-07,2026-09-06,ISSUED
-inv_2026_1200,ord_live_1200,Razorpay Software Private Limited,12535.0,2256.3,14791.3,2026-08-08,2026-09-07,ISSUED
-inv_2026_1201,ord_live_1201,Paytm Payments Bank Ltd,74878.0,13478.04,88356.04,2026-07-22,2026-08-21,ISSUED
-inv_2026_1202,ord_live_1202,PhonePe Merchant Services,16398.0,2951.64,19349.64,2026-08-03,2026-09-02,ISSUED
-inv_2026_1203,ord_live_1203,Cashfree Payments India Pvt Ltd,1685.0,303.3,1988.3,2026-07-22,2026-08-21,ISSUED
-inv_2026_1204,ord_live_1204,BillDesk Technology Services,1488.0,267.84,1755.84,2026-07-24,2026-08-23,ISSUED
-inv_2026_1205,ord_live_1205,Razorpay Software Private Limited,6634.0,1194.12,7828.12,2026-07-22,2026-08-21,ISSUED
-inv_2026_1206,ord_live_1206,Paytm Payments Bank Ltd,4776.0,859.68,5635.68,2026-07-20,2026-08-19,ISSUED
-inv_2026_1207,ord_live_1207,PhonePe Merchant Services,19248.0,3464.64,22712.64,2026-07-06,2026-08-05,ISSUED
-inv_2026_1208,ord_live_1208,Cashfree Payments India Pvt Ltd,537.0,96.66,633.66,2026-07-22,2026-08-21,ISSUED
-inv_2026_1209,ord_live_1209,BillDesk Technology Services,1713.0,308.34,2021.34,2026-07-07,2026-08-06,ISSUED
-inv_2026_1210,ord_live_1210,Razorpay Software Private Limited,60503.0,10890.54,71393.54,2026-07-09,2026-08-08,ISSUED
-inv_2026_1211,ord_live_1211,Paytm Payments Bank Ltd,30848.0,5552.64,36400.64,2026-08-15,2026-09-14,ISSUED
-inv_2026_1212,ord_live_1212,PhonePe Merchant Services,112347.0,20222.46,132569.46,2026-08-18,2026-09-17,ISSUED
-inv_2026_1213,ord_live_1213,Cashfree Payments India Pvt Ltd,1755.0,315.9,2070.9,2026-08-20,2026-09-19,ISSUED
-inv_2026_1214,ord_live_1214,BillDesk Technology Services,135514.0,24392.52,159906.52,2026-08-18,2026-09-17,ISSUED
-inv_2026_1215,ord_live_1215,Razorpay Software Private Limited,29070.0,5232.6,34302.6,2026-07-16,2026-08-15,ISSUED
-inv_2026_1216,ord_live_1216,Paytm Payments Bank Ltd,18905.0,3402.9,22307.9,2026-07-07,2026-08-06,ISSUED
-inv_2026_1217,ord_live_1217,PhonePe Merchant Services,29656.0,5338.08,34994.08,2026-07-27,2026-08-26,ISSUED
-inv_2026_1218,ord_live_1218,Cashfree Payments India Pvt Ltd,910.0,163.8,1073.8,2026-08-01,2026-08-31,ISSUED
-inv_2026_1219,ord_live_1219,BillDesk Technology Services,301.0,54.18,355.18,2026-08-15,2026-09-14,ISSUED
-inv_2026_1220,ord_live_1220,Razorpay Software Private Limited,1798.0,323.64,2121.64,2026-07-31,2026-08-30,ISSUED
-inv_2026_1221,ord_live_1221,Paytm Payments Bank Ltd,261.0,46.98,307.98,2026-07-01,2026-07-31,ISSUED
-inv_2026_1222,ord_live_1222,PhonePe Merchant Services,5643.0,1015.74,6658.74,2026-08-18,2026-09-17,ISSUED
-inv_2026_1223,ord_live_1223,Cashfree Payments India Pvt Ltd,1724.0,310.32,2034.32,2026-08-08,2026-09-07,ISSUED
-inv_2026_1224,ord_live_1224,BillDesk Technology Services,1154.0,207.72,1361.72,2026-08-05,2026-09-04,ISSUED
-inv_2026_1225,ord_live_1225,Razorpay Software Private Limited,9882.0,1778.76,11660.76,2026-08-05,2026-09-04,ISSUED
-inv_2026_1226,ord_live_1226,Paytm Payments Bank Ltd,1176.0,211.68,1387.68,2026-08-04,2026-09-03,ISSUED
-inv_2026_1227,ord_live_1227,PhonePe Merchant Services,891.0,160.38,1051.38,2026-07-23,2026-08-22,ISSUED
-inv_2026_1228,ord_live_1228,Cashfree Payments India Pvt Ltd,1600.0,288.0,1888.0,2026-08-12,2026-09-11,ISSUED
-inv_2026_1229,ord_live_1229,BillDesk Technology Services,792.0,142.56,934.56,2026-08-10,2026-09-09,ISSUED
-inv_2026_1230,ord_live_1230,Razorpay Software Private Limited,6418.0,1155.24,7573.24,2026-07-05,2026-08-04,ISSUED
-inv_2026_1231,ord_live_1231,Paytm Payments Bank Ltd,507.0,91.26,598.26,2026-07-02,2026-08-01,ISSUED
-inv_2026_1232,ord_live_1232,PhonePe Merchant Services,3199.0,575.82,3774.82,2026-08-18,2026-09-17,ISSUED
-inv_2026_1233,ord_live_1233,Cashfree Payments India Pvt Ltd,41753.0,7515.54,49268.54,2026-07-17,2026-08-16,ISSUED
-inv_2026_1234,ord_live_1234,BillDesk Technology Services,45339.0,8161.02,53500.02,2026-07-21,2026-08-20,ISSUED
-inv_2026_1235,ord_live_1235,Razorpay Software Private Limited,268.0,48.24,316.24,2026-08-15,2026-09-14,ISSUED
-inv_2026_1236,ord_live_1236,Paytm Payments Bank Ltd,262.0,47.16,309.16,2026-07-21,2026-08-20,ISSUED
-inv_2026_1237,ord_live_1237,PhonePe Merchant Services,1008.0,181.44,1189.44,2026-07-22,2026-08-21,ISSUED
-inv_2026_1238,ord_live_1238,Cashfree Payments India Pvt Ltd,1719.0,309.42,2028.42,2026-07-03,2026-08-02,ISSUED
-inv_2026_1239,ord_live_1239,BillDesk Technology Services,64525.0,11614.5,76139.5,2026-07-10,2026-08-09,ISSUED
-inv_2026_1240,ord_live_1240,Razorpay Software Private Limited,1693.0,304.74,1997.74,2026-08-10,2026-09-09,ISSUED
-inv_2026_1241,ord_live_1241,Paytm Payments Bank Ltd,14155.0,2547.9,16702.9,2026-07-23,2026-08-22,ISSUED
-inv_2026_1242,ord_live_1242,PhonePe Merchant Services,1429.0,257.22,1686.22,2026-07-17,2026-08-16,ISSUED
-inv_2026_1243,ord_live_1243,Cashfree Payments India Pvt Ltd,1249.0,224.82,1473.82,2026-07-07,2026-08-06,ISSUED
-inv_2026_1244,ord_live_1244,BillDesk Technology Services,1975.0,355.5,2330.5,2026-07-31,2026-08-30,ISSUED
-inv_2026_1245,ord_live_1245,Razorpay Software Private Limited,49170.0,8850.6,58020.6,2026-07-06,2026-08-05,ISSUED
-inv_2026_1246,ord_live_1246,Paytm Payments Bank Ltd,11514.0,2072.52,13586.52,2026-07-19,2026-08-18,ISSUED
-inv_2026_1247,ord_live_1247,PhonePe Merchant Services,5976.0,1075.68,7051.68,2026-07-12,2026-08-11,ISSUED
-inv_2026_1248,ord_live_1248,Cashfree Payments India Pvt Ltd,14088.0,2535.84,16623.84,2026-07-30,2026-08-29,ISSUED
-inv_2026_1249,ord_live_1249,BillDesk Technology Services,1567.0,282.06,1849.06,2026-08-16,2026-09-15,ISSUED
-inv_2026_1250,ord_live_1250,Razorpay Software Private Limited,748.0,134.64,882.64,2026-08-10,2026-09-09,ISSUED
-inv_2026_1251,ord_live_1251,Paytm Payments Bank Ltd,7962.0,1433.16,9395.16,2026-08-18,2026-09-17,ISSUED
-inv_2026_1252,ord_live_1252,PhonePe Merchant Services,11965.0,2153.7,14118.7,2026-07-10,2026-08-09,ISSUED
-inv_2026_1253,ord_live_1253,Cashfree Payments India Pvt Ltd,25168.0,4530.24,29698.24,2026-07-16,2026-08-15,ISSUED
-inv_2026_1254,ord_live_1254,BillDesk Technology Services,1191.0,214.38,1405.38,2026-07-06,2026-08-05,ISSUED
-inv_2026_1255,ord_live_1255,Razorpay Software Private Limited,13063.0,2351.34,15414.34,2026-08-05,2026-09-04,ISSUED
-inv_2026_1256,ord_live_1256,Paytm Payments Bank Ltd,70529.0,12695.22,83224.22,2026-08-05,2026-09-04,ISSUED
-inv_2026_1257,ord_live_1257,PhonePe Merchant Services,1919.0,345.42,2264.42,2026-08-10,2026-09-09,ISSUED
-inv_2026_1258,ord_live_1258,Cashfree Payments India Pvt Ltd,64891.0,11680.38,76571.38,2026-07-25,2026-08-24,ISSUED
-inv_2026_1259,ord_live_1259,BillDesk Technology Services,1050.0,189.0,1239.0,2026-07-13,2026-08-12,ISSUED
-inv_2026_1260,ord_live_1260,Razorpay Software Private Limited,13317.0,2397.06,15714.06,2026-07-25,2026-08-24,ISSUED
-inv_2026_1261,ord_live_1261,Paytm Payments Bank Ltd,10764.0,1937.52,12701.52,2026-07-28,2026-08-27,ISSUED
-inv_2026_1262,ord_live_1262,PhonePe Merchant Services,47402.0,8532.36,55934.36,2026-07-15,2026-08-14,ISSUED
-inv_2026_1263,ord_live_1263,Cashfree Payments India Pvt Ltd,18866.0,3395.88,22261.88,2026-07-30,2026-08-29,ISSUED
-inv_2026_1264,ord_live_1264,BillDesk Technology Services,53124.0,9562.32,62686.32,2026-07-29,2026-08-28,ISSUED
-inv_2026_1265,ord_live_1265,Razorpay Software Private Limited,1322.0,237.96,1559.96,2026-08-11,2026-09-10,ISSUED
-inv_2026_1266,ord_live_1266,Paytm Payments Bank Ltd,1906.0,343.08,2249.08,2026-07-17,2026-08-16,ISSUED
-inv_2026_1267,ord_live_1267,PhonePe Merchant Services,1266.0,227.88,1493.88,2026-08-04,2026-09-03,ISSUED
-inv_2026_1268,ord_live_1268,Cashfree Payments India Pvt Ltd,11165.0,2009.7,13174.7,2026-08-09,2026-09-08,ISSUED
-inv_2026_1269,ord_live_1269,BillDesk Technology Services,793.0,142.74,935.74,2026-08-04,2026-09-03,ISSUED
-inv_2026_1270,ord_live_1270,Razorpay Software Private Limited,181.0,32.58,213.58,2026-07-02,2026-08-01,ISSUED
-inv_2026_1271,ord_live_1271,Paytm Payments Bank Ltd,6880.0,1238.4,8118.4,2026-08-08,2026-09-07,ISSUED
-inv_2026_1272,ord_live_1272,PhonePe Merchant Services,114222.0,20559.96,134781.96,2026-08-06,2026-09-05,ISSUED
-inv_2026_1273,ord_live_1273,Cashfree Payments India Pvt Ltd,1769.0,318.42,2087.42,2026-07-01,2026-07-31,ISSUED
-inv_2026_1274,ord_live_1274,BillDesk Technology Services,1939.0,349.02,2288.02,2026-08-16,2026-09-15,ISSUED
-inv_2026_1275,ord_live_1275,Razorpay Software Private Limited,9456.0,1702.08,11158.08,2026-08-15,2026-09-14,ISSUED
-inv_2026_1276,ord_live_1276,Paytm Payments Bank Ltd,14458.0,2602.44,17060.44,2026-07-10,2026-08-09,ISSUED
-inv_2026_1277,ord_live_1277,PhonePe Merchant Services,956.0,172.08,1128.08,2026-07-09,2026-08-08,ISSUED
-inv_2026_1278,ord_live_1278,Cashfree Payments India Pvt Ltd,68223.0,12280.14,80503.14,2026-08-15,2026-09-14,ISSUED
-inv_2026_1279,ord_live_1279,BillDesk Technology Services,137702.0,24786.36,162488.36,2026-08-02,2026-09-01,ISSUED
-inv_2026_1280,ord_live_1280,Razorpay Software Private Limited,10662.0,1919.16,12581.16,2026-08-09,2026-09-08,ISSUED
-inv_2026_1281,ord_live_1281,Paytm Payments Bank Ltd,708.0,127.44,835.44,2026-08-18,2026-09-17,ISSUED
-inv_2026_1282,ord_live_1282,PhonePe Merchant Services,1727.0,310.86,2037.86,2026-08-15,2026-09-14,ISSUED
-inv_2026_1283,ord_live_1283,Cashfree Payments India Pvt Ltd,94199.0,16955.82,111154.82,2026-07-18,2026-08-17,ISSUED
-inv_2026_1284,ord_live_1284,BillDesk Technology Services,17698.0,3185.64,20883.64,2026-07-13,2026-08-12,ISSUED
-inv_2026_1285,ord_live_1285,Razorpay Software Private Limited,1359.0,244.62,1603.62,2026-08-17,2026-09-16,ISSUED
-inv_2026_1286,ord_live_1286,Paytm Payments Bank Ltd,575.0,103.5,678.5,2026-07-03,2026-08-02,ISSUED
-inv_2026_1287,ord_live_1287,PhonePe Merchant Services,1226.0,220.68,1446.68,2026-07-10,2026-08-09,ISSUED
-inv_2026_1288,ord_live_1288,Cashfree Payments India Pvt Ltd,687.0,123.66,810.66,2026-07-20,2026-08-19,ISSUED
-inv_2026_1289,ord_live_1289,BillDesk Technology Services,1611.0,289.98,1900.98,2026-08-15,2026-09-14,ISSUED
-inv_2026_1290,ord_live_1290,Razorpay Software Private Limited,22381.0,4028.58,26409.58,2026-07-26,2026-08-25,ISSUED
-inv_2026_1291,ord_live_1291,Paytm Payments Bank Ltd,1333.0,239.94,1572.94,2026-07-06,2026-08-05,ISSUED
-inv_2026_1292,ord_live_1292,PhonePe Merchant Services,8318.0,1497.24,9815.24,2026-07-07,2026-08-06,ISSUED
-inv_2026_1293,ord_live_1293,Cashfree Payments India Pvt Ltd,2461.0,442.98,2903.98,2026-08-16,2026-09-15,ISSUED
-inv_2026_1294,ord_live_1294,BillDesk Technology Services,46574.0,8383.32,54957.32,2026-07-28,2026-08-27,ISSUED
-inv_2026_1295,ord_live_1295,Razorpay Software Private Limited,386.0,69.48,455.48,2026-07-30,2026-08-29,ISSUED
-inv_2026_1296,ord_live_1296,Paytm Payments Bank Ltd,1642.0,295.56,1937.56,2026-07-17,2026-08-16,ISSUED
-inv_2026_1297,ord_live_1297,PhonePe Merchant Services,582.0,104.76,686.76,2026-07-04,2026-08-03,ISSUED
-inv_2026_1298,ord_live_1298,Cashfree Payments India Pvt Ltd,12190.0,2194.2,14384.2,2026-08-13,2026-09-12,ISSUED
-inv_2026_1299,ord_live_1299,BillDesk Technology Services,372.0,66.96,438.96,2026-07-30,2026-08-29,ISSUED
-inv_2026_1300,ord_live_1300,Razorpay Software Private Limited,69633.0,12533.94,82166.94,2026-08-04,2026-09-03,ISSUED
-inv_2026_1301,ord_live_1301,Paytm Payments Bank Ltd,25365.0,4565.7,29930.7,2026-08-02,2026-09-01,ISSUED
-inv_2026_1302,ord_live_1302,PhonePe Merchant Services,1796.0,323.28,2119.28,2026-08-05,2026-09-04,ISSUED
-inv_2026_1303,ord_live_1303,Cashfree Payments India Pvt Ltd,48956.0,8812.08,57768.08,2026-07-08,2026-08-07,ISSUED
-inv_2026_1304,ord_live_1304,BillDesk Technology Services,212.0,38.16,250.16,2026-07-29,2026-08-28,ISSUED
-inv_2026_1305,ord_live_1305,Razorpay Software Private Limited,12098.0,2177.64,14275.64,2026-08-15,2026-09-14,ISSUED
-inv_2026_1306,ord_live_1306,Paytm Payments Bank Ltd,3484.0,627.12,4111.12,2026-07-27,2026-08-26,ISSUED
-inv_2026_1307,ord_live_1307,PhonePe Merchant Services,936.0,168.48,1104.48,2026-07-11,2026-08-10,ISSUED
-inv_2026_1308,ord_live_1308,Cashfree Payments India Pvt Ltd,1977.0,355.86,2332.86,2026-07-24,2026-08-23,ISSUED
-inv_2026_1309,ord_live_1309,BillDesk Technology Services,1199.0,215.82,1414.82,2026-07-26,2026-08-25,ISSUED
-inv_2026_1310,ord_live_1310,Razorpay Software Private Limited,11776.0,2119.68,13895.68,2026-07-30,2026-08-29,ISSUED
-inv_2026_1311,ord_live_1311,Paytm Payments Bank Ltd,36220.0,6519.6,42739.6,2026-07-29,2026-08-28,ISSUED
-inv_2026_1312,ord_live_1312,PhonePe Merchant Services,1451.0,261.18,1712.18,2026-07-27,2026-08-26,ISSUED
-inv_2026_1313,ord_live_1313,Cashfree Payments India Pvt Ltd,1315.0,236.7,1551.7,2026-07-02,2026-08-01,ISSUED
-inv_2026_1314,ord_live_1314,BillDesk Technology Services,578.0,104.04,682.04,2026-08-03,2026-09-02,ISSUED
-inv_2026_1315,ord_live_1315,Razorpay Software Private Limited,105693.0,19024.74,124717.74,2026-08-16,2026-09-15,ISSUED
-inv_2026_1316,ord_live_1316,Paytm Payments Bank Ltd,63267.0,11388.06,74655.06,2026-08-02,2026-09-01,ISSUED
-inv_2026_1317,ord_live_1317,PhonePe Merchant Services,68182.0,12272.76,80454.76,2026-07-12,2026-08-11,ISSUED
-inv_2026_1318,ord_live_1318,Cashfree Payments India Pvt Ltd,63997.0,11519.46,75516.46,2026-07-25,2026-08-24,ISSUED
-inv_2026_1319,ord_live_1319,BillDesk Technology Services,475.0,85.5,560.5,2026-08-18,2026-09-17,ISSUED
-inv_2026_1320,ord_live_1320,Razorpay Software Private Limited,23776.0,4279.68,28055.68,2026-08-04,2026-09-03,ISSUED
-inv_2026_1321,ord_live_1321,Paytm Payments Bank Ltd,775.0,139.5,914.5,2026-08-10,2026-09-09,ISSUED
-inv_2026_1322,ord_live_1322,PhonePe Merchant Services,8241.0,1483.38,9724.38,2026-07-03,2026-08-02,ISSUED
-inv_2026_1323,ord_live_1323,Cashfree Payments India Pvt Ltd,1658.0,298.44,1956.44,2026-08-07,2026-09-06,ISSUED
-inv_2026_1324,ord_live_1324,BillDesk Technology Services,41821.0,7527.78,49348.78,2026-07-19,2026-08-18,ISSUED
-inv_2026_1325,ord_live_1325,Razorpay Software Private Limited,17693.0,3184.74,20877.74,2026-07-16,2026-08-15,ISSUED
-inv_2026_1326,ord_live_1326,Paytm Payments Bank Ltd,11275.0,2029.5,13304.5,2026-07-24,2026-08-23,ISSUED
-inv_2026_1327,ord_live_1327,PhonePe Merchant Services,1906.0,343.08,2249.08,2026-07-31,2026-08-30,ISSUED
-inv_2026_1328,ord_live_1328,Cashfree Payments India Pvt Ltd,44294.0,7972.92,52266.92,2026-07-20,2026-08-19,ISSUED
-inv_2026_1329,ord_live_1329,BillDesk Technology Services,1232.0,221.76,1453.76,2026-08-07,2026-09-06,ISSUED
-inv_2026_1330,ord_live_1330,Razorpay Software Private Limited,876.0,157.68,1033.68,2026-08-05,2026-09-04,ISSUED
-inv_2026_1331,ord_live_1331,Paytm Payments Bank Ltd,139304.0,25074.72,164378.72,2026-07-29,2026-08-28,ISSUED
-inv_2026_1332,ord_live_1332,PhonePe Merchant Services,18001.0,3240.18,21241.18,2026-07-12,2026-08-11,ISSUED
-inv_2026_1333,ord_live_1333,Cashfree Payments India Pvt Ltd,63792.0,11482.56,75274.56,2026-07-03,2026-08-02,ISSUED
-inv_2026_1334,ord_live_1334,BillDesk Technology Services,1134.0,204.12,1338.12,2026-07-29,2026-08-28,ISSUED
-inv_2026_1335,ord_live_1335,Razorpay Software Private Limited,1188.0,213.84,1401.84,2026-08-04,2026-09-03,ISSUED
-inv_2026_1336,ord_live_1336,Paytm Payments Bank Ltd,1764.0,317.52,2081.52,2026-08-14,2026-09-13,ISSUED
-inv_2026_1337,ord_live_1337,PhonePe Merchant Services,9896.0,1781.28,11677.28,2026-07-13,2026-08-12,ISSUED
-inv_2026_1338,ord_live_1338,Cashfree Payments India Pvt Ltd,930.0,167.4,1097.4,2026-07-30,2026-08-29,ISSUED
-inv_2026_1339,ord_live_1339,BillDesk Technology Services,3038.0,546.84,3584.84,2026-07-05,2026-08-04,ISSUED
-inv_2026_1340,ord_live_1340,Razorpay Software Private Limited,449.0,80.82,529.82,2026-07-06,2026-08-05,ISSUED
-inv_2026_1341,ord_live_1341,Paytm Payments Bank Ltd,22788.0,4101.84,26889.84,2026-07-14,2026-08-13,ISSUED
-inv_2026_1342,ord_live_1342,PhonePe Merchant Services,64854.0,11673.72,76527.72,2026-07-18,2026-08-17,ISSUED
-inv_2026_1343,ord_live_1343,Cashfree Payments India Pvt Ltd,523.0,94.14,617.14,2026-08-06,2026-09-05,ISSUED
-inv_2026_1344,ord_live_1344,BillDesk Technology Services,591.0,106.38,697.38,2026-08-05,2026-09-04,ISSUED
-inv_2026_1345,ord_live_1345,Razorpay Software Private Limited,4569.0,822.42,5391.42,2026-08-02,2026-09-01,ISSUED
-inv_2026_1346,ord_live_1346,Paytm Payments Bank Ltd,42321.0,7617.78,49938.78,2026-08-08,2026-09-07,ISSUED
-inv_2026_1347,ord_live_1347,PhonePe Merchant Services,1021.0,183.78,1204.78,2026-07-31,2026-08-30,ISSUED
-inv_2026_1348,ord_live_1348,Cashfree Payments India Pvt Ltd,14454.0,2601.72,17055.72,2026-07-06,2026-08-05,ISSUED
-inv_2026_1349,ord_live_1349,BillDesk Technology Services,414.0,74.52,488.52,2026-07-25,2026-08-24,ISSUED
-inv_2026_1350,ord_live_1350,Razorpay Software Private Limited,317.0,57.06,374.06,2026-07-05,2026-08-04,ISSUED
-inv_2026_1351,ord_live_1351,Paytm Payments Bank Ltd,277.0,49.86,326.86,2026-07-11,2026-08-10,ISSUED
-inv_2026_1352,ord_live_1352,PhonePe Merchant Services,1234.0,222.12,1456.12,2026-07-06,2026-08-05,ISSUED
-inv_2026_1353,ord_live_1353,Cashfree Payments India Pvt Ltd,946.0,170.28,1116.28,2026-07-24,2026-08-23,ISSUED
-inv_2026_1354,ord_live_1354,BillDesk Technology Services,878.0,158.04,1036.04,2026-07-10,2026-08-09,ISSUED
-inv_2026_1355,ord_live_1355,Razorpay Software Private Limited,989.0,178.02,1167.02,2026-07-17,2026-08-16,ISSUED
-inv_2026_1356,ord_live_1356,Paytm Payments Bank Ltd,67244.0,12103.92,79347.92,2026-08-10,2026-09-09,ISSUED
-inv_2026_1357,ord_live_1357,PhonePe Merchant Services,112.0,20.16,132.16,2026-07-25,2026-08-24,ISSUED
-inv_2026_1358,ord_live_1358,Cashfree Payments India Pvt Ltd,980.0,176.4,1156.4,2026-08-11,2026-09-10,ISSUED
-inv_2026_1359,ord_live_1359,BillDesk Technology Services,7820.0,1407.6,9227.6,2026-07-25,2026-08-24,ISSUED
-inv_2026_1360,ord_live_1360,Razorpay Software Private Limited,673.0,121.14,794.14,2026-08-19,2026-09-18,ISSUED
-inv_2026_1361,ord_live_1361,Paytm Payments Bank Ltd,1671.0,300.78,1971.78,2026-08-04,2026-09-03,ISSUED
-inv_2026_1362,ord_live_1362,PhonePe Merchant Services,24532.0,4415.76,28947.76,2026-08-19,2026-09-18,ISSUED
-inv_2026_1363,ord_live_1363,Cashfree Payments India Pvt Ltd,1447.0,260.46,1707.46,2026-07-10,2026-08-09,ISSUED
-inv_2026_1364,ord_live_1364,BillDesk Technology Services,137815.0,24806.7,162621.7,2026-08-06,2026-09-05,ISSUED
-inv_2026_1365,ord_live_1365,Razorpay Software Private Limited,13781.0,2480.58,16261.58,2026-08-14,2026-09-13,ISSUED
-inv_2026_1366,ord_live_1366,Paytm Payments Bank Ltd,13632.0,2453.76,16085.76,2026-07-11,2026-08-10,ISSUED
-inv_2026_1367,ord_live_1367,PhonePe Merchant Services,131421.0,23655.78,155076.78,2026-07-06,2026-08-05,ISSUED
-inv_2026_1368,ord_live_1368,Cashfree Payments India Pvt Ltd,9242.0,1663.56,10905.56,2026-07-28,2026-08-27,ISSUED
-inv_2026_1369,ord_live_1369,BillDesk Technology Services,11680.0,2102.4,13782.4,2026-07-26,2026-08-25,ISSUED
-inv_2026_1370,ord_live_1370,Razorpay Software Private Limited,1705.0,306.9,2011.9,2026-07-14,2026-08-13,ISSUED
-inv_2026_1371,ord_live_1371,Paytm Payments Bank Ltd,16825.0,3028.5,19853.5,2026-07-20,2026-08-19,ISSUED
-inv_2026_1372,ord_live_1372,PhonePe Merchant Services,7385.0,1329.3,8714.3,2026-08-16,2026-09-15,ISSUED
-inv_2026_1373,ord_live_1373,Cashfree Payments India Pvt Ltd,1045.0,188.1,1233.1,2026-07-14,2026-08-13,ISSUED
-inv_2026_1374,ord_live_1374,BillDesk Technology Services,158.0,28.44,186.44,2026-08-17,2026-09-16,ISSUED
-inv_2026_1375,ord_live_1375,Razorpay Software Private Limited,1542.0,277.56,1819.56,2026-07-13,2026-08-12,ISSUED
-inv_2026_1376,ord_live_1376,Paytm Payments Bank Ltd,19592.0,3526.56,23118.56,2026-07-11,2026-08-10,ISSUED
-inv_2026_1377,ord_live_1377,PhonePe Merchant Services,18039.0,3247.02,21286.02,2026-08-03,2026-09-02,ISSUED
-inv_2026_1378,ord_live_1378,Cashfree Payments India Pvt Ltd,13400.0,2412.0,15812.0,2026-07-22,2026-08-21,ISSUED
-inv_2026_1379,ord_live_1379,BillDesk Technology Services,373.0,67.14,440.14,2026-07-20,2026-08-19,ISSUED
-inv_2026_1380,ord_live_1380,Razorpay Software Private Limited,18738.0,3372.84,22110.84,2026-07-24,2026-08-23,ISSUED
-inv_2026_1381,ord_live_1381,Paytm Payments Bank Ltd,19608.0,3529.44,23137.44,2026-08-14,2026-09-13,ISSUED
-inv_2026_1382,ord_live_1382,PhonePe Merchant Services,743.0,133.74,876.74,2026-07-29,2026-08-28,ISSUED
-inv_2026_1383,ord_live_1383,Cashfree Payments India Pvt Ltd,1768.0,318.24,2086.24,2026-07-25,2026-08-24,ISSUED
-inv_2026_1384,ord_live_1384,BillDesk Technology Services,1819.0,327.42,2146.42,2026-07-29,2026-08-28,ISSUED
-inv_2026_1385,ord_live_1385,Razorpay Software Private Limited,661.0,118.98,779.98,2026-07-15,2026-08-14,ISSUED
-inv_2026_1386,ord_live_1386,Paytm Payments Bank Ltd,5709.0,1027.62,6736.62,2026-08-05,2026-09-04,ISSUED
-inv_2026_1387,ord_live_1387,PhonePe Merchant Services,16462.0,2963.16,19425.16,2026-08-03,2026-09-02,ISSUED
-inv_2026_1388,ord_live_1388,Cashfree Payments India Pvt Ltd,812.0,146.16,958.16,2026-07-05,2026-08-04,ISSUED
-inv_2026_1389,ord_live_1389,BillDesk Technology Services,16030.0,2885.4,18915.4,2026-07-11,2026-08-10,ISSUED
-inv_2026_1390,ord_live_1390,Razorpay Software Private Limited,57360.0,10324.8,67684.8,2026-07-23,2026-08-22,ISSUED
-inv_2026_1391,ord_live_1391,Paytm Payments Bank Ltd,646.0,116.28,762.28,2026-08-02,2026-09-01,ISSUED
-inv_2026_1392,ord_live_1392,PhonePe Merchant Services,38174.0,6871.32,45045.32,2026-08-10,2026-09-09,ISSUED
-inv_2026_1393,ord_live_1393,Cashfree Payments India Pvt Ltd,10111.0,1819.98,11930.98,2026-08-18,2026-09-17,ISSUED
-inv_2026_1394,ord_live_1394,BillDesk Technology Services,947.0,170.46,1117.46,2026-07-24,2026-08-23,ISSUED
-inv_2026_1395,ord_live_1395,Razorpay Software Private Limited,14093.0,2536.74,16629.74,2026-07-30,2026-08-29,ISSUED
-inv_2026_1396,ord_live_1396,Paytm Payments Bank Ltd,17022.0,3063.96,20085.96,2026-08-10,2026-09-09,ISSUED
-inv_2026_1397,ord_live_1397,PhonePe Merchant Services,978.0,176.04,1154.04,2026-07-14,2026-08-13,ISSUED
-inv_2026_1398,ord_live_1398,Cashfree Payments India Pvt Ltd,17903.0,3222.54,21125.54,2026-08-19,2026-09-18,ISSUED
-inv_2026_1399,ord_live_1399,BillDesk Technology Services,17059.0,3070.62,20129.62,2026-07-01,2026-07-31,ISSUED
-inv_2026_1400,ord_live_1400,Razorpay Software Private Limited,975.0,175.5,1150.5,2026-07-13,2026-08-12,ISSUED
-inv_2026_1401,ord_live_1401,Paytm Payments Bank Ltd,837.0,150.66,987.66,2026-07-16,2026-08-15,ISSUED
-inv_2026_1402,ord_live_1402,PhonePe Merchant Services,9672.0,1740.96,11412.96,2026-07-28,2026-08-27,ISSUED
-inv_2026_1403,ord_live_1403,Cashfree Payments India Pvt Ltd,6348.0,1142.64,7490.64,2026-08-06,2026-09-05,ISSUED
-inv_2026_1404,ord_live_1404,BillDesk Technology Services,5951.0,1071.18,7022.18,2026-07-28,2026-08-27,ISSUED
-inv_2026_1405,ord_live_1405,Razorpay Software Private Limited,1749.0,314.82,2063.82,2026-07-06,2026-08-05,ISSUED
-inv_2026_1406,ord_live_1406,Paytm Payments Bank Ltd,6362.0,1145.16,7507.16,2026-08-11,2026-09-10,ISSUED
-inv_2026_1407,ord_live_1407,PhonePe Merchant Services,818.0,147.24,965.24,2026-08-15,2026-09-14,ISSUED
-inv_2026_1408,ord_live_1408,Cashfree Payments India Pvt Ltd,9118.0,1641.24,10759.24,2026-07-05,2026-08-04,ISSUED
-inv_2026_1409,ord_live_1409,BillDesk Technology Services,978.0,176.04,1154.04,2026-07-20,2026-08-19,ISSUED
-inv_2026_1410,ord_live_1410,Razorpay Software Private Limited,11336.0,2040.48,13376.48,2026-08-19,2026-09-18,ISSUED
-inv_2026_1411,ord_live_1411,Paytm Payments Bank Ltd,8181.0,1472.58,9653.58,2026-08-16,2026-09-15,ISSUED
-inv_2026_1412,ord_live_1412,PhonePe Merchant Services,5694.0,1024.92,6718.92,2026-07-16,2026-08-15,ISSUED
-inv_2026_1413,ord_live_1413,Cashfree Payments India Pvt Ltd,116481.0,20966.58,137447.58,2026-07-08,2026-08-07,ISSUED
-inv_2026_1414,ord_live_1414,BillDesk Technology Services,17434.0,3138.12,20572.12,2026-08-18,2026-09-17,ISSUED
-inv_2026_1415,ord_live_1415,Razorpay Software Private Limited,1988.0,357.84,2345.84,2026-07-03,2026-08-02,ISSUED
-inv_2026_1416,ord_live_1416,Paytm Payments Bank Ltd,1197.0,215.46,1412.46,2026-08-04,2026-09-03,ISSUED
-inv_2026_1417,ord_live_1417,PhonePe Merchant Services,8658.0,1558.44,10216.44,2026-07-10,2026-08-09,ISSUED
-inv_2026_1418,ord_live_1418,Cashfree Payments India Pvt Ltd,9819.0,1767.42,11586.42,2026-07-03,2026-08-02,ISSUED
-inv_2026_1419,ord_live_1419,BillDesk Technology Services,3803.0,684.54,4487.54,2026-07-20,2026-08-19,ISSUED
-inv_2026_1420,ord_live_1420,Razorpay Software Private Limited,2371.0,426.78,2797.78,2026-07-11,2026-08-10,ISSUED
-inv_2026_1421,ord_live_1421,Paytm Payments Bank Ltd,1698.0,305.64,2003.64,2026-07-18,2026-08-17,ISSUED
-inv_2026_1422,ord_live_1422,PhonePe Merchant Services,229.0,41.22,270.22,2026-07-17,2026-08-16,ISSUED
-inv_2026_1423,ord_live_1423,Cashfree Payments India Pvt Ltd,3816.0,686.88,4502.88,2026-08-01,2026-08-31,ISSUED
-inv_2026_1424,ord_live_1424,BillDesk Technology Services,64179.0,11552.22,75731.22,2026-08-15,2026-09-14,ISSUED
-inv_2026_1425,ord_live_1425,Razorpay Software Private Limited,1065.0,191.7,1256.7,2026-07-23,2026-08-22,ISSUED
-inv_2026_1426,ord_live_1426,Paytm Payments Bank Ltd,15741.0,2833.38,18574.38,2026-07-14,2026-08-13,ISSUED
-inv_2026_1427,ord_live_1427,PhonePe Merchant Services,5912.0,1064.16,6976.16,2026-08-02,2026-09-01,ISSUED
-inv_2026_1428,ord_live_1428,Cashfree Payments India Pvt Ltd,127551.0,22959.18,150510.18,2026-07-04,2026-08-03,ISSUED
-inv_2026_1429,ord_live_1429,BillDesk Technology Services,2261.0,406.98,2667.98,2026-07-23,2026-08-22,ISSUED
-inv_2026_1430,ord_live_1430,Razorpay Software Private Limited,853.0,153.54,1006.54,2026-08-07,2026-09-06,ISSUED
-inv_2026_1431,ord_live_1431,Paytm Payments Bank Ltd,10032.0,1805.76,11837.76,2026-07-09,2026-08-08,ISSUED
-inv_2026_1432,ord_live_1432,PhonePe Merchant Services,1818.0,327.24,2145.24,2026-08-13,2026-09-12,ISSUED
-inv_2026_1433,ord_live_1433,Cashfree Payments India Pvt Ltd,1184.0,213.12,1397.12,2026-07-15,2026-08-14,ISSUED
-inv_2026_1434,ord_live_1434,BillDesk Technology Services,1985.0,357.3,2342.3,2026-07-15,2026-08-14,ISSUED
-inv_2026_1435,ord_live_1435,Razorpay Software Private Limited,18561.0,3340.98,21901.98,2026-07-09,2026-08-08,ISSUED
-inv_2026_1436,ord_live_1436,Paytm Payments Bank Ltd,1455.0,261.9,1716.9,2026-07-08,2026-08-07,ISSUED
-inv_2026_1437,ord_live_1437,PhonePe Merchant Services,12690.0,2284.2,14974.2,2026-07-20,2026-08-19,ISSUED
-inv_2026_1438,ord_live_1438,Cashfree Payments India Pvt Ltd,5570.0,1002.6,6572.6,2026-07-09,2026-08-08,ISSUED
-inv_2026_1439,ord_live_1439,BillDesk Technology Services,832.0,149.76,981.76,2026-08-18,2026-09-17,ISSUED
-inv_2026_1440,ord_live_1440,Razorpay Software Private Limited,1752.0,315.36,2067.36,2026-08-12,2026-09-11,ISSUED
-inv_2026_1441,ord_live_1441,Paytm Payments Bank Ltd,1555.0,279.9,1834.9,2026-07-15,2026-08-14,ISSUED
-inv_2026_1442,ord_live_1442,PhonePe Merchant Services,455.0,81.9,536.9,2026-07-01,2026-07-31,ISSUED
-inv_2026_1443,ord_live_1443,Cashfree Payments India Pvt Ltd,1724.0,310.32,2034.32,2026-07-08,2026-08-07,ISSUED
-inv_2026_1444,ord_live_1444,BillDesk Technology Services,44395.0,7991.1,52386.1,2026-08-13,2026-09-12,ISSUED
-inv_2026_1445,ord_live_1445,Razorpay Software Private Limited,231.0,41.58,272.58,2026-07-13,2026-08-12,ISSUED
-inv_2026_1446,ord_live_1446,Paytm Payments Bank Ltd,1043.0,187.74,1230.74,2026-07-03,2026-08-02,ISSUED
-inv_2026_1447,ord_live_1447,PhonePe Merchant Services,14541.0,2617.38,17158.38,2026-08-12,2026-09-11,ISSUED
-inv_2026_1448,ord_live_1448,Cashfree Payments India Pvt Ltd,1908.0,343.44,2251.44,2026-07-09,2026-08-08,ISSUED
-inv_2026_1449,ord_live_1449,BillDesk Technology Services,17696.0,3185.28,20881.28,2026-07-03,2026-08-02,ISSUED
-inv_2026_1450,ord_live_1450,Razorpay Software Private Limited,19229.0,3461.22,22690.22,2026-07-16,2026-08-15,ISSUED
-inv_2026_1451,ord_live_1451,Paytm Payments Bank Ltd,17881.0,3218.58,21099.58,2026-07-23,2026-08-22,ISSUED
-inv_2026_1452,ord_live_1452,PhonePe Merchant Services,1321.0,237.78,1558.78,2026-07-14,2026-08-13,ISSUED
-inv_2026_1453,ord_live_1453,Cashfree Payments India Pvt Ltd,9627.0,1732.86,11359.86,2026-07-10,2026-08-09,ISSUED
-inv_2026_1454,ord_live_1454,BillDesk Technology Services,68303.0,12294.54,80597.54,2026-07-03,2026-08-02,ISSUED
-inv_2026_1455,ord_live_1455,Razorpay Software Private Limited,1312.0,236.16,1548.16,2026-07-21,2026-08-20,ISSUED
-inv_2026_1456,ord_live_1456,Paytm Payments Bank Ltd,56936.0,10248.48,67184.48,2026-07-10,2026-08-09,ISSUED
-inv_2026_1457,ord_live_1457,PhonePe Merchant Services,176.0,31.68,207.68,2026-07-05,2026-08-04,ISSUED
-inv_2026_1458,ord_live_1458,Cashfree Payments India Pvt Ltd,12870.0,2316.6,15186.6,2026-08-08,2026-09-07,ISSUED
-inv_2026_1459,ord_live_1459,BillDesk Technology Services,41206.0,7417.08,48623.08,2026-07-03,2026-08-02,ISSUED
-inv_2026_1460,ord_live_1460,Razorpay Software Private Limited,43913.0,7904.34,51817.34,2026-07-04,2026-08-03,ISSUED
-inv_2026_1461,ord_live_1461,Paytm Payments Bank Ltd,759.0,136.62,895.62,2026-07-08,2026-08-07,ISSUED
-inv_2026_1462,ord_live_1462,PhonePe Merchant Services,1249.0,224.82,1473.82,2026-08-14,2026-09-13,ISSUED
-inv_2026_1463,ord_live_1463,Cashfree Payments India Pvt Ltd,44797.0,8063.46,52860.46,2026-07-20,2026-08-19,ISSUED
-inv_2026_1464,ord_live_1464,BillDesk Technology Services,57541.0,10357.38,67898.38,2026-07-26,2026-08-25,ISSUED
-inv_2026_1465,ord_live_1465,Razorpay Software Private Limited,1257.0,226.26,1483.26,2026-07-07,2026-08-06,ISSUED
-inv_2026_1466,ord_live_1466,Paytm Payments Bank Ltd,97006.0,17461.08,114467.08,2026-08-09,2026-09-08,ISSUED
-inv_2026_1467,ord_live_1467,PhonePe Merchant Services,610.0,109.8,719.8,2026-08-13,2026-09-12,ISSUED
-inv_2026_1468,ord_live_1468,Cashfree Payments India Pvt Ltd,996.0,179.28,1175.28,2026-08-15,2026-09-14,ISSUED
-inv_2026_1469,ord_live_1469,BillDesk Technology Services,867.0,156.06,1023.06,2026-07-07,2026-08-06,ISSUED
-inv_2026_1470,ord_live_1470,Razorpay Software Private Limited,1831.0,329.58,2160.58,2026-07-02,2026-08-01,ISSUED
-inv_2026_1471,ord_live_1471,Paytm Payments Bank Ltd,1917.0,345.06,2262.06,2026-07-24,2026-08-23,ISSUED
-inv_2026_1472,ord_live_1472,PhonePe Merchant Services,138274.0,24889.32,163163.32,2026-08-14,2026-09-13,ISSUED
-inv_2026_1473,ord_live_1473,Cashfree Payments India Pvt Ltd,306.0,55.08,361.08,2026-07-21,2026-08-20,ISSUED
-inv_2026_1474,ord_live_1474,BillDesk Technology Services,295.0,53.1,348.1,2026-07-03,2026-08-02,ISSUED
-inv_2026_1475,ord_live_1475,Razorpay Software Private Limited,974.0,175.32,1149.32,2026-07-05,2026-08-04,ISSUED
-inv_2026_1476,ord_live_1476,Paytm Payments Bank Ltd,448.0,80.64,528.64,2026-08-09,2026-09-08,ISSUED
-inv_2026_1477,ord_live_1477,PhonePe Merchant Services,10683.0,1922.94,12605.94,2026-07-06,2026-08-05,ISSUED
-inv_2026_1478,ord_live_1478,Cashfree Payments India Pvt Ltd,1011.0,181.98,1192.98,2026-07-02,2026-08-01,ISSUED
-inv_2026_1479,ord_live_1479,BillDesk Technology Services,6952.0,1251.36,8203.36,2026-08-18,2026-09-17,ISSUED
-inv_2026_1480,ord_live_1480,Razorpay Software Private Limited,47131.0,8483.58,55614.58,2026-08-18,2026-09-17,ISSUED
-inv_2026_1481,ord_live_1481,Paytm Payments Bank Ltd,47435.0,8538.3,55973.3,2026-08-04,2026-09-03,ISSUED
-inv_2026_1482,ord_live_1482,PhonePe Merchant Services,4587.0,825.66,5412.66,2026-07-26,2026-08-25,ISSUED
-inv_2026_1483,ord_live_1483,Cashfree Payments India Pvt Ltd,441.0,79.38,520.38,2026-07-13,2026-08-12,ISSUED
-inv_2026_1484,ord_live_1484,BillDesk Technology Services,1783.0,320.94,2103.94,2026-08-09,2026-09-08,ISSUED
-inv_2026_1485,ord_live_1485,Razorpay Software Private Limited,1238.0,222.84,1460.84,2026-07-26,2026-08-25,ISSUED
-inv_2026_1486,ord_live_1486,Paytm Payments Bank Ltd,20810.0,3745.8,24555.8,2026-08-20,2026-09-19,ISSUED
-inv_2026_1487,ord_live_1487,PhonePe Merchant Services,1259.0,226.62,1485.62,2026-08-07,2026-09-06,ISSUED
-inv_2026_1488,ord_live_1488,Cashfree Payments India Pvt Ltd,19551.0,3519.18,23070.18,2026-07-22,2026-08-21,ISSUED
-inv_2026_1489,ord_live_1489,BillDesk Technology Services,7642.0,1375.56,9017.56,2026-07-17,2026-08-16,ISSUED
-inv_2026_1490,ord_live_1490,Razorpay Software Private Limited,41724.0,7510.32,49234.32,2026-08-13,2026-09-12,ISSUED
-inv_2026_1491,ord_live_1491,Paytm Payments Bank Ltd,1773.0,319.14,2092.14,2026-08-19,2026-09-18,ISSUED
-inv_2026_1492,ord_live_1492,PhonePe Merchant Services,104879.0,18878.22,123757.22,2026-07-08,2026-08-07,ISSUED
-inv_2026_1493,ord_live_1493,Cashfree Payments India Pvt Ltd,4925.0,886.5,5811.5,2026-07-12,2026-08-11,ISSUED
-inv_2026_1494,ord_live_1494,BillDesk Technology Services,14252.0,2565.36,16817.36,2026-07-04,2026-08-03,ISSUED
-inv_2026_1495,ord_live_1495,Razorpay Software Private Limited,1697.0,305.46,2002.46,2026-08-03,2026-09-02,ISSUED
-inv_2026_1496,ord_live_1496,Paytm Payments Bank Ltd,36350.0,6543.0,42893.0,2026-07-02,2026-08-01,ISSUED
-inv_2026_1497,ord_live_1497,PhonePe Merchant Services,1785.0,321.3,2106.3,2026-07-30,2026-08-29,ISSUED
-inv_2026_1498,ord_live_1498,Cashfree Payments India Pvt Ltd,1100.0,198.0,1298.0,2026-08-07,2026-09-06,ISSUED
-inv_2026_1499,ord_live_1499,BillDesk Technology Services,433.0,77.94,510.94,2026-07-17,2026-08-16,ISSUED
-inv_2026_1500,ord_live_1500,Razorpay Software Private Limited,432.0,77.76,509.76,2026-08-05,2026-09-04,ISSUED
+INV-2026-1001,ord_live_1001,BillDesk Technology Services,10024.0,1804.32,11828.32,2026-07-14 13:47:06,2026-08-13 13:47:06,ISSUED
+INV-2026-1002,ord_live_1002,BillDesk Technology Services,160.0,28.8,188.8,2026-07-05 15:14:32,2026-08-04 15:14:32,ISSUED
+INV-2026-1003,ord_live_1003,Cashfree Payments India Pvt Ltd,1429.0,257.22,1686.22,2026-08-14 02:26:14,2026-09-13 02:26:14,ISSUED
+INV-2026-1004,ord_live_1004,Paytm Payments Bank Ltd,1879.0,338.22,2217.2200000000003,2026-06-30 14:44:27,2026-07-30 14:44:27,ISSUED
+INV-2026-1005,ord_live_1005,BillDesk Technology Services,1662.0,299.16,1961.16,2026-07-21 12:05:24,2026-08-20 12:05:24,ISSUED
+INV-2026-1006,ord_live_1006,Razorpay Software Private Limited,59565.0,10721.7,70286.7,2026-07-16 10:46:29,2026-08-15 10:46:29,ISSUED
+INV-2026-1007,ord_live_1007,Razorpay Software Private Limited,699.0,125.82,824.8199999999999,2026-08-10 04:56:55,2026-09-09 04:56:55,ISSUED
+INV-2026-1008,ord_live_1008,Paytm Payments Bank Ltd,241.0,43.38,284.38,2026-07-03 06:14:49,2026-08-02 06:14:49,ISSUED
+INV-2026-1009,ord_live_1009,BillDesk Technology Services,26619.0,4791.42,31410.42,2026-07-24 17:29:40,2026-08-23 17:29:40,ISSUED
+INV-2026-1010,ord_live_1010,Paytm Payments Bank Ltd,528.0,95.04,623.04,2026-08-11 17:44:59,2026-09-10 17:44:59,ISSUED
+INV-2026-1011,ord_live_1011,Paytm Payments Bank Ltd,19502.0,3510.36,23012.36,2026-08-15 16:10:29,2026-09-14 16:10:29,ISSUED
+INV-2026-1012,ord_live_1012,BillDesk Technology Services,148001.0,26640.18,174641.18,2026-07-15 06:20:53,2026-08-14 06:20:53,ISSUED
+INV-2026-1013,ord_live_1013,PhonePe Merchant Services,72759.0,13096.62,85855.62,2026-07-20 21:17:04,2026-08-19 21:17:04,ISSUED
+INV-2026-1014,ord_live_1014,Paytm Payments Bank Ltd,40622.0,7311.96,47933.96,2026-07-14 05:31:25,2026-08-13 05:31:25,ISSUED
+INV-2026-1015,ord_live_1015,Paytm Payments Bank Ltd,604.0,108.72,712.72,2026-08-17 02:34:16,2026-09-16 02:34:16,ISSUED
+INV-2026-1016,ord_live_1016,PhonePe Merchant Services,548.0,98.64,646.64,2026-07-09 01:31:05,2026-08-08 01:31:05,ISSUED
+INV-2026-1017,ord_live_1017,Razorpay Software Private Limited,426.0,76.68,502.68,2026-08-20 06:27:38,2026-09-19 06:27:38,ISSUED
+INV-2026-1018,ord_live_1018,Cashfree Payments India Pvt Ltd,1057.0,190.26,1247.26,2026-08-02 17:35:55,2026-09-01 17:35:55,ISSUED
+INV-2026-1019,ord_live_1019,BillDesk Technology Services,19595.0,3527.1,23122.1,2026-08-17 17:49:41,2026-09-16 17:49:41,ISSUED
+INV-2026-1020,ord_live_1020,BillDesk Technology Services,422.0,75.96,497.96,2026-07-29 09:46:56,2026-08-28 09:46:56,ISSUED
+INV-2026-1021,ord_live_1021,PhonePe Merchant Services,18635.0,3354.3,21989.3,2026-07-07 05:19:53,2026-08-06 05:19:53,ISSUED
+INV-2026-1022,ord_live_1022,Cashfree Payments India Pvt Ltd,429.0,77.22,506.22,2026-08-04 01:58:00,2026-09-03 01:58:00,ISSUED
+INV-2026-1023,ord_live_1023,Paytm Payments Bank Ltd,842.0,151.56,993.56,2026-07-19 16:03:15,2026-08-18 16:03:15,ISSUED
+INV-2026-1024,ord_live_1024,BillDesk Technology Services,4267.0,768.06,5035.0599999999995,2026-08-18 02:49:08,2026-09-17 02:49:08,ISSUED
+INV-2026-1025,ord_live_1025,PhonePe Merchant Services,7410.0,1333.8,8743.8,2026-07-17 01:55:38,2026-08-16 01:55:38,ISSUED
+INV-2026-1026,ord_live_1026,PhonePe Merchant Services,69497.0,12509.46,82006.45999999999,2026-08-16 07:12:45,2026-09-15 07:12:45,ISSUED
+INV-2026-1027,ord_live_1027,PhonePe Merchant Services,123945.0,22310.1,146255.1,2026-07-29 01:28:07,2026-08-28 01:28:07,ISSUED
+INV-2026-1028,ord_live_1028,Paytm Payments Bank Ltd,142.0,25.56,167.56,2026-08-07 02:14:37,2026-09-06 02:14:37,ISSUED
+INV-2026-1029,ord_live_1029,Razorpay Software Private Limited,1391.0,250.38,1641.38,2026-07-03 16:04:57,2026-08-02 16:04:57,ISSUED
+INV-2026-1030,ord_live_1030,Cashfree Payments India Pvt Ltd,586.0,105.48,691.48,2026-07-18 06:31:13,2026-08-17 06:31:13,ISSUED
+INV-2026-1031,ord_live_1031,Cashfree Payments India Pvt Ltd,57423.0,10336.14,67759.14,2026-08-06 00:15:50,2026-09-05 00:15:50,ISSUED
+INV-2026-1032,ord_live_1032,Cashfree Payments India Pvt Ltd,297.0,53.46,350.46,2026-08-11 22:22:27,2026-09-10 22:22:27,ISSUED
+INV-2026-1033,ord_live_1033,Paytm Payments Bank Ltd,23550.0,4239.0,27789.0,2026-08-13 05:41:06,2026-09-12 05:41:06,ISSUED
+INV-2026-1034,ord_live_1034,PhonePe Merchant Services,5580.0,1004.4,6584.4,2026-07-15 15:12:34,2026-08-14 15:12:34,ISSUED
+INV-2026-1035,ord_live_1035,Razorpay Software Private Limited,669.0,120.42,789.42,2026-07-29 16:55:59,2026-08-28 16:55:59,ISSUED
+INV-2026-1036,ord_live_1036,Razorpay Software Private Limited,56066.0,10091.88,66157.88,2026-07-06 10:41:34,2026-08-05 10:41:34,ISSUED
+INV-2026-1037,ord_live_1037,BillDesk Technology Services,35491.0,6388.38,41879.38,2026-07-10 22:31:30,2026-08-09 22:31:30,ISSUED
+INV-2026-1038,ord_live_1038,Cashfree Payments India Pvt Ltd,30789.0,5542.02,36331.020000000004,2026-07-24 09:24:16,2026-08-23 09:24:16,ISSUED
+INV-2026-1039,ord_live_1039,Cashfree Payments India Pvt Ltd,1595.0,287.1,1882.1,2026-08-20 02:42:45,2026-09-19 02:42:45,ISSUED
+INV-2026-1040,ord_live_1040,Paytm Payments Bank Ltd,544.0,97.92,641.92,2026-07-04 03:47:34,2026-08-03 03:47:34,ISSUED
+INV-2026-1041,ord_live_1041,BillDesk Technology Services,201.0,36.18,237.18,2026-08-07 00:32:58,2026-09-06 00:32:58,ISSUED
+INV-2026-1042,ord_live_1042,Paytm Payments Bank Ltd,85501.0,15390.18,100891.18,2026-07-11 11:38:04,2026-08-10 11:38:04,ISSUED
+INV-2026-1043,ord_live_1043,BillDesk Technology Services,1922.0,345.96,2267.96,2026-08-05 16:37:38,2026-09-04 16:37:38,ISSUED
+INV-2026-1044,ord_live_1044,PhonePe Merchant Services,1445.0,260.1,1705.1,2026-08-07 03:33:20,2026-09-06 03:33:20,ISSUED
+INV-2026-1045,ord_live_1045,BillDesk Technology Services,12295.0,2213.1,14508.1,2026-07-15 17:25:08,2026-08-14 17:25:08,ISSUED
+INV-2026-1046,ord_live_1046,Razorpay Software Private Limited,1638.0,294.84,1932.84,2026-07-04 09:29:39,2026-08-03 09:29:39,ISSUED
+INV-2026-1047,ord_live_1047,Paytm Payments Bank Ltd,18576.0,3343.68,21919.68,2026-07-16 13:59:22,2026-08-15 13:59:22,ISSUED
+INV-2026-1048,ord_live_1048,Razorpay Software Private Limited,422.0,75.96,497.96,2026-07-29 02:45:19,2026-08-28 02:45:19,ISSUED
+INV-2026-1049,ord_live_1049,Razorpay Software Private Limited,39620.0,7131.6,46751.6,2026-08-11 12:56:08,2026-09-10 12:56:08,ISSUED
+INV-2026-1050,ord_live_1050,Cashfree Payments India Pvt Ltd,68655.0,12357.9,81012.9,2026-08-04 13:17:18,2026-09-03 13:17:18,ISSUED
+INV-2026-1051,ord_live_1051,PhonePe Merchant Services,1506.0,271.08,1777.08,2026-08-09 17:32:31,2026-09-08 17:32:31,ISSUED
+INV-2026-1052,ord_live_1052,BillDesk Technology Services,966.0,173.88,1139.88,2026-07-17 10:00:21,2026-08-16 10:00:21,ISSUED
+INV-2026-1053,ord_live_1053,PhonePe Merchant Services,96179.0,17312.22,113491.22,2026-08-16 23:35:45,2026-09-15 23:35:45,ISSUED
+INV-2026-1054,ord_live_1054,PhonePe Merchant Services,253.0,45.54,298.54,2026-08-13 13:34:02,2026-09-12 13:34:02,ISSUED
+INV-2026-1055,ord_live_1055,Razorpay Software Private Limited,16083.0,2894.94,18977.94,2026-07-08 10:19:23,2026-08-07 10:19:23,ISSUED
+INV-2026-1056,ord_live_1056,Cashfree Payments India Pvt Ltd,610.0,109.8,719.8,2026-08-11 12:22:49,2026-09-10 12:22:49,ISSUED
+INV-2026-1057,ord_live_1057,PhonePe Merchant Services,9757.0,1756.26,11513.26,2026-07-10 14:56:26,2026-08-09 14:56:26,ISSUED
+INV-2026-1058,ord_live_1058,Paytm Payments Bank Ltd,12885.0,2319.3,15204.3,2026-08-19 22:51:42,2026-09-18 22:51:42,ISSUED
+INV-2026-1059,ord_live_1059,Razorpay Software Private Limited,1535.0,276.3,1811.3,2026-07-06 21:55:02,2026-08-05 21:55:02,ISSUED
+INV-2026-1060,ord_live_1060,PhonePe Merchant Services,1979.0,356.22,2335.2200000000003,2026-07-29 20:19:52,2026-08-28 20:19:52,ISSUED
+INV-2026-1061,ord_live_1061,Cashfree Payments India Pvt Ltd,494.0,88.92,582.92,2026-07-25 19:17:55,2026-08-24 19:17:55,ISSUED
+INV-2026-1062,ord_live_1062,BillDesk Technology Services,1142.0,205.56,1347.56,2026-07-26 06:53:34,2026-08-25 06:53:34,ISSUED
+INV-2026-1063,ord_live_1063,Razorpay Software Private Limited,633.0,113.94,746.94,2026-07-12 03:16:02,2026-08-11 03:16:02,ISSUED
+INV-2026-1064,ord_live_1064,BillDesk Technology Services,1591.0,286.38,1877.38,2026-08-19 19:27:38,2026-09-18 19:27:38,ISSUED
+INV-2026-1065,ord_live_1065,BillDesk Technology Services,32457.0,5842.26,38299.26,2026-07-16 10:45:27,2026-08-15 10:45:27,ISSUED
+INV-2026-1066,ord_live_1066,Cashfree Payments India Pvt Ltd,55287.0,9951.66,65238.66,2026-08-13 08:47:47,2026-09-12 08:47:47,ISSUED
+INV-2026-1067,ord_live_1067,Paytm Payments Bank Ltd,1459.0,262.62,1721.62,2026-07-22 04:20:42,2026-08-21 04:20:42,ISSUED
+INV-2026-1068,ord_live_1068,Razorpay Software Private Limited,53234.0,9582.12,62816.12,2026-07-20 06:26:20,2026-08-19 06:26:20,ISSUED
+INV-2026-1069,ord_live_1069,Razorpay Software Private Limited,359.0,64.62,423.62,2026-07-12 22:42:24,2026-08-11 22:42:24,ISSUED
+INV-2026-1070,ord_live_1070,BillDesk Technology Services,15306.0,2755.08,18061.08,2026-08-04 09:19:18,2026-09-03 09:19:18,ISSUED
+INV-2026-1071,ord_live_1071,BillDesk Technology Services,12559.0,2260.62,14819.619999999999,2026-07-29 23:28:43,2026-08-28 23:28:43,ISSUED
+INV-2026-1072,ord_live_1072,Cashfree Payments India Pvt Ltd,7560.0,1360.8,8920.8,2026-08-11 11:18:32,2026-09-10 11:18:32,ISSUED
+INV-2026-1073,ord_live_1073,Paytm Payments Bank Ltd,69226.0,12460.68,81686.68,2026-07-16 06:19:14,2026-08-15 06:19:14,ISSUED
+INV-2026-1074,ord_live_1074,Paytm Payments Bank Ltd,600.0,108.0,708.0,2026-07-31 04:54:49,2026-08-30 04:54:49,ISSUED
+INV-2026-1075,ord_live_1075,Cashfree Payments India Pvt Ltd,1388.0,249.84,1637.84,2026-08-05 15:45:44,2026-09-04 15:45:44,ISSUED
+INV-2026-1076,ord_live_1076,Paytm Payments Bank Ltd,401.0,72.18,473.18,2026-08-11 07:00:57,2026-09-10 07:00:57,ISSUED
+INV-2026-1077,ord_live_1077,BillDesk Technology Services,1745.0,314.1,2059.1,2026-08-14 01:29:03,2026-09-13 01:29:03,ISSUED
+INV-2026-1078,ord_live_1078,Razorpay Software Private Limited,17225.0,3100.5,20325.5,2026-08-12 01:35:38,2026-09-11 01:35:38,ISSUED
+INV-2026-1079,ord_live_1079,BillDesk Technology Services,18540.0,3337.2,21877.2,2026-07-28 02:28:57,2026-08-27 02:28:57,ISSUED
+INV-2026-1080,ord_live_1080,BillDesk Technology Services,49495.0,8909.1,58404.1,2026-07-16 16:53:40,2026-08-15 16:53:40,ISSUED
+INV-2026-1081,ord_live_1081,BillDesk Technology Services,9839.0,1771.02,11610.02,2026-07-17 23:04:45,2026-08-16 23:04:45,ISSUED
+INV-2026-1082,ord_live_1082,Razorpay Software Private Limited,753.0,135.54,888.54,2026-08-03 11:08:09,2026-09-02 11:08:09,ISSUED
+INV-2026-1083,ord_live_1083,BillDesk Technology Services,9010.0,1621.8,10631.8,2026-07-04 22:26:21,2026-08-03 22:26:21,ISSUED
+INV-2026-1084,ord_live_1084,Razorpay Software Private Limited,1804.0,324.72,2128.7200000000003,2026-07-26 21:57:49,2026-08-25 21:57:49,ISSUED
+INV-2026-1085,ord_live_1085,PhonePe Merchant Services,111.0,19.98,130.98,2026-07-22 18:48:24,2026-08-21 18:48:24,ISSUED
+INV-2026-1086,ord_live_1086,Cashfree Payments India Pvt Ltd,19895.0,3581.1,23476.1,2026-08-07 16:31:14,2026-09-06 16:31:14,ISSUED
+INV-2026-1087,ord_live_1087,BillDesk Technology Services,14742.0,2653.56,17395.56,2026-07-22 06:43:51,2026-08-21 06:43:51,ISSUED
+INV-2026-1088,ord_live_1088,Paytm Payments Bank Ltd,1056.0,190.08,1246.08,2026-07-09 04:34:01,2026-08-08 04:34:01,ISSUED
+INV-2026-1089,ord_live_1089,BillDesk Technology Services,2888.0,519.84,3407.84,2026-07-06 05:27:08,2026-08-05 05:27:08,ISSUED
+INV-2026-1090,ord_live_1090,Razorpay Software Private Limited,875.0,157.5,1032.5,2026-07-20 15:29:20,2026-08-19 15:29:20,ISSUED
+INV-2026-1091,ord_live_1091,Paytm Payments Bank Ltd,1802.0,324.36,2126.36,2026-07-26 17:53:05,2026-08-25 17:53:05,ISSUED
+INV-2026-1092,ord_live_1092,PhonePe Merchant Services,3706.0,667.08,4373.08,2026-07-22 16:41:04,2026-08-21 16:41:04,ISSUED
+INV-2026-1093,ord_live_1093,PhonePe Merchant Services,33065.0,5951.7,39016.7,2026-07-02 04:09:15,2026-08-01 04:09:15,ISSUED
+INV-2026-1094,ord_live_1094,PhonePe Merchant Services,9142.0,1645.56,10787.56,2026-07-30 07:16:49,2026-08-29 07:16:49,ISSUED
+INV-2026-1095,ord_live_1095,Razorpay Software Private Limited,5753.0,1035.54,6788.54,2026-08-18 14:19:06,2026-09-17 14:19:06,ISSUED
+INV-2026-1096,ord_live_1096,Paytm Payments Bank Ltd,14298.0,2573.64,16871.64,2026-07-26 07:12:04,2026-08-25 07:12:04,ISSUED
+INV-2026-1097,ord_live_1097,PhonePe Merchant Services,11882.0,2138.76,14020.76,2026-08-13 04:51:07,2026-09-12 04:51:07,ISSUED
+INV-2026-1098,ord_live_1098,BillDesk Technology Services,14142.0,2545.56,16687.56,2026-07-05 01:41:21,2026-08-04 01:41:21,ISSUED
+INV-2026-1099,ord_live_1099,Cashfree Payments India Pvt Ltd,26916.0,4844.88,31760.88,2026-07-27 20:40:57,2026-08-26 20:40:57,ISSUED
+INV-2026-1100,ord_live_1100,Cashfree Payments India Pvt Ltd,459.0,82.62,541.62,2026-08-16 01:41:17,2026-09-15 01:41:17,ISSUED
+INV-2026-1101,ord_live_1101,Razorpay Software Private Limited,1596.0,287.28,1883.28,2026-08-06 17:20:54,2026-09-05 17:20:54,ISSUED
+INV-2026-1102,ord_live_1102,Razorpay Software Private Limited,1022.0,183.96,1205.96,2026-07-15 23:36:39,2026-08-14 23:36:39,ISSUED
+INV-2026-1103,ord_live_1103,Cashfree Payments India Pvt Ltd,1841.0,331.38,2172.38,2026-07-20 14:31:13,2026-08-19 14:31:13,ISSUED
+INV-2026-1104,ord_live_1104,BillDesk Technology Services,1901.0,342.18,2243.18,2026-08-08 07:56:17,2026-09-07 07:56:17,ISSUED
+INV-2026-1105,ord_live_1105,Paytm Payments Bank Ltd,25610.0,4609.8,30219.8,2026-07-16 08:26:31,2026-08-15 08:26:31,ISSUED
+INV-2026-1106,ord_live_1106,Cashfree Payments India Pvt Ltd,18083.0,3254.94,21337.94,2026-07-28 09:05:18,2026-08-27 09:05:18,ISSUED
+INV-2026-1107,ord_live_1107,PhonePe Merchant Services,12033.0,2165.94,14198.94,2026-08-12 03:23:30,2026-09-11 03:23:30,ISSUED
+INV-2026-1108,ord_live_1108,Cashfree Payments India Pvt Ltd,147141.0,26485.38,173626.38,2026-07-21 20:44:29,2026-08-20 20:44:29,ISSUED
+INV-2026-1109,ord_live_1109,Razorpay Software Private Limited,346.0,62.28,408.28,2026-08-15 15:20:07,2026-09-14 15:20:07,ISSUED
+INV-2026-1110,ord_live_1110,Cashfree Payments India Pvt Ltd,1090.0,196.2,1286.2,2026-07-18 08:37:48,2026-08-17 08:37:48,ISSUED
+INV-2026-1111,ord_live_1111,BillDesk Technology Services,39414.0,7094.52,46508.520000000004,2026-07-14 20:11:19,2026-08-13 20:11:19,ISSUED
+INV-2026-1112,ord_live_1112,Razorpay Software Private Limited,10988.0,1977.84,12965.84,2026-07-02 10:35:18,2026-08-01 10:35:18,ISSUED
+INV-2026-1113,ord_live_1113,Paytm Payments Bank Ltd,52170.0,9390.6,61560.6,2026-07-06 09:36:18,2026-08-05 09:36:18,ISSUED
+INV-2026-1114,ord_live_1114,Paytm Payments Bank Ltd,476.0,85.68,561.6800000000001,2026-07-03 17:55:30,2026-08-02 17:55:30,ISSUED
+INV-2026-1115,ord_live_1115,Cashfree Payments India Pvt Ltd,250.0,45.0,295.0,2026-08-06 05:43:03,2026-09-05 05:43:03,ISSUED
+INV-2026-1116,ord_live_1116,Paytm Payments Bank Ltd,39912.0,7184.16,47096.16,2026-07-05 16:07:35,2026-08-04 16:07:35,ISSUED
+INV-2026-1117,ord_live_1117,Paytm Payments Bank Ltd,9395.0,1691.1,11086.1,2026-08-19 01:24:28,2026-09-18 01:24:28,ISSUED
+INV-2026-1118,ord_live_1118,PhonePe Merchant Services,48103.0,8658.54,56761.54,2026-07-20 03:39:03,2026-08-19 03:39:03,ISSUED
+INV-2026-1119,ord_live_1119,Cashfree Payments India Pvt Ltd,10671.0,1920.78,12591.78,2026-08-11 11:10:15,2026-09-10 11:10:15,ISSUED
+INV-2026-1120,ord_live_1120,BillDesk Technology Services,104.0,18.72,122.72,2026-07-26 23:44:38,2026-08-25 23:44:38,ISSUED
+INV-2026-1121,ord_live_1121,Razorpay Software Private Limited,689.0,124.02,813.02,2026-08-14 18:44:55,2026-09-13 18:44:55,ISSUED
+INV-2026-1122,ord_live_1122,BillDesk Technology Services,10668.0,1920.24,12588.24,2026-08-20 05:37:42,2026-09-19 05:37:42,ISSUED
+INV-2026-1123,ord_live_1123,Razorpay Software Private Limited,559.0,100.62,659.62,2026-08-10 13:58:17,2026-09-09 13:58:17,ISSUED
+INV-2026-1124,ord_live_1124,PhonePe Merchant Services,1722.0,309.96,2031.96,2026-07-20 04:47:52,2026-08-19 04:47:52,ISSUED
+INV-2026-1125,ord_live_1125,PhonePe Merchant Services,1509.0,271.62,1780.62,2026-07-20 07:25:17,2026-08-19 07:25:17,ISSUED
+INV-2026-1126,ord_live_1126,Razorpay Software Private Limited,180.0,32.4,212.4,2026-07-28 08:20:38,2026-08-27 08:20:38,ISSUED
+INV-2026-1127,ord_live_1127,PhonePe Merchant Services,1479.0,266.22,1745.22,2026-08-06 03:01:48,2026-09-05 03:01:48,ISSUED
+INV-2026-1128,ord_live_1128,Cashfree Payments India Pvt Ltd,1647.0,296.46,1943.46,2026-07-12 00:33:41,2026-08-11 00:33:41,ISSUED
+INV-2026-1129,ord_live_1129,Cashfree Payments India Pvt Ltd,1297.0,233.46,1530.46,2026-07-28 05:52:31,2026-08-27 05:52:31,ISSUED
+INV-2026-1130,ord_live_1130,BillDesk Technology Services,781.0,140.58,921.58,2026-07-21 06:06:54,2026-08-20 06:06:54,ISSUED
+INV-2026-1131,ord_live_1131,BillDesk Technology Services,1113.0,200.34,1313.34,2026-07-19 06:25:52,2026-08-18 06:25:52,ISSUED
+INV-2026-1132,ord_live_1132,PhonePe Merchant Services,615.0,110.7,725.7,2026-07-20 12:49:25,2026-08-19 12:49:25,ISSUED
+INV-2026-1133,ord_live_1133,BillDesk Technology Services,50276.0,9049.68,59325.68,2026-07-26 10:12:33,2026-08-25 10:12:33,ISSUED
+INV-2026-1134,ord_live_1134,Paytm Payments Bank Ltd,16484.0,2967.12,19451.12,2026-08-17 10:13:17,2026-09-16 10:13:17,ISSUED
+INV-2026-1135,ord_live_1135,PhonePe Merchant Services,1529.0,275.22,1804.22,2026-07-31 12:01:40,2026-08-30 12:01:40,ISSUED
+INV-2026-1136,ord_live_1136,Paytm Payments Bank Ltd,1227.0,220.86,1447.8600000000001,2026-07-01 02:26:05,2026-07-31 02:26:05,ISSUED
+INV-2026-1137,ord_live_1137,PhonePe Merchant Services,5849.0,1052.82,6901.82,2026-08-10 13:31:59,2026-09-09 13:31:59,ISSUED
+INV-2026-1138,ord_live_1138,Cashfree Payments India Pvt Ltd,15614.0,2810.52,18424.52,2026-07-31 00:15:29,2026-08-30 00:15:29,ISSUED
+INV-2026-1139,ord_live_1139,BillDesk Technology Services,1326.0,238.68,1564.68,2026-08-02 08:56:08,2026-09-01 08:56:08,ISSUED
+INV-2026-1140,ord_live_1140,Cashfree Payments India Pvt Ltd,15596.0,2807.28,18403.28,2026-07-22 01:17:52,2026-08-21 01:17:52,ISSUED
+INV-2026-1141,ord_live_1141,Cashfree Payments India Pvt Ltd,18044.0,3247.92,21291.92,2026-07-09 23:34:30,2026-08-08 23:34:30,ISSUED
+INV-2026-1142,ord_live_1142,Paytm Payments Bank Ltd,19807.0,3565.26,23372.260000000002,2026-07-24 23:59:20,2026-08-23 23:59:20,ISSUED
+INV-2026-1143,ord_live_1143,Cashfree Payments India Pvt Ltd,883.0,158.94,1041.94,2026-07-14 22:02:20,2026-08-13 22:02:20,ISSUED
+INV-2026-1144,ord_live_1144,PhonePe Merchant Services,44984.0,8097.12,53081.12,2026-07-25 06:50:52,2026-08-24 06:50:52,ISSUED
+INV-2026-1145,ord_live_1145,Cashfree Payments India Pvt Ltd,91548.0,16478.64,108026.64,2026-08-02 03:21:55,2026-09-01 03:21:55,ISSUED
+INV-2026-1146,ord_live_1146,Razorpay Software Private Limited,1963.0,353.34,2316.34,2026-07-29 09:46:09,2026-08-28 09:46:09,ISSUED
+INV-2026-1147,ord_live_1147,Paytm Payments Bank Ltd,84808.0,15265.44,100073.44,2026-07-30 17:21:39,2026-08-29 17:21:39,ISSUED
+INV-2026-1148,ord_live_1148,Razorpay Software Private Limited,771.0,138.78,909.78,2026-08-13 02:24:20,2026-09-12 02:24:20,ISSUED
+INV-2026-1149,ord_live_1149,Cashfree Payments India Pvt Ltd,239.0,43.02,282.02,2026-07-16 05:43:58,2026-08-15 05:43:58,ISSUED
+INV-2026-1150,ord_live_1150,Razorpay Software Private Limited,16220.0,2919.6,19139.6,2026-07-07 05:45:55,2026-08-06 05:45:55,ISSUED
+INV-2026-1151,ord_live_1151,Razorpay Software Private Limited,1162.0,209.16,1371.16,2026-07-01 10:20:50,2026-07-31 10:20:50,ISSUED
+INV-2026-1152,ord_live_1152,Razorpay Software Private Limited,1431.0,257.58,1688.58,2026-07-09 16:33:26,2026-08-08 16:33:26,ISSUED
+INV-2026-1153,ord_live_1153,PhonePe Merchant Services,1797.0,323.46,2120.46,2026-07-25 04:43:15,2026-08-24 04:43:15,ISSUED
+INV-2026-1154,ord_live_1154,BillDesk Technology Services,1493.0,268.74,1761.74,2026-08-09 17:29:16,2026-09-08 17:29:16,ISSUED
+INV-2026-1155,ord_live_1155,Razorpay Software Private Limited,64857.0,11674.26,76531.26,2026-08-03 14:04:28,2026-09-02 14:04:28,ISSUED
+INV-2026-1156,ord_live_1156,BillDesk Technology Services,1417.0,255.06,1672.06,2026-08-13 17:29:54,2026-09-12 17:29:54,ISSUED
+INV-2026-1157,ord_live_1157,Paytm Payments Bank Ltd,138786.0,24981.48,163767.48,2026-07-06 16:24:36,2026-08-05 16:24:36,ISSUED
+INV-2026-1158,ord_live_1158,Paytm Payments Bank Ltd,1981.0,356.58,2337.58,2026-07-18 09:53:42,2026-08-17 09:53:42,ISSUED
+INV-2026-1159,ord_live_1159,Paytm Payments Bank Ltd,2320.0,417.6,2737.6,2026-08-13 08:03:58,2026-09-12 08:03:58,ISSUED
+INV-2026-1160,ord_live_1160,Razorpay Software Private Limited,9990.0,1798.2,11788.2,2026-08-07 20:14:40,2026-09-06 20:14:40,ISSUED
+INV-2026-1161,ord_live_1161,PhonePe Merchant Services,2096.0,377.28,2473.2799999999997,2026-08-16 06:43:53,2026-09-15 06:43:53,ISSUED
+INV-2026-1162,ord_live_1162,PhonePe Merchant Services,1834.0,330.12,2164.12,2026-08-10 10:19:50,2026-09-09 10:19:50,ISSUED
+INV-2026-1163,ord_live_1163,BillDesk Technology Services,6756.0,1216.08,7972.08,2026-07-05 18:20:47,2026-08-04 18:20:47,ISSUED
+INV-2026-1164,ord_live_1164,Razorpay Software Private Limited,2159.0,388.62,2547.62,2026-08-03 20:33:32,2026-09-02 20:33:32,ISSUED
+INV-2026-1165,ord_live_1165,Cashfree Payments India Pvt Ltd,2237.0,402.66,2639.66,2026-07-30 18:47:55,2026-08-29 18:47:55,ISSUED
+INV-2026-1166,ord_live_1166,Cashfree Payments India Pvt Ltd,4467.0,804.06,5271.0599999999995,2026-07-09 16:55:43,2026-08-08 16:55:43,ISSUED
+INV-2026-1167,ord_live_1167,Razorpay Software Private Limited,1718.0,309.24,2027.24,2026-07-25 09:16:34,2026-08-24 09:16:34,ISSUED
+INV-2026-1168,ord_live_1168,BillDesk Technology Services,1632.0,293.76,1925.76,2026-08-12 17:37:24,2026-09-11 17:37:24,ISSUED
+INV-2026-1169,ord_live_1169,Cashfree Payments India Pvt Ltd,17449.0,3140.82,20589.82,2026-07-02 04:56:35,2026-08-01 04:56:35,ISSUED
+INV-2026-1170,ord_live_1170,BillDesk Technology Services,228.0,41.04,269.04,2026-08-09 23:58:44,2026-09-08 23:58:44,ISSUED
+INV-2026-1171,ord_live_1171,Cashfree Payments India Pvt Ltd,385.0,69.3,454.3,2026-07-02 10:19:31,2026-08-01 10:19:31,ISSUED
+INV-2026-1172,ord_live_1172,BillDesk Technology Services,1199.0,215.82,1414.82,2026-07-08 21:29:23,2026-08-07 21:29:23,ISSUED
+INV-2026-1173,ord_live_1173,PhonePe Merchant Services,7063.0,1271.34,8334.34,2026-07-27 05:06:53,2026-08-26 05:06:53,ISSUED
+INV-2026-1174,ord_live_1174,Paytm Payments Bank Ltd,671.0,120.78,791.78,2026-07-03 07:23:13,2026-08-02 07:23:13,ISSUED
+INV-2026-1175,ord_live_1175,Paytm Payments Bank Ltd,122538.0,22056.84,144594.84,2026-07-07 06:23:34,2026-08-06 06:23:34,ISSUED
+INV-2026-1176,ord_live_1176,BillDesk Technology Services,487.0,87.66,574.66,2026-07-07 23:05:42,2026-08-06 23:05:42,ISSUED
+INV-2026-1177,ord_live_1177,BillDesk Technology Services,2699.0,485.82,3184.82,2026-07-03 19:15:08,2026-08-02 19:15:08,ISSUED
+INV-2026-1178,ord_live_1178,Paytm Payments Bank Ltd,56320.0,10137.6,66457.6,2026-07-14 03:13:52,2026-08-13 03:13:52,ISSUED
+INV-2026-1179,ord_live_1179,Cashfree Payments India Pvt Ltd,2092.0,376.56,2468.56,2026-07-17 13:08:34,2026-08-16 13:08:34,ISSUED
+INV-2026-1180,ord_live_1180,PhonePe Merchant Services,1873.0,337.14,2210.14,2026-07-01 13:00:22,2026-07-31 13:00:22,ISSUED
+INV-2026-1181,ord_live_1181,Razorpay Software Private Limited,455.0,81.9,536.9,2026-07-16 10:08:47,2026-08-15 10:08:47,ISSUED
+INV-2026-1182,ord_live_1182,Paytm Payments Bank Ltd,229.0,41.22,270.22,2026-07-30 23:49:23,2026-08-29 23:49:23,ISSUED
+INV-2026-1183,ord_live_1183,PhonePe Merchant Services,3420.0,615.6,4035.6,2026-08-16 06:33:19,2026-09-15 06:33:19,ISSUED
+INV-2026-1184,ord_live_1184,Razorpay Software Private Limited,82973.0,14935.14,97908.14,2026-07-30 21:27:43,2026-08-29 21:27:43,ISSUED
+INV-2026-1185,ord_live_1185,Razorpay Software Private Limited,16534.0,2976.12,19510.12,2026-07-04 11:20:38,2026-08-03 11:20:38,ISSUED
+INV-2026-1186,ord_live_1186,Cashfree Payments India Pvt Ltd,1377.0,247.86,1624.8600000000001,2026-08-10 03:35:45,2026-09-09 03:35:45,ISSUED
+INV-2026-1187,ord_live_1187,Paytm Payments Bank Ltd,144542.0,26017.56,170559.56,2026-07-18 23:32:38,2026-08-17 23:32:38,ISSUED
+INV-2026-1188,ord_live_1188,Razorpay Software Private Limited,5749.0,1034.82,6783.82,2026-08-11 05:56:49,2026-09-10 05:56:49,ISSUED
+INV-2026-1189,ord_live_1189,BillDesk Technology Services,9487.0,1707.66,11194.66,2026-07-26 19:52:29,2026-08-25 19:52:29,ISSUED
+INV-2026-1190,ord_live_1190,Cashfree Payments India Pvt Ltd,12241.0,2203.38,14444.380000000001,2026-07-27 19:42:16,2026-08-26 19:42:16,ISSUED
+INV-2026-1191,ord_live_1191,Paytm Payments Bank Ltd,17540.0,3157.2,20697.2,2026-07-04 11:53:05,2026-08-03 11:53:05,ISSUED
+INV-2026-1192,ord_live_1192,Cashfree Payments India Pvt Ltd,1612.0,290.16,1902.16,2026-07-23 13:35:03,2026-08-22 13:35:03,ISSUED
+INV-2026-1193,ord_live_1193,PhonePe Merchant Services,823.0,148.14,971.14,2026-08-11 22:55:58,2026-09-10 22:55:58,ISSUED
+INV-2026-1194,ord_live_1194,BillDesk Technology Services,13522.0,2433.96,15955.96,2026-07-07 03:32:13,2026-08-06 03:32:13,ISSUED
+INV-2026-1195,ord_live_1195,BillDesk Technology Services,5546.0,998.28,6544.28,2026-07-23 02:23:07,2026-08-22 02:23:07,ISSUED
+INV-2026-1196,ord_live_1196,Cashfree Payments India Pvt Ltd,977.0,175.86,1152.8600000000001,2026-08-05 04:39:43,2026-09-04 04:39:43,ISSUED
+INV-2026-1197,ord_live_1197,PhonePe Merchant Services,74359.0,13384.62,87743.62,2026-08-13 17:01:11,2026-09-12 17:01:11,ISSUED
+INV-2026-1198,ord_live_1198,BillDesk Technology Services,13135.0,2364.3,15499.3,2026-07-22 09:11:55,2026-08-21 09:11:55,ISSUED
+INV-2026-1199,ord_live_1199,Razorpay Software Private Limited,4280.0,770.4,5050.4,2026-07-10 08:40:01,2026-08-09 08:40:01,ISSUED
+INV-2026-1200,ord_live_1200,Cashfree Payments India Pvt Ltd,14327.0,2578.86,16905.86,2026-07-26 23:21:10,2026-08-25 23:21:10,ISSUED
+INV-2026-1201,ord_live_1201,Cashfree Payments India Pvt Ltd,4783.0,860.94,5643.9400000000005,2026-07-03 13:10:48,2026-08-02 13:10:48,ISSUED
+INV-2026-1202,ord_live_1202,Razorpay Software Private Limited,1006.0,181.08,1187.08,2026-08-11 22:31:38,2026-09-10 22:31:38,ISSUED
+INV-2026-1203,ord_live_1203,Cashfree Payments India Pvt Ltd,1645.0,296.1,1941.1,2026-08-01 12:22:27,2026-08-31 12:22:27,ISSUED
+INV-2026-1204,ord_live_1204,Cashfree Payments India Pvt Ltd,17945.0,3230.1,21175.1,2026-08-03 06:19:02,2026-09-02 06:19:02,ISSUED
+INV-2026-1205,ord_live_1205,Razorpay Software Private Limited,82181.0,14792.58,96973.58,2026-06-30 15:19:13,2026-07-30 15:19:13,ISSUED
+INV-2026-1206,ord_live_1206,Razorpay Software Private Limited,344.0,61.92,405.92,2026-07-01 00:47:27,2026-07-31 00:47:27,ISSUED
+INV-2026-1207,ord_live_1207,Cashfree Payments India Pvt Ltd,1540.0,277.2,1817.2,2026-07-15 01:35:53,2026-08-14 01:35:53,ISSUED
+INV-2026-1208,ord_live_1208,Razorpay Software Private Limited,1618.0,291.24,1909.24,2026-07-02 22:01:29,2026-08-01 22:01:29,ISSUED
+INV-2026-1209,ord_live_1209,PhonePe Merchant Services,15252.0,2745.36,17997.36,2026-08-15 05:26:18,2026-09-14 05:26:18,ISSUED
+INV-2026-1210,ord_live_1210,Cashfree Payments India Pvt Ltd,764.0,137.52,901.52,2026-07-11 04:29:53,2026-08-10 04:29:53,ISSUED
+INV-2026-1211,ord_live_1211,Paytm Payments Bank Ltd,315.0,56.7,371.7,2026-07-15 22:37:25,2026-08-14 22:37:25,ISSUED
+INV-2026-1212,ord_live_1212,BillDesk Technology Services,68877.0,12397.86,81274.86,2026-07-21 16:21:49,2026-08-20 16:21:49,ISSUED
+INV-2026-1213,ord_live_1213,Razorpay Software Private Limited,5736.0,1032.48,6768.48,2026-08-03 01:12:57,2026-09-02 01:12:57,ISSUED
+INV-2026-1214,ord_live_1214,PhonePe Merchant Services,6839.0,1231.02,8070.02,2026-07-15 12:09:16,2026-08-14 12:09:16,ISSUED
+INV-2026-1215,ord_live_1215,BillDesk Technology Services,4469.0,804.42,5273.42,2026-07-12 05:31:29,2026-08-11 05:31:29,ISSUED
+INV-2026-1216,ord_live_1216,Paytm Payments Bank Ltd,56994.0,10258.92,67252.92,2026-08-11 05:39:20,2026-09-10 05:39:20,ISSUED
+INV-2026-1217,ord_live_1217,PhonePe Merchant Services,1059.0,190.62,1249.62,2026-07-29 05:19:50,2026-08-28 05:19:50,ISSUED
+INV-2026-1218,ord_live_1218,Cashfree Payments India Pvt Ltd,1138.0,204.84,1342.84,2026-07-04 18:29:28,2026-08-03 18:29:28,ISSUED
+INV-2026-1219,ord_live_1219,Razorpay Software Private Limited,686.0,123.48,809.48,2026-07-05 05:55:54,2026-08-04 05:55:54,ISSUED
+INV-2026-1220,ord_live_1220,BillDesk Technology Services,14598.0,2627.64,17225.64,2026-07-30 03:35:50,2026-08-29 03:35:50,ISSUED
+INV-2026-1221,ord_live_1221,BillDesk Technology Services,57464.0,10343.52,67807.52,2026-08-10 15:20:38,2026-09-09 15:20:38,ISSUED
+INV-2026-1222,ord_live_1222,Razorpay Software Private Limited,225.0,40.5,265.5,2026-07-28 12:51:57,2026-08-27 12:51:57,ISSUED
+INV-2026-1223,ord_live_1223,Cashfree Payments India Pvt Ltd,1422.0,255.96,1677.96,2026-07-11 10:15:45,2026-08-10 10:15:45,ISSUED
+INV-2026-1224,ord_live_1224,Paytm Payments Bank Ltd,7201.0,1296.18,8497.18,2026-07-23 20:58:18,2026-08-22 20:58:18,ISSUED
+INV-2026-1225,ord_live_1225,Razorpay Software Private Limited,3715.0,668.7,4383.7,2026-08-20 05:41:21,2026-09-19 05:41:21,ISSUED
+INV-2026-1226,ord_live_1226,PhonePe Merchant Services,1488.0,267.84,1755.84,2026-07-24 18:16:46,2026-08-23 18:16:46,ISSUED
+INV-2026-1227,ord_live_1227,BillDesk Technology Services,1458.0,262.44,1720.44,2026-07-09 20:19:41,2026-08-08 20:19:41,ISSUED
+INV-2026-1228,ord_live_1228,Cashfree Payments India Pvt Ltd,4776.0,859.68,5635.68,2026-07-20 02:24:41,2026-08-19 02:24:41,ISSUED
+INV-2026-1229,ord_live_1229,Paytm Payments Bank Ltd,19248.0,3464.64,22712.64,2026-07-06 05:42:27,2026-08-05 05:42:27,ISSUED
+INV-2026-1230,ord_live_1230,PhonePe Merchant Services,468.0,84.24,552.24,2026-07-13 19:49:31,2026-08-12 19:49:31,ISSUED
+INV-2026-1231,ord_live_1231,BillDesk Technology Services,95309.0,17155.62,112464.62,2026-07-04 18:54:50,2026-08-03 18:54:50,ISSUED
+INV-2026-1232,ord_live_1232,BillDesk Technology Services,19253.0,3465.54,22718.54,2026-07-03 06:21:56,2026-08-02 06:21:56,ISSUED
+INV-2026-1233,ord_live_1233,Paytm Payments Bank Ltd,431.0,77.58,508.58,2026-07-12 07:49:39,2026-08-11 07:49:39,ISSUED
+INV-2026-1234,ord_live_1234,BillDesk Technology Services,940.0,169.2,1109.2,2026-07-24 06:46:15,2026-08-23 06:46:15,ISSUED
+INV-2026-1235,ord_live_1235,PhonePe Merchant Services,1632.0,293.76,1925.76,2026-08-19 23:14:34,2026-09-18 23:14:34,ISSUED
+INV-2026-1236,ord_live_1236,Cashfree Payments India Pvt Ltd,136475.0,24565.5,161040.5,2026-07-12 20:43:36,2026-08-11 20:43:36,ISSUED
+INV-2026-1237,ord_live_1237,Cashfree Payments India Pvt Ltd,14513.0,2612.34,17125.34,2026-08-02 01:26:10,2026-09-01 01:26:10,ISSUED
+INV-2026-1238,ord_live_1238,Razorpay Software Private Limited,611.0,109.98,720.98,2026-07-04 05:30:55,2026-08-03 05:30:55,ISSUED
+INV-2026-1239,ord_live_1239,Razorpay Software Private Limited,66622.0,11991.96,78613.95999999999,2026-08-02 12:18:05,2026-09-01 12:18:05,ISSUED
+INV-2026-1240,ord_live_1240,PhonePe Merchant Services,1150.0,207.0,1357.0,2026-07-09 22:05:58,2026-08-08 22:05:58,ISSUED
+INV-2026-1241,ord_live_1241,Paytm Payments Bank Ltd,21747.0,3914.46,25661.46,2026-07-26 10:25:32,2026-08-25 10:25:32,ISSUED
+INV-2026-1242,ord_live_1242,Cashfree Payments India Pvt Ltd,266.0,47.88,313.88,2026-07-23 16:01:20,2026-08-22 16:01:20,ISSUED
+INV-2026-1243,ord_live_1243,BillDesk Technology Services,6785.0,1221.3,8006.3,2026-07-08 10:18:58,2026-08-07 10:18:58,ISSUED
+INV-2026-1244,ord_live_1244,Razorpay Software Private Limited,69731.0,12551.58,82282.58,2026-08-15 00:28:39,2026-09-14 00:28:39,ISSUED
+INV-2026-1245,ord_live_1245,PhonePe Merchant Services,540.0,97.2,637.2,2026-07-10 02:46:38,2026-08-09 02:46:38,ISSUED
+INV-2026-1246,ord_live_1246,PhonePe Merchant Services,9786.0,1761.48,11547.48,2026-07-19 12:03:15,2026-08-18 12:03:15,ISSUED
+INV-2026-1247,ord_live_1247,PhonePe Merchant Services,16978.0,3056.04,20034.04,2026-07-04 12:53:57,2026-08-03 12:53:57,ISSUED
+INV-2026-1248,ord_live_1248,Paytm Payments Bank Ltd,18887.0,3399.66,22286.66,2026-08-05 16:45:09,2026-09-04 16:45:09,ISSUED
+INV-2026-1249,ord_live_1249,Cashfree Payments India Pvt Ltd,821.0,147.78,968.78,2026-07-16 03:26:11,2026-08-15 03:26:11,ISSUED
+INV-2026-1250,ord_live_1250,Paytm Payments Bank Ltd,83871.0,15096.78,98967.78,2026-08-03 02:32:50,2026-09-02 02:32:50,ISSUED
+INV-2026-1251,ord_live_1251,Razorpay Software Private Limited,22853.0,4113.54,26966.54,2026-08-09 21:23:16,2026-09-08 21:23:16,ISSUED
+INV-2026-1252,ord_live_1252,Paytm Payments Bank Ltd,13298.0,2393.64,15691.64,2026-07-16 08:42:40,2026-08-15 08:42:40,ISSUED
+INV-2026-1253,ord_live_1253,PhonePe Merchant Services,12895.0,2321.1,15216.1,2026-07-08 10:22:34,2026-08-07 10:22:34,ISSUED
+INV-2026-1254,ord_live_1254,Paytm Payments Bank Ltd,1694.0,304.92,1998.92,2026-08-12 23:44:30,2026-09-11 23:44:30,ISSUED
+INV-2026-1255,ord_live_1255,BillDesk Technology Services,1688.0,303.84,1991.84,2026-07-29 10:18:12,2026-08-28 10:18:12,ISSUED
+INV-2026-1256,ord_live_1256,BillDesk Technology Services,40682.0,7322.76,48004.76,2026-07-20 01:25:52,2026-08-19 01:25:52,ISSUED
+INV-2026-1257,ord_live_1257,BillDesk Technology Services,1423.0,256.14,1679.1399999999999,2026-07-12 18:22:55,2026-08-11 18:22:55,ISSUED
+INV-2026-1258,ord_live_1258,Razorpay Software Private Limited,353.0,63.54,416.54,2026-07-23 22:56:25,2026-08-22 22:56:25,ISSUED
+INV-2026-1259,ord_live_1259,BillDesk Technology Services,481.0,86.58,567.58,2026-08-01 07:31:23,2026-08-31 07:31:23,ISSUED
+INV-2026-1260,ord_live_1260,Paytm Payments Bank Ltd,4586.0,825.48,5411.48,2026-07-28 04:52:11,2026-08-27 04:52:11,ISSUED
+INV-2026-1261,ord_live_1261,PhonePe Merchant Services,770.0,138.6,908.6,2026-08-11 18:19:28,2026-09-10 18:19:28,ISSUED
+INV-2026-1262,ord_live_1262,Cashfree Payments India Pvt Ltd,13519.0,2433.42,15952.42,2026-07-28 10:46:55,2026-08-27 10:46:55,ISSUED
+INV-2026-1263,ord_live_1263,PhonePe Merchant Services,110987.0,19977.66,130964.66,2026-08-09 10:04:42,2026-09-08 10:04:42,ISSUED
+INV-2026-1264,ord_live_1264,Paytm Payments Bank Ltd,7242.0,1303.56,8545.56,2026-07-01 13:54:38,2026-07-31 13:54:38,ISSUED
+INV-2026-1265,ord_live_1265,Razorpay Software Private Limited,582.0,104.76,686.76,2026-08-19 05:23:23,2026-09-18 05:23:23,ISSUED
+INV-2026-1266,ord_live_1266,Razorpay Software Private Limited,413.0,74.34,487.34000000000003,2026-08-12 23:23:23,2026-09-11 23:23:23,ISSUED
+INV-2026-1267,ord_live_1267,BillDesk Technology Services,19349.0,3482.82,22831.82,2026-07-23 21:20:41,2026-08-22 21:20:41,ISSUED
+INV-2026-1268,ord_live_1268,Paytm Payments Bank Ltd,78397.0,14111.46,92508.45999999999,2026-08-16 14:31:33,2026-09-15 14:31:33,ISSUED
+INV-2026-1269,ord_live_1269,Paytm Payments Bank Ltd,1686.0,303.48,1989.48,2026-07-17 07:28:13,2026-08-16 07:28:13,ISSUED
+INV-2026-1270,ord_live_1270,Razorpay Software Private Limited,52191.0,9394.38,61585.38,2026-07-12 12:08:54,2026-08-11 12:08:54,ISSUED
+INV-2026-1271,ord_live_1271,Paytm Payments Bank Ltd,1559.0,280.62,1839.62,2026-07-28 11:51:43,2026-08-27 11:51:43,ISSUED
+INV-2026-1272,ord_live_1272,Paytm Payments Bank Ltd,231.0,41.58,272.58,2026-08-05 02:18:57,2026-09-04 02:18:57,ISSUED
+INV-2026-1273,ord_live_1273,Razorpay Software Private Limited,7704.0,1386.72,9090.72,2026-08-19 20:32:14,2026-09-18 20:32:14,ISSUED
+INV-2026-1274,ord_live_1274,Cashfree Payments India Pvt Ltd,9757.0,1756.26,11513.26,2026-08-20 00:01:23,2026-09-19 00:01:23,ISSUED
+INV-2026-1275,ord_live_1275,Razorpay Software Private Limited,56152.0,10107.36,66259.36,2026-07-09 04:56:05,2026-08-08 04:56:05,ISSUED
+INV-2026-1276,ord_live_1276,Razorpay Software Private Limited,1567.0,282.06,1849.06,2026-08-16 00:33:26,2026-09-15 00:33:26,ISSUED
+INV-2026-1277,ord_live_1277,Cashfree Payments India Pvt Ltd,748.0,134.64,882.64,2026-08-10 11:28:29,2026-09-09 11:28:29,ISSUED
+INV-2026-1278,ord_live_1278,PhonePe Merchant Services,71135.0,12804.3,83939.3,2026-08-05 05:37:11,2026-09-04 05:37:11,ISSUED
+INV-2026-1279,ord_live_1279,Razorpay Software Private Limited,3815.0,686.7,4501.7,2026-07-08 01:09:19,2026-08-07 01:09:19,ISSUED
+INV-2026-1280,ord_live_1280,BillDesk Technology Services,1551.0,279.18,1830.18,2026-07-14 20:33:57,2026-08-13 20:33:57,ISSUED
+INV-2026-1281,ord_live_1281,BillDesk Technology Services,1399.0,251.82,1650.82,2026-08-04 17:08:40,2026-09-03 17:08:40,ISSUED
+INV-2026-1282,ord_live_1282,Razorpay Software Private Limited,18468.0,3324.24,21792.239999999998,2026-08-10 14:37:37,2026-09-09 14:37:37,ISSUED
+INV-2026-1283,ord_live_1283,Cashfree Payments India Pvt Ltd,13063.0,2351.34,15414.34,2026-08-05 10:52:55,2026-09-04 10:52:55,ISSUED
+INV-2026-1284,ord_live_1284,Paytm Payments Bank Ltd,1412.0,254.16,1666.16,2026-08-19 03:16:41,2026-09-18 03:16:41,ISSUED
+INV-2026-1285,ord_live_1285,BillDesk Technology Services,1407.0,253.26,1660.26,2026-07-02 00:56:40,2026-08-01 00:56:40,ISSUED
+INV-2026-1286,ord_live_1286,PhonePe Merchant Services,138301.0,24894.18,163195.18,2026-07-16 06:25:19,2026-08-15 06:25:19,ISSUED
+INV-2026-1287,ord_live_1287,BillDesk Technology Services,7179.0,1292.22,8471.22,2026-07-28 22:30:29,2026-08-27 22:30:29,ISSUED
+INV-2026-1288,ord_live_1288,BillDesk Technology Services,12242.0,2203.56,14445.56,2026-08-14 19:46:55,2026-09-13 19:46:55,ISSUED
+INV-2026-1289,ord_live_1289,Razorpay Software Private Limited,857.0,154.26,1011.26,2026-08-02 02:06:20,2026-09-01 02:06:20,ISSUED
+INV-2026-1290,ord_live_1290,Cashfree Payments India Pvt Ltd,1019.0,183.42,1202.42,2026-07-15 13:06:03,2026-08-14 13:06:03,ISSUED
+INV-2026-1291,ord_live_1291,Paytm Payments Bank Ltd,47402.0,8532.36,55934.36,2026-07-15 14:52:20,2026-08-14 14:52:20,ISSUED
+INV-2026-1292,ord_live_1292,Paytm Payments Bank Ltd,18327.0,3298.86,21625.86,2026-08-01 23:31:56,2026-08-31 23:31:56,ISSUED
+INV-2026-1293,ord_live_1293,BillDesk Technology Services,904.0,162.72,1066.72,2026-08-01 23:15:13,2026-08-31 23:15:13,ISSUED
+INV-2026-1294,ord_live_1294,PhonePe Merchant Services,1112.0,200.16,1312.16,2026-08-08 05:43:30,2026-09-07 05:43:30,ISSUED
+INV-2026-1295,ord_live_1295,Paytm Payments Bank Ltd,319.0,57.42,376.42,2026-07-27 13:56:16,2026-08-26 13:56:16,ISSUED
+INV-2026-1296,ord_live_1296,PhonePe Merchant Services,919.0,165.42,1084.42,2026-07-04 03:35:12,2026-08-03 03:35:12,ISSUED
+INV-2026-1297,ord_live_1297,PhonePe Merchant Services,890.0,160.2,1050.2,2026-08-01 23:48:35,2026-08-31 23:48:35,ISSUED
+INV-2026-1298,ord_live_1298,Cashfree Payments India Pvt Ltd,5893.0,1060.74,6953.74,2026-07-08 12:25:23,2026-08-07 12:25:23,ISSUED
+INV-2026-1299,ord_live_1299,PhonePe Merchant Services,69477.0,12505.86,81982.86,2026-07-09 15:38:32,2026-08-08 15:38:32,ISSUED
+INV-2026-1300,ord_live_1300,BillDesk Technology Services,178.0,32.04,210.04,2026-07-09 07:21:51,2026-08-08 07:21:51,ISSUED
+INV-2026-1301,ord_live_1301,Paytm Payments Bank Ltd,18892.0,3400.56,22292.56,2026-07-08 19:59:39,2026-08-07 19:59:39,ISSUED
+INV-2026-1302,ord_live_1302,Cashfree Payments India Pvt Ltd,1361.0,244.98,1605.98,2026-08-16 18:37:21,2026-09-15 18:37:21,ISSUED
+INV-2026-1303,ord_live_1303,PhonePe Merchant Services,17561.0,3160.98,20721.98,2026-07-01 20:21:43,2026-07-31 20:21:43,ISSUED
+INV-2026-1304,ord_live_1304,PhonePe Merchant Services,2873.0,517.14,3390.14,2026-08-08 00:16:41,2026-09-07 00:16:41,ISSUED
+INV-2026-1305,ord_live_1305,Razorpay Software Private Limited,1082.0,194.76,1276.76,2026-07-11 01:40:46,2026-08-10 01:40:46,ISSUED
+INV-2026-1306,ord_live_1306,PhonePe Merchant Services,35872.0,6456.96,42328.96,2026-07-03 03:44:07,2026-08-02 03:44:07,ISSUED
+INV-2026-1307,ord_live_1307,Paytm Payments Bank Ltd,956.0,172.08,1128.08,2026-07-09 22:44:13,2026-08-08 22:44:13,ISSUED
+INV-2026-1308,ord_live_1308,Razorpay Software Private Limited,17453.0,3141.54,20594.54,2026-08-17 08:03:45,2026-09-16 08:03:45,ISSUED
+INV-2026-1309,ord_live_1309,BillDesk Technology Services,764.0,137.52,901.52,2026-08-12 00:33:24,2026-09-11 00:33:24,ISSUED
+INV-2026-1310,ord_live_1310,Razorpay Software Private Limited,19469.0,3504.42,22973.42,2026-07-22 02:22:43,2026-08-21 02:22:43,ISSUED
+INV-2026-1311,ord_live_1311,Cashfree Payments India Pvt Ltd,10077.0,1813.86,11890.86,2026-07-18 02:19:14,2026-08-17 02:19:14,ISSUED
+INV-2026-1312,ord_live_1312,Cashfree Payments India Pvt Ltd,18023.0,3244.14,21267.14,2026-07-21 00:22:35,2026-08-20 00:22:35,ISSUED
+INV-2026-1313,ord_live_1313,Paytm Payments Bank Ltd,1484.0,267.12,1751.12,2026-08-03 21:57:25,2026-09-02 21:57:25,ISSUED
+INV-2026-1314,ord_live_1314,Cashfree Payments India Pvt Ltd,688.0,123.84,811.84,2026-08-14 11:22:59,2026-09-13 11:22:59,ISSUED
+INV-2026-1315,ord_live_1315,Paytm Payments Bank Ltd,1080.0,194.4,1274.4,2026-07-13 15:52:34,2026-08-12 15:52:34,ISSUED
+INV-2026-1316,ord_live_1316,Paytm Payments Bank Ltd,6498.0,1169.64,7667.64,2026-07-07 04:47:37,2026-08-06 04:47:37,ISSUED
+INV-2026-1317,ord_live_1317,Paytm Payments Bank Ltd,1952.0,351.36,2303.36,2026-08-02 16:40:14,2026-09-01 16:40:14,ISSUED
+INV-2026-1318,ord_live_1318,Paytm Payments Bank Ltd,1568.0,282.24,1850.24,2026-07-30 12:43:49,2026-08-29 12:43:49,ISSUED
+INV-2026-1319,ord_live_1319,Razorpay Software Private Limited,95702.0,17226.36,112928.36,2026-07-27 05:59:56,2026-08-26 05:59:56,ISSUED
+INV-2026-1320,ord_live_1320,Razorpay Software Private Limited,11412.0,2054.16,13466.16,2026-07-20 18:41:03,2026-08-19 18:41:03,ISSUED
+INV-2026-1321,ord_live_1321,Paytm Payments Bank Ltd,19535.0,3516.3,23051.3,2026-08-17 08:54:59,2026-09-16 08:54:59,ISSUED
+INV-2026-1322,ord_live_1322,Cashfree Payments India Pvt Ltd,1814.0,326.52,2140.52,2026-07-11 10:53:25,2026-08-10 10:53:25,ISSUED
+INV-2026-1323,ord_live_1323,PhonePe Merchant Services,38970.0,7014.6,45984.6,2026-07-02 09:19:36,2026-08-01 09:19:36,ISSUED
+INV-2026-1324,ord_live_1324,PhonePe Merchant Services,1412.0,254.16,1666.16,2026-08-04 01:31:56,2026-09-03 01:31:56,ISSUED
+INV-2026-1325,ord_live_1325,BillDesk Technology Services,8318.0,1497.24,9815.24,2026-07-07 19:10:46,2026-08-06 19:10:46,ISSUED
+INV-2026-1326,ord_live_1326,Cashfree Payments India Pvt Ltd,480.0,86.4,566.4,2026-07-01 08:21:50,2026-07-31 08:21:50,ISSUED
+INV-2026-1327,ord_live_1327,PhonePe Merchant Services,8329.0,1499.22,9828.22,2026-07-12 04:54:40,2026-08-11 04:54:40,ISSUED
+INV-2026-1328,ord_live_1328,Cashfree Payments India Pvt Ltd,4842.0,871.56,5713.5599999999995,2026-07-26 06:06:11,2026-08-25 06:06:11,ISSUED
+INV-2026-1329,ord_live_1329,Cashfree Payments India Pvt Ltd,607.0,109.26,716.26,2026-06-30 17:24:15,2026-07-30 17:24:15,ISSUED
+INV-2026-1330,ord_live_1330,Paytm Payments Bank Ltd,114577.0,20623.86,135200.86,2026-08-07 08:36:00,2026-09-06 08:36:00,ISSUED
+INV-2026-1331,ord_live_1331,BillDesk Technology Services,582.0,104.76,686.76,2026-07-04 06:07:29,2026-08-03 06:07:29,ISSUED
+INV-2026-1332,ord_live_1332,Paytm Payments Bank Ltd,1128.0,203.04,1331.04,2026-08-14 18:44:07,2026-09-13 18:44:07,ISSUED
+INV-2026-1333,ord_live_1333,Paytm Payments Bank Ltd,9180.0,1652.4,10832.4,2026-07-09 00:09:29,2026-08-08 00:09:29,ISSUED
+INV-2026-1334,ord_live_1334,Cashfree Payments India Pvt Ltd,17428.0,3137.04,20565.04,2026-08-18 02:51:42,2026-09-17 02:51:42,ISSUED
+INV-2026-1335,ord_live_1335,BillDesk Technology Services,4682.0,842.76,5524.76,2026-08-02 23:33:45,2026-09-01 23:33:45,ISSUED
+INV-2026-1336,ord_live_1336,Paytm Payments Bank Ltd,27353.0,4923.54,32276.54,2026-07-04 02:57:32,2026-08-03 02:57:32,ISSUED
+INV-2026-1337,ord_live_1337,Paytm Payments Bank Ltd,7391.0,1330.38,8721.380000000001,2026-07-21 01:28:07,2026-08-20 01:28:07,ISSUED
+INV-2026-1338,ord_live_1338,BillDesk Technology Services,4979.0,896.22,5875.22,2026-08-01 23:51:03,2026-08-31 23:51:03,ISSUED
+INV-2026-1339,ord_live_1339,Paytm Payments Bank Ltd,16968.0,3054.24,20022.239999999998,2026-08-05 10:35:29,2026-09-04 10:35:29,ISSUED
+INV-2026-1340,ord_live_1340,BillDesk Technology Services,620.0,111.6,731.6,2026-07-01 08:13:37,2026-07-31 08:13:37,ISSUED
+INV-2026-1341,ord_live_1341,Paytm Payments Bank Ltd,1533.0,275.94,1808.94,2026-07-05 02:03:59,2026-08-04 02:03:59,ISSUED
+INV-2026-1342,ord_live_1342,Paytm Payments Bank Ltd,936.0,168.48,1104.48,2026-07-11 13:49:41,2026-08-10 13:49:41,ISSUED
+INV-2026-1343,ord_live_1343,Paytm Payments Bank Ltd,125133.0,22523.94,147656.94,2026-07-28 21:24:05,2026-08-27 21:24:05,ISSUED
+INV-2026-1344,ord_live_1344,BillDesk Technology Services,27774.0,4999.32,32773.32,2026-07-12 02:25:33,2026-08-11 02:25:33,ISSUED
+INV-2026-1345,ord_live_1345,BillDesk Technology Services,75456.0,13582.08,89038.08,2026-08-17 09:19:29,2026-09-16 09:19:29,ISSUED
+INV-2026-1346,ord_live_1346,Cashfree Payments India Pvt Ltd,569.0,102.42,671.42,2026-07-15 23:22:09,2026-08-14 23:22:09,ISSUED
+INV-2026-1347,ord_live_1347,BillDesk Technology Services,67515.0,12152.7,79667.7,2026-08-17 12:02:51,2026-09-16 12:02:51,ISSUED
+INV-2026-1348,ord_live_1348,Cashfree Payments India Pvt Ltd,2512.0,452.16,2964.16,2026-07-15 15:04:06,2026-08-14 15:04:06,ISSUED
+INV-2026-1349,ord_live_1349,Paytm Payments Bank Ltd,3595.0,647.1,4242.1,2026-07-16 08:02:25,2026-08-15 08:02:25,ISSUED
+INV-2026-1350,ord_live_1350,Razorpay Software Private Limited,3849.0,692.82,4541.82,2026-07-09 01:18:14,2026-08-08 01:18:14,ISSUED
+INV-2026-1351,ord_live_1351,Razorpay Software Private Limited,12507.0,2251.26,14758.26,2026-07-15 18:56:09,2026-08-14 18:56:09,ISSUED
+INV-2026-1352,ord_live_1352,BillDesk Technology Services,223.0,40.14,263.14,2026-08-05 03:56:47,2026-09-04 03:56:47,ISSUED
+INV-2026-1353,ord_live_1353,Cashfree Payments India Pvt Ltd,18240.0,3283.2,21523.2,2026-07-03 20:41:42,2026-08-02 20:41:42,ISSUED
+INV-2026-1354,ord_live_1354,Cashfree Payments India Pvt Ltd,951.0,171.18,1122.18,2026-07-26 13:19:24,2026-08-25 13:19:24,ISSUED
+INV-2026-1355,ord_live_1355,PhonePe Merchant Services,9384.0,1689.12,11073.119999999999,2026-07-20 07:09:51,2026-08-19 07:09:51,ISSUED
+INV-2026-1356,ord_live_1356,Cashfree Payments India Pvt Ltd,15648.0,2816.64,18464.64,2026-08-05 01:08:24,2026-09-04 01:08:24,ISSUED
+INV-2026-1357,ord_live_1357,Razorpay Software Private Limited,1423.0,256.14,1679.1399999999999,2026-07-05 23:54:23,2026-08-04 23:54:23,ISSUED
+INV-2026-1358,ord_live_1358,PhonePe Merchant Services,8241.0,1483.38,9724.380000000001,2026-07-03 17:24:43,2026-08-02 17:24:43,ISSUED
+INV-2026-1359,ord_live_1359,BillDesk Technology Services,1658.0,298.44,1956.44,2026-08-07 08:42:35,2026-09-06 08:42:35,ISSUED
+INV-2026-1360,ord_live_1360,Paytm Payments Bank Ltd,1956.0,352.08,2308.08,2026-07-21 18:58:00,2026-08-20 18:58:00,ISSUED
+INV-2026-1361,ord_live_1361,PhonePe Merchant Services,90377.0,16267.86,106644.86,2026-08-17 00:58:15,2026-09-16 00:58:15,ISSUED
+INV-2026-1362,ord_live_1362,BillDesk Technology Services,56181.0,10112.58,66293.58,2026-07-20 18:24:29,2026-08-19 18:24:29,ISSUED
+INV-2026-1363,ord_live_1363,BillDesk Technology Services,1149.0,206.82,1355.82,2026-07-31 23:06:51,2026-08-30 23:06:51,ISSUED
+INV-2026-1364,ord_live_1364,Cashfree Payments India Pvt Ltd,44294.0,7972.92,52266.92,2026-07-20 22:02:36,2026-08-19 22:02:36,ISSUED
+INV-2026-1365,ord_live_1365,BillDesk Technology Services,633.0,113.94,746.94,2026-08-05 03:37:46,2026-09-04 03:37:46,ISSUED
+INV-2026-1366,ord_live_1366,BillDesk Technology Services,774.0,139.32,913.3199999999999,2026-07-14 21:36:53,2026-08-13 21:36:53,ISSUED
+INV-2026-1367,ord_live_1367,PhonePe Merchant Services,13061.0,2350.98,15411.98,2026-07-17 00:46:41,2026-08-16 00:46:41,ISSUED
+INV-2026-1368,ord_live_1368,Razorpay Software Private Limited,1727.0,310.86,2037.8600000000001,2026-07-22 14:08:46,2026-08-21 14:08:46,ISSUED
+INV-2026-1369,ord_live_1369,Razorpay Software Private Limited,55529.0,9995.22,65524.22,2026-08-10 10:33:02,2026-09-09 10:33:02,ISSUED
+INV-2026-1370,ord_live_1370,BillDesk Technology Services,112.0,20.16,132.16,2026-07-26 13:53:40,2026-08-25 13:53:40,ISSUED
+INV-2026-1371,ord_live_1371,Cashfree Payments India Pvt Ltd,2299.0,413.82,2712.82,2026-07-14 01:29:23,2026-08-13 01:29:23,ISSUED
+INV-2026-1372,ord_live_1372,Paytm Payments Bank Ltd,17833.0,3209.94,21042.94,2026-08-12 00:01:00,2026-09-11 00:01:00,ISSUED
+INV-2026-1373,ord_live_1373,Razorpay Software Private Limited,1578.0,284.04,1862.04,2026-07-18 02:18:01,2026-08-17 02:18:01,ISSUED
+INV-2026-1374,ord_live_1374,Razorpay Software Private Limited,296.0,53.28,349.28,2026-08-02 13:15:12,2026-09-01 13:15:12,ISSUED
+INV-2026-1375,ord_live_1375,BillDesk Technology Services,911.0,163.98,1074.98,2026-07-05 20:25:29,2026-08-04 20:25:29,ISSUED
+INV-2026-1376,ord_live_1376,Razorpay Software Private Limited,1499.0,269.82,1768.82,2026-07-06 05:54:41,2026-08-05 05:54:41,ISSUED
+INV-2026-1377,ord_live_1377,Cashfree Payments India Pvt Ltd,871.0,156.78,1027.78,2026-08-05 00:03:40,2026-09-04 00:03:40,ISSUED
+INV-2026-1378,ord_live_1378,BillDesk Technology Services,1122.0,201.96,1323.96,2026-07-28 05:50:21,2026-08-27 05:50:21,ISSUED
+INV-2026-1379,ord_live_1379,BillDesk Technology Services,35057.0,6310.26,41367.26,2026-07-14 07:56:36,2026-08-13 07:56:36,ISSUED
+INV-2026-1380,ord_live_1380,Paytm Payments Bank Ltd,251.0,45.18,296.18,2026-08-12 17:57:34,2026-09-11 17:57:34,ISSUED
+INV-2026-1381,ord_live_1381,Razorpay Software Private Limited,40610.0,7309.8,47919.8,2026-07-01 15:37:09,2026-07-31 15:37:09,ISSUED
+INV-2026-1382,ord_live_1382,Cashfree Payments India Pvt Ltd,1253.0,225.54,1478.54,2026-07-16 03:53:54,2026-08-15 03:53:54,ISSUED
+INV-2026-1383,ord_live_1383,BillDesk Technology Services,41740.0,7513.2,49253.2,2026-07-25 08:08:50,2026-08-24 08:08:50,ISSUED
+INV-2026-1384,ord_live_1384,Razorpay Software Private Limited,13333.0,2399.94,15732.94,2026-07-03 12:27:14,2026-08-02 12:27:14,ISSUED
+INV-2026-1385,ord_live_1385,PhonePe Merchant Services,14999.0,2699.82,17698.82,2026-08-18 19:01:40,2026-09-17 19:01:40,ISSUED
+INV-2026-1386,ord_live_1386,BillDesk Technology Services,13659.0,2458.62,16117.619999999999,2026-08-04 21:27:11,2026-09-03 21:27:11,ISSUED
+INV-2026-1387,ord_live_1387,BillDesk Technology Services,11678.0,2102.04,13780.04,2026-07-16 07:04:05,2026-08-15 07:04:05,ISSUED
+INV-2026-1388,ord_live_1388,BillDesk Technology Services,1704.0,306.72,2010.72,2026-08-09 13:47:24,2026-09-08 13:47:24,ISSUED
+INV-2026-1389,ord_live_1389,PhonePe Merchant Services,109.0,19.62,128.62,2026-07-19 23:23:48,2026-08-18 23:23:48,ISSUED
+INV-2026-1390,ord_live_1390,PhonePe Merchant Services,482.0,86.76,568.76,2026-07-27 23:35:35,2026-08-26 23:35:35,ISSUED
+INV-2026-1391,ord_live_1391,Cashfree Payments India Pvt Ltd,823.0,148.14,971.14,2026-08-04 11:38:38,2026-09-03 11:38:38,ISSUED
+INV-2026-1392,ord_live_1392,Paytm Payments Bank Ltd,946.0,170.28,1116.28,2026-07-24 11:46:57,2026-08-23 11:46:57,ISSUED
+INV-2026-1393,ord_live_1393,Cashfree Payments India Pvt Ltd,14475.0,2605.5,17080.5,2026-07-10 13:17:19,2026-08-09 13:17:19,ISSUED
+INV-2026-1394,ord_live_1394,Razorpay Software Private Limited,441.0,79.38,520.38,2026-07-27 17:26:19,2026-08-26 17:26:19,ISSUED
+INV-2026-1395,ord_live_1395,Paytm Payments Bank Ltd,604.0,108.72,712.72,2026-08-16 05:31:38,2026-09-15 05:31:38,ISSUED
+INV-2026-1396,ord_live_1396,Cashfree Payments India Pvt Ltd,722.0,129.96,851.96,2026-06-30 21:21:53,2026-07-30 21:21:53,ISSUED
+INV-2026-1397,ord_live_1397,Razorpay Software Private Limited,980.0,176.4,1156.4,2026-08-11 04:08:19,2026-09-10 04:08:19,ISSUED
+INV-2026-1398,ord_live_1398,PhonePe Merchant Services,33163.0,5969.34,39132.34,2026-07-30 19:11:25,2026-08-29 19:11:25,ISSUED
+INV-2026-1399,ord_live_1399,BillDesk Technology Services,18089.0,3256.02,21345.02,2026-08-05 16:20:24,2026-09-04 16:20:24,ISSUED
+INV-2026-1400,ord_live_1400,PhonePe Merchant Services,1253.0,225.54,1478.54,2026-07-13 03:34:11,2026-08-12 03:34:11,ISSUED
+INV-2026-1401,ord_live_1401,Paytm Payments Bank Ltd,8869.0,1596.42,10465.42,2026-07-28 18:53:44,2026-08-27 18:53:44,ISSUED
+INV-2026-1402,ord_live_1402,Paytm Payments Bank Ltd,6560.0,1180.8,7740.8,2026-08-09 18:15:16,2026-09-08 18:15:16,ISSUED
+INV-2026-1403,ord_live_1403,Paytm Payments Bank Ltd,871.0,156.78,1027.78,2026-07-04 23:38:30,2026-08-03 23:38:30,ISSUED
+INV-2026-1404,ord_live_1404,PhonePe Merchant Services,15706.0,2827.08,18533.08,2026-08-03 10:50:23,2026-09-02 10:50:23,ISSUED
+INV-2026-1405,ord_live_1405,Razorpay Software Private Limited,13632.0,2453.76,16085.76,2026-07-11 05:39:02,2026-08-10 05:39:02,ISSUED
+INV-2026-1406,ord_live_1406,Razorpay Software Private Limited,131421.0,23655.78,155076.78,2026-07-06 09:06:16,2026-08-05 09:06:16,ISSUED
+INV-2026-1407,ord_live_1407,Cashfree Payments India Pvt Ltd,9242.0,1663.56,10905.56,2026-07-28 20:25:29,2026-08-27 20:25:29,ISSUED
+INV-2026-1408,ord_live_1408,BillDesk Technology Services,138278.0,24890.04,163168.04,2026-07-06 18:26:58,2026-08-05 18:26:58,ISSUED
+INV-2026-1409,ord_live_1409,BillDesk Technology Services,67851.0,12213.18,80064.18,2026-07-09 20:19:21,2026-08-08 20:19:21,ISSUED
+INV-2026-1410,ord_live_1410,Paytm Payments Bank Ltd,13413.0,2414.34,15827.34,2026-07-30 12:28:46,2026-08-29 12:28:46,ISSUED
+INV-2026-1411,ord_live_1411,BillDesk Technology Services,190.0,34.2,224.2,2026-08-14 12:01:54,2026-09-13 12:01:54,ISSUED
+INV-2026-1412,ord_live_1412,Paytm Payments Bank Ltd,1737.0,312.66,2049.66,2026-07-11 08:15:33,2026-08-10 08:15:33,ISSUED
+INV-2026-1413,ord_live_1413,Cashfree Payments India Pvt Ltd,1245.0,224.1,1469.1,2026-07-27 23:14:51,2026-08-26 23:14:51,ISSUED
+INV-2026-1414,ord_live_1414,Paytm Payments Bank Ltd,1410.0,253.8,1663.8,2026-08-11 22:25:01,2026-09-10 22:25:01,ISSUED
+INV-2026-1415,ord_live_1415,PhonePe Merchant Services,14741.0,2653.38,17394.38,2026-07-01 07:13:13,2026-07-31 07:13:13,ISSUED
+INV-2026-1416,ord_live_1416,BillDesk Technology Services,24100.0,4338.0,28438.0,2026-08-05 12:51:55,2026-09-04 12:51:55,ISSUED
+INV-2026-1417,ord_live_1417,BillDesk Technology Services,1036.0,186.48,1222.48,2026-07-07 17:42:55,2026-08-06 17:42:55,ISSUED
+INV-2026-1418,ord_live_1418,Cashfree Payments India Pvt Ltd,116079.0,20894.22,136973.22,2026-08-07 21:39:25,2026-09-06 21:39:25,ISSUED
+INV-2026-1419,ord_live_1419,Cashfree Payments India Pvt Ltd,1036.0,186.48,1222.48,2026-08-08 14:52:43,2026-09-07 14:52:43,ISSUED
+INV-2026-1420,ord_live_1420,Paytm Payments Bank Ltd,6389.0,1150.02,7539.02,2026-07-20 12:15:19,2026-08-19 12:15:19,ISSUED
+INV-2026-1421,ord_live_1421,PhonePe Merchant Services,388.0,69.84,457.84000000000003,2026-08-01 21:26:38,2026-08-31 21:26:38,ISSUED
+INV-2026-1422,ord_live_1422,Cashfree Payments India Pvt Ltd,479.0,86.22,565.22,2026-08-01 05:34:44,2026-08-31 05:34:44,ISSUED
+INV-2026-1423,ord_live_1423,Razorpay Software Private Limited,690.0,124.2,814.2,2026-07-08 14:20:53,2026-08-07 14:20:53,ISSUED
+INV-2026-1424,ord_live_1424,BillDesk Technology Services,834.0,150.12,984.12,2026-07-01 00:08:12,2026-07-31 00:08:12,ISSUED
+INV-2026-1425,ord_live_1425,PhonePe Merchant Services,18219.0,3279.42,21498.42,2026-07-27 06:31:26,2026-08-26 06:31:26,ISSUED
+INV-2026-1426,ord_live_1426,Cashfree Payments India Pvt Ltd,1256.0,226.08,1482.08,2026-07-01 16:18:02,2026-07-31 16:18:02,ISSUED
+INV-2026-1427,ord_live_1427,Paytm Payments Bank Ltd,7511.0,1351.98,8862.98,2026-08-18 23:36:47,2026-09-17 23:36:47,ISSUED
+INV-2026-1428,ord_live_1428,Razorpay Software Private Limited,5742.0,1033.56,6775.5599999999995,2026-07-18 02:52:23,2026-08-17 02:52:23,ISSUED
+INV-2026-1429,ord_live_1429,PhonePe Merchant Services,546.0,98.28,644.28,2026-07-27 12:47:53,2026-08-26 12:47:53,ISSUED
+INV-2026-1430,ord_live_1430,PhonePe Merchant Services,22112.0,3980.16,26092.16,2026-07-28 17:22:55,2026-08-27 17:22:55,ISSUED
+INV-2026-1431,ord_live_1431,BillDesk Technology Services,27693.0,4984.74,32677.739999999998,2026-08-18 16:13:51,2026-09-17 16:13:51,ISSUED
+INV-2026-1432,ord_live_1432,BillDesk Technology Services,16030.0,2885.4,18915.4,2026-07-11 04:08:50,2026-08-10 04:08:50,ISSUED
+INV-2026-1433,ord_live_1433,PhonePe Merchant Services,57360.0,10324.8,67684.8,2026-07-23 02:17:38,2026-08-22 02:17:38,ISSUED
+INV-2026-1434,ord_live_1434,Razorpay Software Private Limited,113357.0,20404.26,133761.26,2026-07-19 03:17:54,2026-08-18 03:17:54,ISSUED
+INV-2026-1435,ord_live_1435,Paytm Payments Bank Ltd,128949.0,23210.82,152159.82,2026-07-03 17:55:41,2026-08-02 17:55:41,ISSUED
+INV-2026-1436,ord_live_1436,BillDesk Technology Services,36362.0,6545.16,42907.16,2026-07-10 07:20:53,2026-08-09 07:20:53,ISSUED
+INV-2026-1437,ord_live_1437,Paytm Payments Bank Ltd,390.0,70.2,460.2,2026-08-06 05:17:40,2026-09-05 05:17:40,ISSUED
+INV-2026-1438,ord_live_1438,PhonePe Merchant Services,5050.0,909.0,5959.0,2026-07-26 01:47:17,2026-08-25 01:47:17,ISSUED
+INV-2026-1439,ord_live_1439,Cashfree Payments India Pvt Ltd,117899.0,21221.82,139120.82,2026-08-06 09:55:49,2026-09-05 09:55:49,ISSUED
+INV-2026-1440,ord_live_1440,BillDesk Technology Services,121953.0,21951.54,143904.54,2026-07-05 02:25:13,2026-08-04 02:25:13,ISSUED
+INV-2026-1441,ord_live_1441,Paytm Payments Bank Ltd,12579.0,2264.22,14843.22,2026-07-18 19:35:36,2026-08-17 19:35:36,ISSUED
+INV-2026-1442,ord_live_1442,Paytm Payments Bank Ltd,71662.0,12899.16,84561.16,2026-07-22 06:48:03,2026-08-21 06:48:03,ISSUED
+INV-2026-1443,ord_live_1443,Paytm Payments Bank Ltd,17059.0,3070.62,20129.62,2026-07-01 12:59:54,2026-07-31 12:59:54,ISSUED
+INV-2026-1444,ord_live_1444,Cashfree Payments India Pvt Ltd,16018.0,2883.24,18901.239999999998,2026-07-13 07:58:08,2026-08-12 07:58:08,ISSUED
+INV-2026-1445,ord_live_1445,BillDesk Technology Services,37958.0,6832.44,44790.44,2026-07-06 05:23:16,2026-08-05 05:23:16,ISSUED
+INV-2026-1446,ord_live_1446,PhonePe Merchant Services,7423.0,1336.14,8759.14,2026-07-03 21:40:19,2026-08-02 21:40:19,ISSUED
+INV-2026-1447,ord_live_1447,Cashfree Payments India Pvt Ltd,5118.0,921.24,6039.24,2026-06-30 15:30:04,2026-07-30 15:30:04,ISSUED
+INV-2026-1448,ord_live_1448,Cashfree Payments India Pvt Ltd,1491.0,268.38,1759.38,2026-07-28 09:00:44,2026-08-27 09:00:44,ISSUED
+INV-2026-1449,ord_live_1449,Paytm Payments Bank Ltd,130354.0,23463.72,153817.72,2026-08-13 13:30:04,2026-09-12 13:30:04,ISSUED
+INV-2026-1450,ord_live_1450,Cashfree Payments India Pvt Ltd,1749.0,314.82,2063.82,2026-07-06 12:20:23,2026-08-05 12:20:23,ISSUED
+INV-2026-1451,ord_live_1451,BillDesk Technology Services,1764.0,317.52,2081.52,2026-08-17 13:41:43,2026-09-16 13:41:43,ISSUED
+INV-2026-1452,ord_live_1452,BillDesk Technology Services,2277.0,409.86,2686.86,2026-08-09 05:10:28,2026-09-08 05:10:28,ISSUED
+INV-2026-1453,ord_live_1453,BillDesk Technology Services,1631.0,293.58,1924.58,2026-07-09 22:39:43,2026-08-08 22:39:43,ISSUED
+INV-2026-1454,ord_live_1454,PhonePe Merchant Services,304.0,54.72,358.72,2026-07-08 12:37:46,2026-08-07 12:37:46,ISSUED
+INV-2026-1455,ord_live_1455,Cashfree Payments India Pvt Ltd,116223.0,20920.14,137143.14,2026-08-19 13:15:17,2026-09-18 13:15:17,ISSUED
+INV-2026-1456,ord_live_1456,Paytm Payments Bank Ltd,11336.0,2040.48,13376.48,2026-08-19 07:01:54,2026-09-18 07:01:54,ISSUED
+INV-2026-1457,ord_live_1457,Paytm Payments Bank Ltd,18696.0,3365.28,22061.28,2026-07-13 08:25:18,2026-08-12 08:25:18,ISSUED
+INV-2026-1458,ord_live_1458,Razorpay Software Private Limited,5694.0,1024.92,6718.92,2026-07-16 00:40:38,2026-08-15 00:40:38,ISSUED
+INV-2026-1459,ord_live_1459,PhonePe Merchant Services,20790.0,3742.2,24532.2,2026-07-23 19:08:24,2026-08-22 19:08:24,ISSUED
+INV-2026-1460,ord_live_1460,BillDesk Technology Services,7661.0,1378.98,9039.98,2026-08-18 00:49:04,2026-09-17 00:49:04,ISSUED
+INV-2026-1461,ord_live_1461,PhonePe Merchant Services,635.0,114.3,749.3,2026-07-13 10:59:03,2026-08-12 10:59:03,ISSUED
+INV-2026-1462,ord_live_1462,Cashfree Payments India Pvt Ltd,1558.0,280.44,1838.44,2026-08-01 22:27:44,2026-08-31 22:27:44,ISSUED
+INV-2026-1463,ord_live_1463,Paytm Payments Bank Ltd,19617.0,3531.06,23148.06,2026-08-08 13:17:05,2026-09-07 13:17:05,ISSUED
+INV-2026-1464,ord_live_1464,Paytm Payments Bank Ltd,8658.0,1558.44,10216.44,2026-07-10 02:20:25,2026-08-09 02:20:25,ISSUED
+INV-2026-1465,ord_live_1465,PhonePe Merchant Services,9819.0,1767.42,11586.42,2026-07-03 16:05:59,2026-08-02 16:05:59,ISSUED
+INV-2026-1466,ord_live_1466,Cashfree Payments India Pvt Ltd,3803.0,684.54,4487.54,2026-07-20 06:47:42,2026-08-19 06:47:42,ISSUED
+INV-2026-1467,ord_live_1467,Paytm Payments Bank Ltd,380.0,68.4,448.4,2026-08-13 09:10:31,2026-09-12 09:10:31,ISSUED
+INV-2026-1468,ord_live_1468,Cashfree Payments India Pvt Ltd,10495.0,1889.1,12384.1,2026-07-10 20:08:47,2026-08-09 20:08:47,ISSUED
+INV-2026-1469,ord_live_1469,Paytm Payments Bank Ltd,70556.0,12700.08,83256.08,2026-07-01 19:51:27,2026-07-31 19:51:27,ISSUED
+INV-2026-1470,ord_live_1470,BillDesk Technology Services,1557.0,280.26,1837.26,2026-08-06 05:04:31,2026-09-05 05:04:31,ISSUED
+INV-2026-1471,ord_live_1471,PhonePe Merchant Services,1122.0,201.96,1323.96,2026-08-05 14:23:10,2026-09-04 14:23:10,ISSUED
+INV-2026-1472,ord_live_1472,Paytm Payments Bank Ltd,64179.0,11552.22,75731.22,2026-08-15 12:14:47,2026-09-14 12:14:47,ISSUED
+INV-2026-1473,ord_live_1473,Paytm Payments Bank Ltd,20805.0,3744.9,24549.9,2026-07-15 10:30:23,2026-08-14 10:30:23,ISSUED
+INV-2026-1474,ord_live_1474,PhonePe Merchant Services,1855.0,333.9,2188.9,2026-07-03 02:51:58,2026-08-02 02:51:58,ISSUED
+INV-2026-1475,ord_live_1475,Razorpay Software Private Limited,951.0,171.18,1122.18,2026-08-15 19:17:52,2026-09-14 19:17:52,ISSUED
+INV-2026-1476,ord_live_1476,PhonePe Merchant Services,1127.0,202.86,1329.8600000000001,2026-08-12 10:11:14,2026-09-11 10:11:14,ISSUED
+INV-2026-1477,ord_live_1477,Cashfree Payments India Pvt Ltd,1051.0,189.18,1240.18,2026-07-18 18:20:05,2026-08-17 18:20:05,ISSUED
+INV-2026-1478,ord_live_1478,Razorpay Software Private Limited,696.0,125.28,821.28,2026-08-05 18:47:39,2026-09-04 18:47:39,ISSUED
+INV-2026-1479,ord_live_1479,Cashfree Payments India Pvt Ltd,1109.0,199.62,1308.62,2026-08-18 15:46:57,2026-09-17 15:46:57,ISSUED
+INV-2026-1480,ord_live_1480,Cashfree Payments India Pvt Ltd,938.0,168.84,1106.84,2026-07-01 16:34:22,2026-07-31 16:34:22,ISSUED
+INV-2026-1481,ord_live_1481,Paytm Payments Bank Ltd,1445.0,260.1,1705.1,2026-07-25 08:46:19,2026-08-24 08:46:19,ISSUED
+INV-2026-1482,ord_live_1482,Paytm Payments Bank Ltd,9804.0,1764.72,11568.72,2026-07-27 00:03:09,2026-08-26 00:03:09,ISSUED
+INV-2026-1483,ord_live_1483,BillDesk Technology Services,573.0,103.14,676.14,2026-08-02 22:44:57,2026-09-01 22:44:57,ISSUED
+INV-2026-1484,ord_live_1484,PhonePe Merchant Services,86129.0,15503.22,101632.22,2026-08-06 12:32:08,2026-09-05 12:32:08,ISSUED
+INV-2026-1485,ord_live_1485,Paytm Payments Bank Ltd,4040.0,727.2,4767.2,2026-07-28 06:08:15,2026-08-27 06:08:15,ISSUED
+INV-2026-1486,ord_live_1486,Cashfree Payments India Pvt Ltd,72482.0,13046.76,85528.76,2026-07-26 07:53:47,2026-08-25 07:53:47,ISSUED
+INV-2026-1487,ord_live_1487,BillDesk Technology Services,9654.0,1737.72,11391.72,2026-07-04 15:08:49,2026-08-03 15:08:49,ISSUED
+INV-2026-1488,ord_live_1488,Razorpay Software Private Limited,1019.0,183.42,1202.42,2026-07-29 19:26:07,2026-08-28 19:26:07,ISSUED
+INV-2026-1489,ord_live_1489,Paytm Payments Bank Ltd,17182.0,3092.76,20274.760000000002,2026-07-16 12:05:10,2026-08-15 12:05:10,ISSUED
+INV-2026-1490,ord_live_1490,Paytm Payments Bank Ltd,3321.0,597.78,3918.7799999999997,2026-07-13 19:09:05,2026-08-12 19:09:05,ISSUED
+INV-2026-1491,ord_live_1491,Razorpay Software Private Limited,199.0,35.82,234.82,2026-08-12 18:16:52,2026-09-11 18:16:52,ISSUED
+INV-2026-1492,ord_live_1492,Razorpay Software Private Limited,134271.0,24168.78,158439.78,2026-08-05 08:35:15,2026-09-04 08:35:15,ISSUED
+INV-2026-1493,ord_live_1493,BillDesk Technology Services,1724.0,310.32,2034.32,2026-07-08 12:00:03,2026-08-07 12:00:03,ISSUED
+INV-2026-1494,ord_live_1494,Paytm Payments Bank Ltd,919.0,165.42,1084.42,2026-07-24 06:40:41,2026-08-23 06:40:41,ISSUED
+INV-2026-1495,ord_live_1495,Paytm Payments Bank Ltd,4457.0,802.26,5259.26,2026-07-01 11:12:57,2026-07-31 11:12:57,ISSUED
+INV-2026-1496,ord_live_1496,Cashfree Payments India Pvt Ltd,1834.0,330.12,2164.12,2026-07-21 12:02:29,2026-08-20 12:02:29,ISSUED
+INV-2026-1497,ord_live_1497,Paytm Payments Bank Ltd,48387.0,8709.66,57096.66,2026-08-15 21:31:01,2026-09-14 21:31:01,ISSUED
+INV-2026-1498,ord_live_1498,PhonePe Merchant Services,823.0,148.14,971.14,2026-07-13 14:17:17,2026-08-12 14:17:17,ISSUED
+INV-2026-1499,ord_live_1499,BillDesk Technology Services,1367.0,246.06,1613.06,2026-08-08 16:41:18,2026-09-07 16:41:18,ISSUED
+INV-2026-1500,ord_live_1500,Cashfree Payments India Pvt Ltd,51393.0,9250.74,60643.74,2026-07-03 11:17:24,2026-08-02 11:17:24,ISSUED

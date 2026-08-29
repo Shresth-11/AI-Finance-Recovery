@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import { useRouter } from "next/navigation";
-import { Sparkles, Play, AlertTriangle, ArrowRight, CheckCircle2, ShieldAlert } from "lucide-react";
+import { Play, Database } from "lucide-react";
 import { toast } from "sonner";
 import { Button } from "@/components/ui/button";
 import { fetchApi } from "@/lib/api";
@@ -17,8 +17,8 @@ export function DemoTour({ onRunReconciliation }: DemoTourProps) {
 
   const handleQuickDemoFlow = async () => {
     setRunning(true);
-    toast.info("⚡ Executing 30-Second Judge Demo Preset...", {
-      description: "1. Seeding 2,010 records → 2. Running 12-rule engine → 3. Navigating to Critical Exceptions.",
+    toast.info("Loading demo data and running reconciliation...", {
+      description: "Processing 2,010 records across orders, payments, settlements, and invoices.",
     });
 
     try {
@@ -28,38 +28,38 @@ export function DemoTour({ onRunReconciliation }: DemoTourProps) {
       // 2. Run reconciliation engine
       const res = await fetchApi<any>("/reconciliation/run", { method: "POST" });
       
-      toast.success(`Reconciliation Completed! Detected ${res.summary.total_exceptions} exceptions.`, {
-        description: "Navigating to Critical Exceptions Triage Queue...",
+      toast.success(`Reconciliation complete. Detected ${res.summary.total_exceptions} exceptions requiring review.`, {
+        description: "Opening critical exceptions queue.",
       });
 
-      // 3. Navigate to exceptions queue
+      // 3. Navigate to open critical exceptions queue
       router.push("/exceptions?severity=CRITICAL&status=OPEN");
     } catch (err: any) {
-      toast.error(`Demo preset failed: ${err.message}`);
+      toast.error(`Unable to run demo dataset: ${err.message}`);
     } finally {
       setRunning(false);
     }
   };
 
   return (
-    <div className="flex items-center gap-2 bg-gradient-to-r from-violet-600/10 via-primary/10 to-emerald-600/10 p-1.5 rounded-lg border border-violet-300/40 dark:border-violet-800/40 shadow-xs">
-      <div className="flex items-center gap-1.5 px-2 text-xs font-bold text-violet-700 dark:text-violet-300">
-        <Sparkles className="h-3.5 w-3.5 fill-current animate-pulse" />
-        <span className="hidden sm:inline uppercase text-[10px] tracking-wider font-extrabold">Judge Demo Shortcut</span>
+    <div className="flex items-center gap-2 bg-muted/50 p-1 rounded border border-border">
+      <div className="flex items-center gap-1.5 px-2 text-xs font-medium text-muted-foreground">
+        <Database className="h-3.5 w-3.5 text-primary" />
+        <span className="hidden sm:inline text-[11px]">Demo Data</span>
       </div>
 
       <Button
         size="sm"
         disabled={running}
         onClick={handleQuickDemoFlow}
-        className="h-7 text-[11px] gap-1 px-2.5 bg-violet-600 hover:bg-violet-700 text-white font-semibold shadow-xs"
+        className="h-7 text-xs gap-1.5 px-3 font-medium"
       >
         {running ? (
-          <div className="h-3 w-3 animate-spin rounded-full border-2 border-white border-t-transparent" />
+          <div className="h-3 w-3 animate-spin rounded-full border-2 border-primary-foreground border-t-transparent" />
         ) : (
           <Play className="h-3 w-3 fill-current" />
         )}
-        <span>{running ? "Executing Preset..." : "Run 1-Click Judge Demo"}</span>
+        <span>{running ? "Processing..." : "Run Demo Preset"}</span>
       </Button>
     </div>
   );
