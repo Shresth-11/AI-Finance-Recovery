@@ -1,0 +1,51 @@
+graph TD
+    subgraph Data Layer [Data Feeds & Ingestion]
+        ERP["ERP Orders Feed\n(orders.csv - 500 rows)"]
+        PG["Payment Gateway Feed\n(payments.csv - 540 rows)"]
+        BANK["Bank Payout Advice UTRs\n(settlements.csv - 470 rows)"]
+        INV["Vendor Tax Invoices\n(invoices.csv - 500 rows)"]
+    end
+
+    subgraph Backend [FastAPI Backend Service]
+        NORMALIZER["Data Normalizer Engine\n(Ref ID, Email, Currency, UTC Normalizer)"]
+        EXACT["Vectorized Exact Matcher\n(Pandas 1-to-1 & 1-to-Many Joins)"]
+        FUZZY["Fuzzy Matcher\n(SequenceMatcher for Invoice-Order Pairing)"]
+        RULES["Reconciliation Rules Engine\n(12 Ground-Truth Financial Checks)"]
+        ANOMALY["IsolationForest ML & MDR Check\n(Gateway Fee Overcharge Detector)"]
+        SCORER["Severity & Priority Scorer\n(Composite Weighted Risk Index 0-100)"]
+        EVIDENCE["Evidence & Narrative Generator\n(Side-by-Side Comparison Cards)"]
+        COPILOT_BE["Grounded Copilot Engine\n(Fallback Engine / OpenAI gpt-4o-mini)"]
+        DB[(SQLite Database\nledgerguard.db)]
+    end
+
+    subgraph Frontend [Next.js Enterprise Operations Console]
+        SHELL["AppShell & Cmd+K Palette"]
+        DASH["Overview Dashboard (/)"]
+        RECON["Reconciliation Console (/reconciliation)"]
+        EXC_EXP["Exceptions Explorer (/exceptions)"]
+        EXC_DET["Incident Detail Workspace (/exceptions/id)"]
+        COPILOT_FE["AI Copilot Chat Console (/copilot)"]
+        REPORTS["Financial Compliance Reports (/reports)"]
+    end
+
+    ERP --> NORMALIZER
+    PG --> NORMALIZER
+    BANK --> NORMALIZER
+    INV --> NORMALIZER
+
+    NORMALIZER --> EXACT
+    EXACT --> FUZZY
+    FUZZY --> RULES
+    RULES --> ANOMALY
+    ANOMALY --> SCORER
+    SCORER --> EVIDENCE
+    EVIDENCE --> DB
+
+    DB <--> DASH
+    DB <--> RECON
+    DB <--> EXC_EXP
+    DB <--> EXC_DET
+    DB <--> COPILOT_BE
+    DB <--> REPORTS
+
+    COPILOT_BE <--> COPILOT_FE

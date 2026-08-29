@@ -1,0 +1,151 @@
+anomaly_id,exception_type,severity,order_id,payment_id,settlement_id,invoice_id,discrepancy_amount,description
+ANO_001,DUPLICATE_PAYMENT,CRITICAL,ord_live_1001,pay_live_1002,,,384.0,Order ord_live_1001 has duplicate captured payment pay_live_1002 alongside pay_live_1001.
+ANO_002,DUPLICATE_PAYMENT,CRITICAL,ord_live_1002,pay_live_1004,,,290.0,Order ord_live_1002 has duplicate captured payment pay_live_1004 alongside pay_live_1003.
+ANO_003,DUPLICATE_PAYMENT,CRITICAL,ord_live_1003,pay_live_1006,,,19856.0,Order ord_live_1003 has duplicate captured payment pay_live_1006 alongside pay_live_1005.
+ANO_004,DUPLICATE_PAYMENT,CRITICAL,ord_live_1004,pay_live_1008,,,7231.0,Order ord_live_1004 has duplicate captured payment pay_live_1008 alongside pay_live_1007.
+ANO_005,DUPLICATE_PAYMENT,CRITICAL,ord_live_1005,pay_live_1010,,,877.0,Order ord_live_1005 has duplicate captured payment pay_live_1010 alongside pay_live_1009.
+ANO_006,DUPLICATE_PAYMENT,CRITICAL,ord_live_1006,pay_live_1012,,,19571.0,Order ord_live_1006 has duplicate captured payment pay_live_1012 alongside pay_live_1011.
+ANO_007,DUPLICATE_PAYMENT,CRITICAL,ord_live_1007,pay_live_1014,,,13850.0,Order ord_live_1007 has duplicate captured payment pay_live_1014 alongside pay_live_1013.
+ANO_008,DUPLICATE_PAYMENT,CRITICAL,ord_live_1008,pay_live_1016,,,4614.0,Order ord_live_1008 has duplicate captured payment pay_live_1016 alongside pay_live_1015.
+ANO_009,DUPLICATE_PAYMENT,CRITICAL,ord_live_1009,pay_live_1018,,,826.0,Order ord_live_1009 has duplicate captured payment pay_live_1018 alongside pay_live_1017.
+ANO_010,DUPLICATE_PAYMENT,CRITICAL,ord_live_1010,pay_live_1020,,,1592.0,Order ord_live_1010 has duplicate captured payment pay_live_1020 alongside pay_live_1019.
+ANO_011,DUPLICATE_PAYMENT,CRITICAL,ord_live_1011,pay_live_1022,,,763.0,Order ord_live_1011 has duplicate captured payment pay_live_1022 alongside pay_live_1021.
+ANO_012,DUPLICATE_PAYMENT,CRITICAL,ord_live_1012,pay_live_1024,,,234.0,Order ord_live_1012 has duplicate captured payment pay_live_1024 alongside pay_live_1023.
+ANO_013,DUPLICATE_PAYMENT,CRITICAL,ord_live_1013,pay_live_1026,,,17035.0,Order ord_live_1013 has duplicate captured payment pay_live_1026 alongside pay_live_1025.
+ANO_014,DUPLICATE_PAYMENT,CRITICAL,ord_live_1014,pay_live_1028,,,1294.0,Order ord_live_1014 has duplicate captured payment pay_live_1028 alongside pay_live_1027.
+ANO_015,DUPLICATE_PAYMENT,CRITICAL,ord_live_1015,pay_live_1030,,,30016.0,Order ord_live_1015 has duplicate captured payment pay_live_1030 alongside pay_live_1029.
+ANO_016,DUPLICATE_PAYMENT,CRITICAL,ord_live_1016,pay_live_1032,,,1319.0,Order ord_live_1016 has duplicate captured payment pay_live_1032 alongside pay_live_1031.
+ANO_017,DUPLICATE_PAYMENT,CRITICAL,ord_live_1017,pay_live_1034,,,19595.0,Order ord_live_1017 has duplicate captured payment pay_live_1034 alongside pay_live_1033.
+ANO_018,DUPLICATE_PAYMENT,CRITICAL,ord_live_1018,pay_live_1036,,,1028.0,Order ord_live_1018 has duplicate captured payment pay_live_1036 alongside pay_live_1035.
+ANO_019,DUPLICATE_PAYMENT,CRITICAL,ord_live_1019,pay_live_1038,,,5486.0,Order ord_live_1019 has duplicate captured payment pay_live_1038 alongside pay_live_1037.
+ANO_020,DUPLICATE_PAYMENT,CRITICAL,ord_live_1020,pay_live_1040,,,19674.0,Order ord_live_1020 has duplicate captured payment pay_live_1040 alongside pay_live_1039.
+ANO_021,PARTIAL_PAYMENT,HIGH,ord_live_1021,pay_live_1041,,,336.8,Order ord_live_1021 of ₹842.0 received only partial payment ₹505.2.
+ANO_022,PARTIAL_PAYMENT,HIGH,ord_live_1022,pay_live_1042,,,27938.4,Order ord_live_1022 of ₹69846.0 received only partial payment ₹41907.6.
+ANO_023,PARTIAL_PAYMENT,HIGH,ord_live_1023,pay_live_1043,,,754.0,Order ord_live_1023 of ₹1885.0 received only partial payment ₹1131.0.
+ANO_024,PARTIAL_PAYMENT,HIGH,ord_live_1024,pay_live_1044,,,589.6,Order ord_live_1024 of ₹1474.0 received only partial payment ₹884.4.
+ANO_025,PARTIAL_PAYMENT,HIGH,ord_live_1025,pay_live_1045,,,316.4,Order ord_live_1025 of ₹791.0 received only partial payment ₹474.6.
+ANO_026,OVERPAYMENT,MEDIUM,ord_live_1026,pay_live_1046,,,785.8,Order ord_live_1026 of ₹3929.0 received excess payment ₹4714.8.
+ANO_027,OVERPAYMENT,MEDIUM,ord_live_1027,pay_live_1047,,,293.8,Order ord_live_1027 of ₹1469.0 received excess payment ₹1762.8.
+ANO_028,OVERPAYMENT,MEDIUM,ord_live_1028,pay_live_1048,,,6495.6,Order ord_live_1028 of ₹32478.0 received excess payment ₹38973.6.
+ANO_029,OVERPAYMENT,MEDIUM,ord_live_1029,pay_live_1049,,,755.0,Order ord_live_1029 of ₹3775.0 received excess payment ₹4530.0.
+ANO_030,OVERPAYMENT,MEDIUM,ord_live_1030,pay_live_1050,,,5432.2,Order ord_live_1030 of ₹27161.0 received excess payment ₹32593.2.
+ANO_031,FEE_ANOMALY,HIGH,ord_live_1096,pay_live_1116,,,90.3,"Excessive fee charged on UPI payment pay_live_1116: expected ₹0.0, actual charged ₹90.3 (7% rate)."
+ANO_032,FEE_ANOMALY,HIGH,ord_live_1097,pay_live_1117,,,92.66,"Excessive fee charged on NET_BANKING payment pay_live_1117: expected ₹15.0, actual charged ₹107.66 (7% rate)."
+ANO_033,FEE_ANOMALY,HIGH,ord_live_1098,pay_live_1118,,,113.4,"Excessive fee charged on UPI payment pay_live_1118: expected ₹0.0, actual charged ₹113.4 (7% rate)."
+ANO_034,FEE_ANOMALY,HIGH,ord_live_1099,pay_live_1119,,,76.42,"Excessive fee charged on NET_BANKING payment pay_live_1119: expected ₹15.0, actual charged ₹91.42 (7% rate)."
+ANO_035,FEE_ANOMALY,HIGH,ord_live_1100,pay_live_1120,,,58.66,"Excessive fee charged on UPI payment pay_live_1120: expected ₹0.0, actual charged ₹58.66 (7% rate)."
+ANO_036,FEE_ANOMALY,HIGH,ord_live_1101,pay_live_1121,,,10327.1,"Excessive fee charged on UPI payment pay_live_1121: expected ₹0.0, actual charged ₹10327.1 (7% rate)."
+ANO_037,FEE_ANOMALY,HIGH,ord_live_1102,pay_live_1122,,,1216.67,"Excessive fee charged on UPI payment pay_live_1122: expected ₹0.0, actual charged ₹1216.67 (7% rate)."
+ANO_038,FEE_ANOMALY,HIGH,ord_live_1103,pay_live_1123,,,16.24,"Excessive fee charged on UPI payment pay_live_1123: expected ₹0.0, actual charged ₹16.24 (7% rate)."
+ANO_039,FEE_ANOMALY,HIGH,ord_live_1104,pay_live_1124,,,1995.6,"Excessive fee charged on CARD payment pay_live_1124: expected ₹798.24, actual charged ₹2793.84 (7% rate)."
+ANO_040,FEE_ANOMALY,HIGH,ord_live_1105,pay_live_1125,,,657.65,"Excessive fee charged on UPI payment pay_live_1125: expected ₹0.0, actual charged ₹657.65 (7% rate)."
+ANO_041,FEE_ANOMALY,HIGH,ord_live_1106,pay_live_1126,,,6326.49,"Excessive fee charged on WALLET payment pay_live_1126: expected ₹1725.4, actual charged ₹8051.89 (7% rate)."
+ANO_042,FEE_ANOMALY,HIGH,ord_live_1107,pay_live_1127,,,746.97,"Excessive fee charged on UPI payment pay_live_1127: expected ₹0.0, actual charged ₹746.97 (7% rate)."
+ANO_043,FEE_ANOMALY,HIGH,ord_live_1108,pay_live_1128,,,46.75,"Excessive fee charged on CARD payment pay_live_1128: expected ₹18.7, actual charged ₹65.45 (7% rate)."
+ANO_044,FEE_ANOMALY,HIGH,ord_live_1109,pay_live_1129,,,32.46,"Excessive fee charged on NET_BANKING payment pay_live_1129: expected ₹15.0, actual charged ₹47.46 (7% rate)."
+ANO_045,FEE_ANOMALY,HIGH,ord_live_1110,pay_live_1130,,,424.1,"Excessive fee charged on CARD payment pay_live_1130: expected ₹169.64, actual charged ₹593.74 (7% rate)."
+ANO_046,PAYMENT_WITHOUT_ORDER,HIGH,ord_ghost_9001,pay_ghost_1521,,,2284.0,Payment pay_ghost_1521 captured for non-existent order ord_ghost_9001.
+ANO_047,PAYMENT_WITHOUT_ORDER,HIGH,ord_ghost_9002,pay_ghost_1522,,,1871.0,Payment pay_ghost_1522 captured for non-existent order ord_ghost_9002.
+ANO_048,PAYMENT_WITHOUT_ORDER,HIGH,ord_ghost_9003,pay_ghost_1523,,,573.0,Payment pay_ghost_1523 captured for non-existent order ord_ghost_9003.
+ANO_049,PAYMENT_WITHOUT_ORDER,HIGH,ord_ghost_9004,pay_ghost_1524,,,1769.0,Payment pay_ghost_1524 captured for non-existent order ord_ghost_9004.
+ANO_050,PAYMENT_WITHOUT_ORDER,HIGH,ord_ghost_9005,pay_ghost_1525,,,3272.0,Payment pay_ghost_1525 captured for non-existent order ord_ghost_9005.
+ANO_051,PAYMENT_WITHOUT_ORDER,HIGH,ord_ghost_9006,pay_ghost_1526,,,4893.0,Payment pay_ghost_1526 captured for non-existent order ord_ghost_9006.
+ANO_052,PAYMENT_WITHOUT_ORDER,HIGH,ord_ghost_9007,pay_ghost_1527,,,3345.0,Payment pay_ghost_1527 captured for non-existent order ord_ghost_9007.
+ANO_053,PAYMENT_WITHOUT_ORDER,HIGH,ord_ghost_9008,pay_ghost_1528,,,1603.0,Payment pay_ghost_1528 captured for non-existent order ord_ghost_9008.
+ANO_054,PAYMENT_WITHOUT_ORDER,HIGH,ord_ghost_9009,pay_ghost_1529,,,2914.0,Payment pay_ghost_1529 captured for non-existent order ord_ghost_9009.
+ANO_055,PAYMENT_WITHOUT_ORDER,HIGH,ord_ghost_9010,pay_ghost_1530,,,3151.0,Payment pay_ghost_1530 captured for non-existent order ord_ghost_9010.
+ANO_056,PAYMENT_WITHOUT_ORDER,HIGH,ord_ghost_9011,pay_ghost_1531,,,1813.0,Payment pay_ghost_1531 captured for non-existent order ord_ghost_9011.
+ANO_057,PAYMENT_WITHOUT_ORDER,HIGH,ord_ghost_9012,pay_ghost_1532,,,2657.0,Payment pay_ghost_1532 captured for non-existent order ord_ghost_9012.
+ANO_058,PAYMENT_WITHOUT_ORDER,HIGH,ord_ghost_9013,pay_ghost_1533,,,3605.0,Payment pay_ghost_1533 captured for non-existent order ord_ghost_9013.
+ANO_059,PAYMENT_WITHOUT_ORDER,HIGH,ord_ghost_9014,pay_ghost_1534,,,2456.0,Payment pay_ghost_1534 captured for non-existent order ord_ghost_9014.
+ANO_060,PAYMENT_WITHOUT_ORDER,HIGH,ord_ghost_9015,pay_ghost_1535,,,2055.0,Payment pay_ghost_1535 captured for non-existent order ord_ghost_9015.
+ANO_061,MISSING_SETTLEMENT,CRITICAL,ord_live_1143,pay_live_1163,,,1798.0,Payment pay_live_1163 of ₹1798.0 captured on 2026-08-11 21:18:13 has no corresponding bank settlement record.
+ANO_062,MISSING_SETTLEMENT,CRITICAL,ord_live_1132,pay_live_1152,,,10684.0,Payment pay_live_1152 of ₹10684.0 captured on 2026-07-22 04:48:37 has no corresponding bank settlement record.
+ANO_063,MISSING_SETTLEMENT,CRITICAL,ord_live_1138,pay_live_1158,,,1882.0,Payment pay_live_1158 of ₹1882.0 captured on 2026-07-25 04:46:54 has no corresponding bank settlement record.
+ANO_064,MISSING_SETTLEMENT,CRITICAL,ord_live_1141,pay_live_1161,,,15903.0,Payment pay_live_1161 of ₹15903.0 captured on 2026-08-13 17:31:41 has no corresponding bank settlement record.
+ANO_065,MISSING_SETTLEMENT,CRITICAL,ord_live_1135,pay_live_1155,,,300.0,Payment pay_live_1155 of ₹300.0 captured on 2026-08-18 05:48:34 has no corresponding bank settlement record.
+ANO_066,MISSING_SETTLEMENT,CRITICAL,ord_live_1144,pay_live_1164,,,38756.0,Payment pay_live_1164 of ₹38756.0 captured on 2026-08-18 16:42:55 has no corresponding bank settlement record.
+ANO_067,MISSING_SETTLEMENT,CRITICAL,ord_live_1137,pay_live_1157,,,599.0,Payment pay_live_1157 of ₹599.0 captured on 2026-08-02 22:41:05 has no corresponding bank settlement record.
+ANO_068,MISSING_SETTLEMENT,CRITICAL,ord_live_1145,pay_live_1165,,,612.0,Payment pay_live_1165 of ₹612.0 captured on 2026-08-13 08:54:10 has no corresponding bank settlement record.
+ANO_069,MISSING_SETTLEMENT,CRITICAL,ord_live_1136,pay_live_1156,,,2948.0,Payment pay_live_1156 of ₹2948.0 captured on 2026-07-02 19:51:07 has no corresponding bank settlement record.
+ANO_070,MISSING_SETTLEMENT,CRITICAL,ord_live_1140,pay_live_1160,,,64407.0,Payment pay_live_1160 of ₹64407.0 captured on 2026-08-03 14:07:59 has no corresponding bank settlement record.
+ANO_071,MISSING_SETTLEMENT,CRITICAL,ord_live_1142,pay_live_1162,,,26989.0,Payment pay_live_1162 of ₹26989.0 captured on 2026-07-15 21:40:04 has no corresponding bank settlement record.
+ANO_072,MISSING_SETTLEMENT,CRITICAL,ord_live_1133,pay_live_1153,,,54971.0,Payment pay_live_1153 of ₹54971.0 captured on 2026-07-24 19:44:46 has no corresponding bank settlement record.
+ANO_073,MISSING_SETTLEMENT,CRITICAL,ord_live_1134,pay_live_1154,,,239.0,Payment pay_live_1154 of ₹239.0 captured on 2026-07-16 05:46:01 has no corresponding bank settlement record.
+ANO_074,MISSING_SETTLEMENT,CRITICAL,ord_live_1139,pay_live_1159,,,1405.0,Payment pay_live_1159 of ₹1405.0 captured on 2026-07-16 23:18:32 has no corresponding bank settlement record.
+ANO_075,MISSING_SETTLEMENT,CRITICAL,ord_live_1131,pay_live_1151,,,21005.0,Payment pay_live_1151 of ₹21005.0 captured on 2026-08-15 13:30:57 has no corresponding bank settlement record.
+ANO_076,SETTLEMENT_MISMATCH,HIGH,ord_live_1016,pay_live_1031,set_live_1031,,350.0,Settlement set_live_1031 net payout ₹951.3 does not equal payment net calculation ₹1301.3 (Shortage ₹350).
+ANO_077,SETTLEMENT_MISMATCH,HIGH,ord_live_1016,pay_live_1032,set_live_1032,,350.0,Settlement set_live_1032 net payout ₹951.3 does not equal payment net calculation ₹1301.3 (Shortage ₹350).
+ANO_078,SETTLEMENT_MISMATCH,HIGH,ord_live_1017,pay_live_1033,set_live_1033,,350.0,Settlement set_live_1033 net payout ₹18782.56 does not equal payment net calculation ₹19132.56 (Shortage ₹350).
+ANO_079,SETTLEMENT_MISMATCH,HIGH,ord_live_1017,pay_live_1034,set_live_1034,,350.0,Settlement set_live_1034 net payout ₹18782.56 does not equal payment net calculation ₹19132.56 (Shortage ₹350).
+ANO_080,SETTLEMENT_MISMATCH,HIGH,ord_live_1018,pay_live_1035,set_live_1035,,350.0,Settlement set_live_1035 net payout ₹659.8 does not equal payment net calculation ₹1009.8 (Shortage ₹350).
+ANO_081,SETTLEMENT_MISMATCH,HIGH,ord_live_1018,pay_live_1036,set_live_1036,,350.0,Settlement set_live_1036 net payout ₹659.8 does not equal payment net calculation ₹1009.8 (Shortage ₹350).
+ANO_082,SETTLEMENT_MISMATCH,HIGH,ord_live_1019,pay_live_1037,set_live_1037,,350.0,Settlement set_live_1037 net payout ₹5136.0 does not equal payment net calculation ₹5486.0 (Shortage ₹350).
+ANO_083,SETTLEMENT_MISMATCH,HIGH,ord_live_1019,pay_live_1038,set_live_1038,,350.0,Settlement set_live_1038 net payout ₹5136.0 does not equal payment net calculation ₹5486.0 (Shortage ₹350).
+ANO_084,SETTLEMENT_MISMATCH,HIGH,ord_live_1020,pay_live_1039,set_live_1039,,350.0,Settlement set_live_1039 net payout ₹18975.77 does not equal payment net calculation ₹19325.77 (Shortage ₹350).
+ANO_085,SETTLEMENT_MISMATCH,HIGH,ord_live_1020,pay_live_1040,set_live_1040,,350.0,Settlement set_live_1040 net payout ₹18975.77 does not equal payment net calculation ₹19325.77 (Shortage ₹350).
+ANO_086,SETTLEMENT_MISMATCH,HIGH,ord_live_1021,pay_live_1041,set_live_1041,,350.0,Settlement set_live_1041 net payout ₹143.28 does not equal payment net calculation ₹493.28 (Shortage ₹350).
+ANO_087,SETTLEMENT_MISMATCH,HIGH,ord_live_1022,pay_live_1042,set_live_1042,,350.0,Settlement set_live_1042 net payout ₹40568.58 does not equal payment net calculation ₹40918.58 (Shortage ₹350).
+ANO_088,SETTLEMENT_MISMATCH,HIGH,ord_live_1023,pay_live_1043,set_live_1043,,350.0,Settlement set_live_1043 net payout ₹781.0 does not equal payment net calculation ₹1131.0 (Shortage ₹350).
+ANO_089,SETTLEMENT_MISMATCH,HIGH,ord_live_1024,pay_live_1044,set_live_1044,,350.0,Settlement set_live_1044 net payout ₹513.53 does not equal payment net calculation ₹863.53 (Shortage ₹350).
+ANO_090,SETTLEMENT_MISMATCH,HIGH,ord_live_1025,pay_live_1045,set_live_1045,,350.0,Settlement set_live_1045 net payout ₹124.6 does not equal payment net calculation ₹474.6 (Shortage ₹350).
+ANO_091,DELAYED_SETTLEMENT,MEDIUM,ord_live_1026,pay_live_1046,set_live_1046,,0.0,Settlement set_live_1046 took 12 days to settle (SLA limit 2 days).
+ANO_092,DELAYED_SETTLEMENT,MEDIUM,ord_live_1027,pay_live_1047,set_live_1047,,0.0,Settlement set_live_1047 took 12 days to settle (SLA limit 2 days).
+ANO_093,DELAYED_SETTLEMENT,MEDIUM,ord_live_1028,pay_live_1048,set_live_1048,,0.0,Settlement set_live_1048 took 12 days to settle (SLA limit 2 days).
+ANO_094,DELAYED_SETTLEMENT,MEDIUM,ord_live_1029,pay_live_1049,set_live_1049,,0.0,Settlement set_live_1049 took 12 days to settle (SLA limit 2 days).
+ANO_095,DELAYED_SETTLEMENT,MEDIUM,ord_live_1030,pay_live_1050,set_live_1050,,0.0,Settlement set_live_1050 took 12 days to settle (SLA limit 2 days).
+ANO_096,DELAYED_SETTLEMENT,MEDIUM,ord_live_1031,pay_live_1051,set_live_1051,,0.0,Settlement set_live_1051 took 12 days to settle (SLA limit 2 days).
+ANO_097,DELAYED_SETTLEMENT,MEDIUM,ord_live_1032,pay_live_1052,set_live_1052,,0.0,Settlement set_live_1052 took 12 days to settle (SLA limit 2 days).
+ANO_098,DELAYED_SETTLEMENT,MEDIUM,ord_live_1033,pay_live_1053,set_live_1053,,0.0,Settlement set_live_1053 took 12 days to settle (SLA limit 2 days).
+ANO_099,DELAYED_SETTLEMENT,MEDIUM,ord_live_1034,pay_live_1054,set_live_1054,,0.0,Settlement set_live_1054 took 12 days to settle (SLA limit 2 days).
+ANO_100,DELAYED_SETTLEMENT,MEDIUM,ord_live_1035,pay_live_1055,set_live_1055,,0.0,Settlement set_live_1055 took 12 days to settle (SLA limit 2 days).
+ANO_101,DELAYED_SETTLEMENT,MEDIUM,ord_live_1036,pay_live_1056,set_live_1056,,0.0,Settlement set_live_1056 took 12 days to settle (SLA limit 2 days).
+ANO_102,DELAYED_SETTLEMENT,MEDIUM,ord_live_1037,pay_live_1057,set_live_1057,,0.0,Settlement set_live_1057 took 12 days to settle (SLA limit 2 days).
+ANO_103,DELAYED_SETTLEMENT,MEDIUM,ord_live_1038,pay_live_1058,set_live_1058,,0.0,Settlement set_live_1058 took 12 days to settle (SLA limit 2 days).
+ANO_104,DELAYED_SETTLEMENT,MEDIUM,ord_live_1039,pay_live_1059,set_live_1059,,0.0,Settlement set_live_1059 took 12 days to settle (SLA limit 2 days).
+ANO_105,DELAYED_SETTLEMENT,MEDIUM,ord_live_1040,pay_live_1060,set_live_1060,,0.0,Settlement set_live_1060 took 12 days to settle (SLA limit 2 days).
+ANO_106,DUPLICATE_SETTLEMENT,CRITICAL,ord_live_1041,pay_live_1061,set_live_dup_1062,,630.64,Payment pay_live_1061 settled twice under settlement set_live_1061 (UTR RATN000500000000061) and duplicate set_live_dup_1062 (UTR RATN000500000000062).
+ANO_107,DUPLICATE_SETTLEMENT,CRITICAL,ord_live_1042,pay_live_1062,set_live_dup_1064,,1806.0,Payment pay_live_1062 settled twice under settlement set_live_1063 (UTR RATN000500000000063) and duplicate set_live_dup_1064 (UTR RATN000500000000064).
+ANO_108,DUPLICATE_SETTLEMENT,CRITICAL,ord_live_1043,pay_live_1063,set_live_dup_1066,,1457.0,Payment pay_live_1063 settled twice under settlement set_live_1065 (UTR RATN000500000000065) and duplicate set_live_dup_1066 (UTR RATN000500000000066).
+ANO_109,DUPLICATE_SETTLEMENT,CRITICAL,ord_live_1044,pay_live_1064,set_live_dup_1068,,660.05,Payment pay_live_1064 settled twice under settlement set_live_1067 (UTR RATN000500000000067) and duplicate set_live_dup_1068 (UTR RATN000500000000068).
+ANO_110,DUPLICATE_SETTLEMENT,CRITICAL,ord_live_1045,pay_live_1065,set_live_dup_1070,,51868.32,Payment pay_live_1065 settled twice under settlement set_live_1069 (UTR RATN000500000000069) and duplicate set_live_dup_1070 (UTR RATN000500000000070).
+ANO_111,DUPLICATE_SETTLEMENT,CRITICAL,ord_live_1046,pay_live_1066,set_live_dup_1072,,649.31,Payment pay_live_1066 settled twice under settlement set_live_1071 (UTR RATN000500000000071) and duplicate set_live_dup_1072 (UTR RATN000500000000072).
+ANO_112,DUPLICATE_SETTLEMENT,CRITICAL,ord_live_1047,pay_live_1067,set_live_dup_1074,,1003.0,Payment pay_live_1067 settled twice under settlement set_live_1073 (UTR RATN000500000000073) and duplicate set_live_dup_1074 (UTR RATN000500000000074).
+ANO_113,DUPLICATE_SETTLEMENT,CRITICAL,ord_live_1048,pay_live_1068,set_live_dup_1076,,65286.0,Payment pay_live_1068 settled twice under settlement set_live_1075 (UTR RATN000500000000075) and duplicate set_live_dup_1076 (UTR RATN000500000000076).
+ANO_114,DUPLICATE_SETTLEMENT,CRITICAL,ord_live_1049,pay_live_1069,set_live_dup_1078,,351.5,Payment pay_live_1069 settled twice under settlement set_live_1077 (UTR RATN000500000000077) and duplicate set_live_dup_1078 (UTR RATN000500000000078).
+ANO_115,DUPLICATE_SETTLEMENT,CRITICAL,ord_live_1050,pay_live_1070,set_live_dup_1080,,5241.32,Payment pay_live_1070 settled twice under settlement set_live_1079 (UTR RATN000500000000079) and duplicate set_live_dup_1080 (UTR RATN000500000000080).
+ANO_116,REFUND_MISMATCH,HIGH,ord_live_1051,pay_live_1071,set_live_1081,,35514.0,Refund mismatch on payment pay_live_1071: full refund issued but settlement deduction mismatch.
+ANO_117,REFUND_MISMATCH,HIGH,ord_live_1052,pay_live_1072,set_live_1082,,15491.0,Refund mismatch on payment pay_live_1072: full refund issued but settlement deduction mismatch.
+ANO_118,REFUND_MISMATCH,HIGH,ord_live_1053,pay_live_1073,set_live_1083,,178.0,Refund mismatch on payment pay_live_1073: full refund issued but settlement deduction mismatch.
+ANO_119,REFUND_MISMATCH,HIGH,ord_live_1054,pay_live_1074,set_live_1084,,34915.0,Refund mismatch on payment pay_live_1074: full refund issued but settlement deduction mismatch.
+ANO_120,REFUND_MISMATCH,HIGH,ord_live_1055,pay_live_1075,set_live_1085,,70680.0,Refund mismatch on payment pay_live_1075: full refund issued but settlement deduction mismatch.
+ANO_121,REFUND_MISMATCH,HIGH,ord_live_1056,pay_live_1076,set_live_1086,,155.0,Refund mismatch on payment pay_live_1076: full refund issued but settlement deduction mismatch.
+ANO_122,REFUND_MISMATCH,HIGH,ord_live_1057,pay_live_1077,set_live_1087,,13327.0,Refund mismatch on payment pay_live_1077: full refund issued but settlement deduction mismatch.
+ANO_123,REFUND_MISMATCH,HIGH,ord_live_1058,pay_live_1078,set_live_1088,,189.0,Refund mismatch on payment pay_live_1078: full refund issued but settlement deduction mismatch.
+ANO_124,REFUND_MISMATCH,HIGH,ord_live_1059,pay_live_1079,set_live_1089,,1459.0,Refund mismatch on payment pay_live_1079: full refund issued but settlement deduction mismatch.
+ANO_125,REFUND_MISMATCH,HIGH,ord_live_1060,pay_live_1080,set_live_1090,,15382.0,Refund mismatch on payment pay_live_1080: full refund issued but settlement deduction mismatch.
+ANO_126,INVOICE_MISMATCH,HIGH,ord_live_1081,,,inv_2026_1081,1200.0,"Invoice inv_2026_1081 total ₹1513.88 does not match Order ord_live_1081 total + GST ₹313.88 (Mismatch ₹1,200)."
+ANO_127,INVOICE_MISMATCH,HIGH,ord_live_1082,,,inv_2026_1082,1200.0,"Invoice inv_2026_1082 total ₹5116.42 does not match Order ord_live_1082 total + GST ₹3916.42 (Mismatch ₹1,200)."
+ANO_128,INVOICE_MISMATCH,HIGH,ord_live_1083,,,inv_2026_1083,1200.0,"Invoice inv_2026_1083 total ₹2460.24 does not match Order ord_live_1083 total + GST ₹1260.24 (Mismatch ₹1,200)."
+ANO_129,INVOICE_MISMATCH,HIGH,ord_live_1084,,,inv_2026_1084,1200.0,"Invoice inv_2026_1084 total ₹10047.64 does not match Order ord_live_1084 total + GST ₹8847.64 (Mismatch ₹1,200)."
+ANO_130,INVOICE_MISMATCH,HIGH,ord_live_1085,,,inv_2026_1085,1200.0,"Invoice inv_2026_1085 total ₹106419.42 does not match Order ord_live_1085 total + GST ₹105219.42 (Mismatch ₹1,200)."
+ANO_131,INVOICE_MISMATCH,HIGH,ord_live_1086,,,inv_2026_1086,1200.0,"Invoice inv_2026_1086 total ₹2985.34 does not match Order ord_live_1086 total + GST ₹1785.34 (Mismatch ₹1,200)."
+ANO_132,INVOICE_MISMATCH,HIGH,ord_live_1087,,,inv_2026_1087,1200.0,"Invoice inv_2026_1087 total ₹86373.58 does not match Order ord_live_1087 total + GST ₹85173.58 (Mismatch ₹1,200)."
+ANO_133,INVOICE_MISMATCH,HIGH,ord_live_1088,,,inv_2026_1088,1200.0,"Invoice inv_2026_1088 total ₹2881.5 does not match Order ord_live_1088 total + GST ₹1681.5 (Mismatch ₹1,200)."
+ANO_134,INVOICE_MISMATCH,HIGH,ord_live_1089,,,inv_2026_1089,1200.0,"Invoice inv_2026_1089 total ₹160805.62 does not match Order ord_live_1089 total + GST ₹159605.62 (Mismatch ₹1,200)."
+ANO_135,INVOICE_MISMATCH,HIGH,ord_live_1090,,,inv_2026_1090,1200.0,"Invoice inv_2026_1090 total ₹21533.76 does not match Order ord_live_1090 total + GST ₹20333.76 (Mismatch ₹1,200)."
+ANO_136,INVOICE_MISMATCH,HIGH,ord_live_1091,,,inv_2026_1091,1200.0,"Invoice inv_2026_1091 total ₹31501.22 does not match Order ord_live_1091 total + GST ₹30301.22 (Mismatch ₹1,200)."
+ANO_137,INVOICE_MISMATCH,HIGH,ord_live_1092,,,inv_2026_1092,1200.0,"Invoice inv_2026_1092 total ₹16567.14 does not match Order ord_live_1092 total + GST ₹15367.14 (Mismatch ₹1,200)."
+ANO_138,INVOICE_MISMATCH,HIGH,ord_live_1093,,,inv_2026_1093,1200.0,"Invoice inv_2026_1093 total ₹1941.04 does not match Order ord_live_1093 total + GST ₹741.04 (Mismatch ₹1,200)."
+ANO_139,INVOICE_MISMATCH,HIGH,ord_live_1094,,,inv_2026_1094,1200.0,"Invoice inv_2026_1094 total ₹10946.8 does not match Order ord_live_1094 total + GST ₹9746.8 (Mismatch ₹1,200)."
+ANO_140,INVOICE_MISMATCH,HIGH,ord_live_1095,,,inv_2026_1095,1200.0,"Invoice inv_2026_1095 total ₹22537.94 does not match Order ord_live_1095 total + GST ₹21337.94 (Mismatch ₹1,200)."
+ANO_141,FUZZY_MATCH,LOW,ord_live_1111,,,inv_2026_1111,0.0,Invoice inv_2026_1111 contains fuzzy string mismatch: vendor 'Paytm Payments Bank Ltd' or order ref 'ORD-LIVE-1111' vs canonical 'ord_live_1111'.
+ANO_142,FUZZY_MATCH,LOW,ord_live_1112,,,inv_2026_1112,0.0,Invoice inv_2026_1112 contains fuzzy string mismatch: vendor 'Razorpay Softwares Private Limited' or order ref 'ord_live_1112' vs canonical 'ord_live_1112'.
+ANO_143,FUZZY_MATCH,LOW,ord_live_1113,,,inv_2026_1113,0.0,Invoice inv_2026_1113 contains fuzzy string mismatch: vendor 'Cashfree Payments India Pvt Ltd' or order ref 'ORD-LIVE-1113' vs canonical 'ord_live_1113'.
+ANO_144,FUZZY_MATCH,LOW,ord_live_1114,,,inv_2026_1114,0.0,Invoice inv_2026_1114 contains fuzzy string mismatch: vendor 'Razorpay Softwares Private Limited' or order ref 'ord_live_1114' vs canonical 'ord_live_1114'.
+ANO_145,FUZZY_MATCH,LOW,ord_live_1115,,,inv_2026_1115,0.0,Invoice inv_2026_1115 contains fuzzy string mismatch: vendor 'Razorpay Software Private Limited' or order ref 'ORD-LIVE-1115' vs canonical 'ord_live_1115'.
+ANO_146,FUZZY_MATCH,LOW,ord_live_1116,,,inv_2026_1116,0.0,Invoice inv_2026_1116 contains fuzzy string mismatch: vendor 'Razorpay Softwares Private Limited' or order ref 'ord_live_1116' vs canonical 'ord_live_1116'.
+ANO_147,FUZZY_MATCH,LOW,ord_live_1117,,,inv_2026_1117,0.0,Invoice inv_2026_1117 contains fuzzy string mismatch: vendor 'PhonePe Merchant Services' or order ref 'ORD-LIVE-1117' vs canonical 'ord_live_1117'.
+ANO_148,FUZZY_MATCH,LOW,ord_live_1118,,,inv_2026_1118,0.0,Invoice inv_2026_1118 contains fuzzy string mismatch: vendor 'Razorpay Softwares Private Limited' or order ref 'ord_live_1118' vs canonical 'ord_live_1118'.
+ANO_149,FUZZY_MATCH,LOW,ord_live_1119,,,inv_2026_1119,0.0,Invoice inv_2026_1119 contains fuzzy string mismatch: vendor 'BillDesk Technology Services' or order ref 'ORD-LIVE-1119' vs canonical 'ord_live_1119'.
+ANO_150,FUZZY_MATCH,LOW,ord_live_1120,,,inv_2026_1120,0.0,Invoice inv_2026_1120 contains fuzzy string mismatch: vendor 'Razorpay Softwares Private Limited' or order ref 'ord_live_1120' vs canonical 'ord_live_1120'.

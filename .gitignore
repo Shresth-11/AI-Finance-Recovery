@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+env/
+
+# Production Builds
+.next/
+out/
+build/
+dist/
+
+# Python Cache & Pytest
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment Variables & Credentials
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# Databases & Logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+logs/
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
