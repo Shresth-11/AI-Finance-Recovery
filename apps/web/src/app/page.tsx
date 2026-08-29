@@ -212,23 +212,23 @@ export default function OverviewDashboardPage() {
       {/* Dashboard Main Content */}
       {!loading && metrics && (
         <>
-          {/* Six Premium KPI Cards */}
+          {/* Six High-Contrast KPI Cards */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {/* KPI 1: Total Processed Volume */}
             <Card
-              className="hover:border-primary/50 transition-all cursor-pointer group"
+              className="border-slate-300 dark:border-slate-800 shadow-xs hover:border-blue-600 transition-all cursor-pointer group bg-card"
               onClick={() => toast.info("Total Processed Volume", { description: "Aggregated sum of 500 Orders (₹2.84 Cr)" })}
             >
               <CardHeader className="flex flex-row items-center justify-between pb-2">
-                <CardTitle className="text-xs font-semibold uppercase tracking-wider text-muted-foreground group-hover:text-primary">
+                <CardTitle className="text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 group-hover:text-blue-600">
                   Total Processed Volume
                 </CardTitle>
-                <DollarSign className="h-4 w-4 text-muted-foreground group-hover:text-primary" />
+                <DollarSign className="h-4 w-4 text-slate-700 dark:text-slate-300 group-hover:text-blue-600" />
               </CardHeader>
               <CardContent>
-                <div className="text-2xl font-bold tabular-nums text-foreground">₹2,84,50,000</div>
-                <div className="flex items-center gap-1.5 mt-1 text-[11px] text-emerald-600 dark:text-emerald-400 font-medium">
-                  <TrendingUp className="h-3 w-3" />
+                <div className="text-2xl font-extrabold tabular-nums text-slate-950 dark:text-white">₹2,84,50,000</div>
+                <div className="flex items-center gap-1.5 mt-1 text-xs text-emerald-700 dark:text-emerald-400 font-bold">
+                  <TrendingUp className="h-3.5 w-3.5" />
                   <span>500 Orders • 540 Payments • 470 Settlements</span>
                 </div>
               </CardContent>
@@ -236,20 +236,20 @@ export default function OverviewDashboardPage() {
 
             {/* KPI 2: Reconciliation Rate */}
             <Card
-              className="hover:border-primary/50 transition-all cursor-pointer group"
+              className="border-slate-300 dark:border-slate-800 shadow-xs hover:border-blue-600 transition-all cursor-pointer group bg-card"
               onClick={() => toast.info("Reconciliation Rate", { description: "Percentage of total transaction volume cleanly reconciled." })}
             >
               <CardHeader className="flex flex-row items-center justify-between pb-2">
-                <CardTitle className="text-xs font-semibold uppercase tracking-wider text-muted-foreground group-hover:text-primary">
+                <CardTitle className="text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 group-hover:text-blue-600">
                   Reconciliation Rate
                 </CardTitle>
-                <CheckCircle2 className="h-4 w-4 text-emerald-600" />
+                <CheckCircle2 className="h-4 w-4 text-emerald-600 font-bold" />
               </CardHeader>
               <CardContent>
-                <div className="text-2xl font-bold tabular-nums text-foreground">
+                <div className="text-2xl font-extrabold tabular-nums text-slate-950 dark:text-white">
                   {metrics.summary.reconciled_percentage ? `${metrics.summary.reconciled_percentage.toFixed(2)}%` : "54.60%"}
                 </div>
-                <div className="flex items-center justify-between mt-1 text-[11px] text-muted-foreground">
+                <div className="flex items-center justify-between mt-1 text-xs text-slate-600 dark:text-slate-400 font-medium">
                   <span>273 / 500 orders matched</span>
                   <Badge variant="resolved" className="text-[10px] py-0 h-4">Clean Match</Badge>
                 </div>
@@ -258,57 +258,57 @@ export default function OverviewDashboardPage() {
 
             {/* KPI 3: Open Exceptions */}
             <Card
-              className="hover:border-primary/50 transition-all cursor-pointer group"
+              className="border-slate-300 dark:border-slate-800 shadow-xs hover:border-blue-600 transition-all cursor-pointer group bg-card"
               onClick={() => window.location.href = "/exceptions"}
             >
               <CardHeader className="flex flex-row items-center justify-between pb-2">
-                <CardTitle className="text-xs font-semibold uppercase tracking-wider text-muted-foreground group-hover:text-primary">
+                <CardTitle className="text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 group-hover:text-blue-600">
                   Open Exceptions
                 </CardTitle>
-                <AlertTriangle className="h-4 w-4 text-amber-600" />
+                <AlertTriangle className="h-4 w-4 text-amber-600 font-bold" />
               </CardHeader>
               <CardContent>
-                <div className="text-2xl font-bold tabular-nums text-foreground">
+                <div className="text-2xl font-extrabold tabular-nums text-slate-950 dark:text-white">
                   {metrics.summary.total_exceptions || 227}
                 </div>
-                <div className="flex items-center justify-between mt-1 text-[11px] text-muted-foreground">
+                <div className="flex items-center justify-between mt-1 text-xs text-slate-600 dark:text-slate-400 font-medium">
                   <span>Active discrepancy cases</span>
-                  <span className="text-primary font-medium flex items-center gap-0.5">Triage Queue <ArrowUpRight className="h-3 w-3" /></span>
+                  <span className="text-blue-700 dark:text-blue-400 font-bold flex items-center gap-0.5">Triage Queue <ArrowUpRight className="h-3.5 w-3.5" /></span>
                 </div>
               </CardContent>
             </Card>
 
             {/* KPI 4: Money at Risk */}
-            <Card className="border-amber-200 bg-amber-50/20 dark:border-amber-900/40 dark:bg-amber-950/10">
+            <Card className="border-amber-300 bg-amber-50/70 dark:border-amber-800 dark:bg-amber-950/30 shadow-xs">
               <CardHeader className="flex flex-row items-center justify-between pb-2">
-                <CardTitle className="text-xs font-semibold uppercase tracking-wider text-amber-700 dark:text-amber-400">
+                <CardTitle className="text-xs font-bold uppercase tracking-wider text-amber-900 dark:text-amber-300">
                   Money at Risk
                 </CardTitle>
-                <AlertTriangle className="h-4 w-4 text-amber-600" />
+                <AlertTriangle className="h-4 w-4 text-amber-700 dark:text-amber-400 font-bold" />
               </CardHeader>
               <CardContent>
-                <div className="text-2xl font-bold tabular-nums text-amber-800 dark:text-amber-300">
+                <div className="text-2xl font-extrabold tabular-nums text-amber-950 dark:text-amber-100">
                   {formatINR(metrics.summary.unreconciled_amount || 1721893.36)}
                 </div>
-                <div className="flex items-center gap-1.5 mt-1 text-[11px] text-amber-700 dark:text-amber-400">
+                <div className="flex items-center gap-1.5 mt-1 text-xs text-amber-900 dark:text-amber-300 font-semibold">
                   <span>Cumulative unreconciled variance</span>
                 </div>
               </CardContent>
             </Card>
 
             {/* KPI 5: Critical/High Issues */}
-            <Card className="border-red-200 bg-red-50/20 dark:border-red-900/40 dark:bg-red-950/10">
+            <Card className="border-red-300 bg-red-50/70 dark:border-red-800 dark:bg-red-950/30 shadow-xs">
               <CardHeader className="flex flex-row items-center justify-between pb-2">
-                <CardTitle className="text-xs font-semibold uppercase tracking-wider text-red-700 dark:text-red-400">
+                <CardTitle className="text-xs font-bold uppercase tracking-wider text-red-900 dark:text-red-300">
                   Critical / High Issues
                 </CardTitle>
-                <ShieldAlert className="h-4 w-4 text-red-600" />
+                <ShieldAlert className="h-4 w-4 text-red-700 dark:text-red-400 font-bold" />
               </CardHeader>
               <CardContent>
-                <div className="text-2xl font-bold tabular-nums text-red-800 dark:text-red-300">
+                <div className="text-2xl font-extrabold tabular-nums text-red-950 dark:text-red-100">
                   {(metrics.breakdown?.by_severity?.CRITICAL || 20) + (metrics.breakdown?.by_severity?.HIGH || 15)}
                 </div>
-                <div className="flex items-center justify-between mt-1 text-[11px] text-red-700 dark:text-red-400 font-medium">
+                <div className="flex items-center justify-between mt-1 text-xs text-red-900 dark:text-red-300 font-semibold">
                   <span>20 Duplicates • 15 Missing Settlements</span>
                   <Badge variant="critical" className="text-[10px] py-0 h-4">Urgent</Badge>
                 </div>
