@@ -11,7 +11,7 @@ def test_no_api_key_fallback(client):
     assert res.status_code == 200
     data = res.json()
     assert data["fallback_mode"] is True
-    assert "Highest-Priority Unresolved Exceptions" in data["answer"]
+    assert "Money at risk" in data["answer"] or "top open exceptions" in data["answer"]
     assert len(data["cited_evidence_ids"]) > 0
     assert "Human review is required" in data["disclaimer"]
 

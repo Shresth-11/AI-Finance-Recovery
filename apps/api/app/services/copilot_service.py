@@ -14,7 +14,6 @@ class CopilotService:
 
     def query(self, req: CopilotQueryRequest) -> CopilotQueryResponse:
         query_text = req.query.strip()
-        query_lower = query_text.lower()
 
         # Check for OPENAI_API_KEY environment configuration
         api_key = settings.OPENAI_API_KEY or os.getenv("OPENAI_API_KEY")
@@ -44,39 +43,29 @@ class CopilotService:
 
             if exc:
                 cited_ids.append(exc.exception_code)
-                if exc.order_id:
-                    cited_ids.append(f"ord_live_{exc.order_id}")
-                if exc.payment_id:
-                    cited_ids.append(f"pay_live_{exc.payment_id}")
-                if exc.settlement_id:
-                    cited_ids.append(f"set_live_{exc.settlement_id}")
+                if exc.order_id: cited_ids.append(exc.order_id)
+                if exc.payment_id: cited_ids.append(exc.payment_id)
+                if exc.settlement_id: cited_ids.append(exc.settlement_id)
 
                 ev_item = exc.evidence_items[0] if exc.evidence_items else None
                 summary_text = ev_item.summary if ev_item else ""
-                remediation = ""
-                if ev_item and ev_item.details_json:
-                    import json
-                    try:
-                        det = json.loads(ev_item.details_json)
-                        remediation = det.get("remediation", "")
-                    except Exception:
-                        pass
+                remediation = "Review linked order, payment capture, and settlement advice records."
 
+                exc_type_clean = exc.exception_type.replace("_", " ")
                 answer = (
-                    f"### Exception Explanation: **{exc.exception_code}**\n\n"
-                    f"• **Type:** {exc.exception_type.replace('_', ' ')}\n"
-                    f"• **Severity:** `{exc.severity}` | **Status:** `{exc.status}`\n"
-                    f"• **Discrepancy Amount:** ₹{exc.discrepancy_amount:,.2f}\n"
-                    f"• **Priority Score:** {getattr(exc, 'priority_score', 85.0):.1f} / 100\n\n"
-                    f"**Ground-Truth Evidence Summary:**\n"
-                    f"{summary_text or 'Discrepancy identified between captured transaction ledger and bank settlement advice.'}\n\n"
-                    f"**Suggested Remediation Step:**\n"
-                    f"{remediation or 'Review side-by-side records and issue appropriate refund or claim ticket.'}"
+                    f"Exception {exc.exception_code} ({exc_type_clean}) involves an affected discrepancy amount of ₹{exc.discrepancy_amount:,.2f}.\n\n"
+                    f"Evidence:\n"
+                    f"- {summary_text or f'Flagged due to variance in {exc_type_clean}.'}\n"
+                    f"- Linked Entity IDs: Order `{exc.order_id or 'N/A'}`, Payment `{exc.payment_id or 'N/A'}`, Settlement `{exc.settlement_id or 'N/A'}`.\n\n"
+                    f"Recommended next step:\n"
+                    f"{remediation}\n\n"
+                    f"Limits:\n"
+                    f"Based on loaded records in the current reconciliation run. Human review is required before updating status."
                 )
 
                 if exc.status == "OPEN":
-                  suggested_actions.append(f"Approve resolution for {exc.exception_code}")
-                  suggested_actions.append(f"Escalate {exc.exception_code} to Payment Ops")
+                    suggested_actions.append(f"Review exception {exc.exception_code}")
+                    suggested_actions.append(f"Approve resolution for {exc.exception_code}")
 
                 return CopilotQueryResponse(
                     query=query,
@@ -88,8 +77,8 @@ class CopilotService:
                     suggested_actions=suggested_actions,
                 )
 
-        # 2. Highest-value / Priority issues query
-        if any(k in q_lower for k in ["highest", "value", "top", "worst", "priority", "critical"]):
+        # 2. Highest-value / Money at risk query
+        if any(k in q_lower for k in ["highest", "value", "top", "worst", "priority", "critical", "risk", "money"]):
             top_exceptions = (
                 self.db.query(ExceptionRecord)
                 .filter(ExceptionRecord.status == "OPEN")
@@ -101,7 +90,7 @@ class CopilotService:
             if not top_exceptions:
                 return CopilotQueryResponse(
                     query=query,
-                    answer="No unresolved open exceptions found in current reconciliation run.",
+                    answer="No unresolved open exceptions found in the current reconciliation run.",
                     cited_evidence_ids=[],
                     confidence_score=1.0,
                     limitations="No open items in SQLite database.",
@@ -109,33 +98,35 @@ class CopilotService:
                 )
 
             total_risk = sum(e.discrepancy_amount for e in top_exceptions)
-            lines = [
-                f"### Highest-Priority Unresolved Exceptions\n",
-                f"Found **{len(top_exceptions)} critical items** representing **₹{total_risk:,.2f}** in money at risk:\n",
-            ]
+            top_item = top_exceptions[0]
+            cited_ids = [e.exception_code for e in top_exceptions]
 
-            for e in top_exceptions:
-                cited_ids.append(e.exception_code)
-                p_score = getattr(e, 'priority_score', 85.0)
-                lines.append(
-                    f"1. **{e.exception_code}** ({e.exception_type.replace('_', ' ')}) — **₹{e.discrepancy_amount:,.2f}** "
-                    f"| Priority: `{p_score:.1f}` | Severity: `{e.severity}`"
-                )
+            evidence_lines = []
+            for e in top_exceptions[:3]:
+                evidence_lines.append(f"- {e.exception_code} ({e.exception_type.replace('_', ' ')}): ₹{e.discrepancy_amount:,.2f} linked to payment `{e.payment_id or 'N/A'}`.")
 
-            lines.append("\n**Recommended Action:** Triage critical duplicate payments and missing settlement items first.")
-            suggested_actions = ["Navigate to Exceptions Triage Queue", "Export Filtered CSV Report"]
+            answer = (
+                f"Money at risk is ₹{total_risk:,.2f} across the top open exceptions. The largest contributor is {top_item.exception_code} ({top_item.exception_type.replace('_', ' ')} of ₹{top_item.discrepancy_amount:,.2f}).\n\n"
+                f"Evidence:\n" + "\n".join(evidence_lines) + "\n\n"
+                f"Recommended next step:\n"
+                f"Review {top_item.exception_code} first because it represents the highest discrepancy amount.\n\n"
+                f"Limits:\n"
+                f"This summary uses records in the latest loaded reconciliation run."
+            )
+
+            suggested_actions = ["Review critical exceptions", "Export filtered CSV report"]
 
             return CopilotQueryResponse(
                 query=query,
-                answer="\n".join(lines),
+                answer=answer,
                 cited_evidence_ids=cited_ids,
                 confidence_score=0.98,
-                limitations="Grounded top 5 priority query from active reconciliation database.",
+                limitations="Grounded query from active reconciliation database.",
                 fallback_mode=True,
                 suggested_actions=suggested_actions,
             )
 
-        # 3. Common exception types / Breakdown query
+        # 3. Common exception types / Category breakdown query
         if any(k in q_lower for k in ["common", "type", "category", "breakdown", "distribution"]):
             type_counts = (
                 self.db.query(
@@ -151,29 +142,36 @@ class CopilotService:
             if not type_counts:
                 return CopilotQueryResponse(
                     query=query,
-                    answer="No exceptions recorded in current reconciliation run.",
+                    answer="I don't have enough data in the current reconciliation run to answer that.",
                     cited_evidence_ids=[],
                     confidence_score=1.0,
                     limitations="Database is empty.",
                     fallback_mode=True,
                 )
 
-            lines = ["### Exception Breakdown by Category\n"]
-            for row in type_counts:
+            evidence_lines = []
+            for row in type_counts[:4]:
                 t_name = row.exception_type.replace("_", " ")
                 amt = row.total_amount or 0.0
-                lines.append(f"• **{t_name}**: {row.count} cases (Total Discrepancy: ₹{amt:,.2f})")
+                evidence_lines.append(f"- {row.count} {t_name} cases accounting for ₹{amt:,.2f}.")
 
-            lines.append("\n**Key Takeaway:** Duplicate Payments and Missing Settlements account for over 60% of total financial variance.")
+            answer = (
+                f"The current run contains exceptions across {len(type_counts)} categories.\n\n"
+                f"Evidence:\n" + "\n".join(evidence_lines) + "\n\n"
+                f"Recommended next step:\n"
+                f"Filter the exceptions queue by severity to prioritize high-value discrepancies first.\n\n"
+                f"Limits:\n"
+                f"Based on loaded dataset records."
+            )
 
             return CopilotQueryResponse(
                 query=query,
-                answer="\n".join(lines),
+                answer=answer,
                 cited_evidence_ids=["227_EXCEPTIONS_AGGREGATE"],
                 confidence_score=0.96,
-                limitations="Aggregated breakdown across 227 synthetic ground-truth exceptions.",
+                limitations="Aggregated breakdown across active exceptions.",
                 fallback_mode=True,
-                suggested_actions=["View Exception Category Distribution Chart"],
+                suggested_actions=["Filter by severity"],
             )
 
         # 4. Settlement delay query
@@ -185,19 +183,20 @@ class CopilotService:
             )
 
             for d in delayed_list[:5]:
-                cited_ids.append(d.exception_code)
+                if d.exception_code: cited_ids.append(d.exception_code)
 
             count = len(delayed_list)
-            total_amt = sum(d.discrepancy_amount for d in delayed_list) if delayed_list else 412000.0
+            total_amt = sum(d.discrepancy_amount for d in delayed_list) if delayed_list else 0.0
 
             answer = (
-                f"### Settlement Delay & SLA Analysis\n\n"
-                f"• **Delayed Payout Batches Detected:** **{count or 15} cases**\n"
-                f"• **Total Delayed Value:** **₹{total_amt:,.2f}**\n"
-                f"• **SLA Standard Limit:** T+2 Days\n"
-                f"• **Average Delay Duration:** 5 to 12 days past standard payout window\n\n"
-                f"**Root Cause Analysis:** Bank holiday batching delays and payment gateway UTR notification gaps.\n\n"
-                f"**Recommended Action:** Submit bank reconciliation tickets citing UTR reference codes."
+                f"Detected {count} delayed settlement exceptions accounting for ₹{total_amt:,.2f}.\n\n"
+                f"Evidence:\n"
+                f"- Payout dates exceeded the standard 2-business-day settlement window.\n"
+                f"- Affected records include settlements linked to UTR banking references.\n\n"
+                f"Recommended next step:\n"
+                f"Review delayed settlement items for vendor SLA review.\n\n"
+                f"Limits:\n"
+                f"Uses settlement feed dates loaded in current run."
             )
 
             return CopilotQueryResponse(
@@ -205,15 +204,15 @@ class CopilotService:
                 answer=answer,
                 cited_evidence_ids=cited_ids or ["DELAYED_SETTLEMENT_SLA"],
                 confidence_score=0.95,
-                limitations="Filtered on DELAYED_SETTLEMENT exception category in SQLite.",
+                limitations="Filtered on DELAYED_SETTLEMENT category.",
                 fallback_mode=True,
-                suggested_actions=["View Settlement SLA Distribution"],
+                suggested_actions=["View delayed settlements"],
             )
 
         # 5. Out of domain / Insufficient evidence query
         return CopilotQueryResponse(
             query=query,
-            answer="I don't have enough data in the current reconciliation run to answer that. Please ask about orders, payment captures, bank settlements, fee anomalies, or specific exception codes.",
+            answer="I don't have enough data in the current reconciliation run to answer that.",
             cited_evidence_ids=[],
             confidence_score=0.50,
             limitations="Query outside active financial reconciliation dataset context.",
@@ -229,10 +228,13 @@ class CopilotService:
 
         client = openai.OpenAI(api_key=api_key)
         system_prompt = (
-            "You are LedgerGuard AI Copilot, a strict financial reconciliation assistant. "
-            "You MUST ONLY use the provided database context. Never invent facts, transaction IDs, or numbers. "
-            "If evidence is insufficient, reply exactly: 'I don't have enough data in the current reconciliation run to answer that.' "
-            "Never offer investment/financial advice or claim to execute payment actions. Always cite specific exception IDs."
+            "You are LedgerGuard AI Copilot, a concise finance operations colleague. "
+            "Tone: Calm, professional, concise, honest about uncertainty. "
+            "Format: Start with direct answer, followed by short sections: Evidence, Recommended next step, Limits. "
+            "Never use filler, emojis, or chatbot phrases ('Great question', 'Absolutely'). "
+            "If evidence is insufficient, say exactly: 'I don't have enough data in the current reconciliation run to answer that.' "
+            "Never claim certainty without evidence, make up details, claim to execute actions, or offer financial/legal advice. "
+            "Always cite exact exception IDs and transaction IDs."
         )
 
         user_content = f"Database Context:\n{context_records.answer}\n\nUser Question: {query}"
@@ -244,7 +246,7 @@ class CopilotService:
                 {"role": "user", "content": user_content},
             ],
             temperature=0.1,
-            max_tokens=500,
+            max_tokens=400,
         )
 
         answer_text = response.choices[0].message.content or context_records.answer
@@ -254,7 +256,7 @@ class CopilotService:
             answer=answer_text,
             cited_evidence_ids=context_records.cited_evidence_ids,
             confidence_score=0.99,
-            limitations="LLM response grounded in SQLite database context.",
+            limitations="Response grounded in SQLite database context.",
             fallback_mode=False,
             suggested_actions=context_records.suggested_actions,
         )
