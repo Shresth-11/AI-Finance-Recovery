@@ -59,13 +59,13 @@ export function Sidebar({ collapsed, onToggleCollapse }: SidebarProps) {
               key={item.href}
               href={item.href}
               className={cn(
-                "flex items-center gap-3 rounded-md px-3 py-2 text-xs font-semibold transition-all relative group",
+                "flex items-center gap-3 rounded-lg px-3 py-2 text-xs font-semibold transition-all relative group",
                 isActive
-                  ? "bg-blue-600 text-white font-bold shadow-sm"
-                  : "text-slate-700 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-slate-950 dark:hover:text-white"
+                  ? "bg-[#1e3a2b] text-[#f8f5ec] font-bold shadow-xs dark:bg-emerald-800 dark:text-emerald-50"
+                  : "text-stone-700 dark:text-stone-300 hover:bg-[#eae3d2] dark:hover:bg-stone-800 hover:text-stone-950 dark:hover:text-white"
               )}
             >
-              <Icon className={cn("h-4 w-4 shrink-0", isActive ? "text-white" : "text-slate-500 dark:text-slate-400 group-hover:text-slate-900 dark:group-hover:text-white")} />
+              <Icon className={cn("h-4 w-4 shrink-0", isActive ? "text-[#f8f5ec]" : "text-stone-500 dark:text-stone-400 group-hover:text-stone-900 dark:group-hover:text-white")} />
               {!collapsed && <span className="truncate flex-1">{item.name}</span>}
               {!collapsed && item.badge && (
                 <Badge
