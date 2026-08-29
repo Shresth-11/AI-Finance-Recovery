@@ -351,7 +351,7 @@ function ExceptionsExplorerContent() {
       {!loading && !error && data?.items?.length === 0 && (
         <EmptyState
           title="No exceptions match active filters"
-          description="Try broadening your search query or clearing active filter chips."
+          description="No exceptions match these filters. Try clearing a filter or changing the search term."
           actionLabel="Clear All Filters"
           onAction={handleResetFilters}
           icon={AlertTriangle}

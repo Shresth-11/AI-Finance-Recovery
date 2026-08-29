@@ -71,7 +71,7 @@ export function ExceptionDrawer({
         }),
       });
 
-      toast.success(`Exception status updated to ${newStatus}`);
+      toast.success(`Exception ${data?.exception_code || `EXC_${exceptionId}`} marked as ${newStatus.toLowerCase()}.`);
       if (onStatusUpdated) onStatusUpdated();
       onClose();
     } catch (err: any) {

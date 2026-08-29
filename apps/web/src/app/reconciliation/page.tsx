@@ -101,13 +101,11 @@ export default function ReconciliationPage() {
       setProgressPct(100);
 
       setRunResult(res);
-      toast.success(`Reconciliation Run ${res.run_code} Completed!`, {
-        description: `Processed ${res.summary.total_orders} orders. Detected ${res.summary.total_exceptions} exceptions.`,
-      });
+      toast.success(`Reconciliation completed. ${res.summary.total_exceptions} exceptions need review.`);
       await loadSummary();
     } catch (err: any) {
       clearInterval(timer);
-      toast.error(`Reconciliation failed: ${err.message}`);
+      toast.error("Could not run reconciliation. Check that all required datasets are loaded.");
     } finally {
       setTimeout(() => {
         setRunning(false);

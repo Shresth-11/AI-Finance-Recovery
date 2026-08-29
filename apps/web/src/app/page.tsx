@@ -124,6 +124,9 @@ export default function OverviewDashboardPage() {
               ● {healthBadge.label}
             </Badge>
           </div>
+          <p className="text-xs text-muted-foreground mt-0.5">
+            Review reconciliation results and unresolved exceptions.
+          </p>
           <div className="flex items-center gap-3 text-xs text-muted-foreground mt-1">
             <span>
               Last Reconciled:{" "}
@@ -152,7 +155,7 @@ export default function OverviewDashboardPage() {
             className="gap-1.5 text-xs shadow-sm"
           >
             <Database className="h-3.5 w-3.5 text-blue-600" />
-            <span>Load Demo Data</span>
+            <span>Load demo data</span>
           </Button>
 
           <Button
@@ -162,7 +165,7 @@ export default function OverviewDashboardPage() {
             className="gap-1.5 text-xs shadow-sm"
           >
             <Play className="h-3.5 w-3.5 fill-current" />
-            <span>Run Reconciliation</span>
+            <span>Run reconciliation</span>
           </Button>
 
           <Button
@@ -172,7 +175,7 @@ export default function OverviewDashboardPage() {
             className="gap-1.5 text-xs shadow-sm"
           >
             <Download className="h-3.5 w-3.5" />
-            <span>Export Report</span>
+            <span>Export filtered exceptions</span>
           </Button>
         </div>
       </div>
@@ -180,7 +183,7 @@ export default function OverviewDashboardPage() {
       {/* Error State Banner */}
       {error && (
         <ErrorState
-          title="Backend Connection Offline"
+          title="Could not run reconciliation. Check that all required datasets are loaded."
           message={error}
           onRetry={loadDashboardData}
         />
@@ -189,9 +192,9 @@ export default function OverviewDashboardPage() {
       {/* Empty State when no data loaded */}
       {!loading && !error && metrics?.summary?.total_orders === 0 && (
         <EmptyState
-          title="No Financial Records Found"
-          description="Load the synthetic sample dataset or upload custom CSV files to run reconciliation."
-          actionLabel="Load Sample Dataset"
+          title="No reconciliation runs yet"
+          description="No reconciliation runs yet. Load demo data to get started."
+          actionLabel="Load demo data"
           onAction={handleLoadDemoData}
           icon={Database}
         />

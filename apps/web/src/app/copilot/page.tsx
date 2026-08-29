@@ -241,7 +241,7 @@ export default function CopilotPage() {
 
                     {/* Mandatory Human Review Disclaimer */}
                     <div className="p-2 rounded bg-amber-50/50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-900/40 text-[10px] text-amber-800 dark:text-amber-300 font-medium">
-                      ⚠ AI-assisted analysis based on loaded synthetic data. Human review is required.
+                      AI-assisted analysis based on loaded data. Requires human review.
                     </div>
                   </div>
                 )}
